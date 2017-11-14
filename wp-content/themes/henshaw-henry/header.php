@@ -30,6 +30,40 @@
 </head>
 
 <body <?php body_class(); ?>>
+	
+	<header class="homepage">
+		
+		<a class="logo" href=""><img src="<?php bloginfo('template_directory');?>/images/logo-white.svg"/></a>
+		
+		<div class="header_right">
+			
+			<div class="free_consultation">
+				
+				<span>Free Consultations</span>
+				
+				<img src="<?php bloginfo('template_directory');?>/images/horizontal-dashes-graphic.svg"/>
+				
+				<a class="tel" href="tel:(408) 533-1075">(408) 533-1075</a>
+				
+			</div><!-- free_consultation -->
+			
+			<div class="menu_wrapper">
+				
+				<span class="menu_title">Menu</span><!-- menu_title -->
+				
+				<div class="menu_bar_wrapper">
+					
+					<span class="menu_bar_wrapper"></span>
+					<span class="menu_bar_wrapper"></span>
+					<span class="menu_bar_wrapper"></span>
+					
+				</div><!-- menu_bar_wrapper -->
+				
+			</div><!-- menu_wrapper -->
+			
+		</div><!-- header_right -->
+		
+	</header>
 				
 
 <?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>

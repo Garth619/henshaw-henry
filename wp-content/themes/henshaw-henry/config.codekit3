@@ -30,6 +30,19 @@
 		"oAP": "\/category.php",
 		"oF": 0
 		},
+	"\/css\/scss\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_global.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -39,6 +52,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_global.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -69,6 +95,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/homepage\/_section-1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/_section-1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -81,6 +120,276 @@
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/fonts\/nexa\/demo-async.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa\/demo-async-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/nexa\/demo-async.htm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa\/demo-async.htm",
+		"oF": 0
+		},
+	"\/fonts\/nexa\/demo.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa\/demo-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/nexa\/demo.htm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa\/demo.htm",
+		"oF": 0
+		},
+	"\/fonts\/nexa\/fontlist.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa\/fontlist.xml",
+		"oF": 0
+		},
+	"\/fonts\/nexa\/Fonts\/0e5a6421-f5e4-4938-867d-6891e64d0aba.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa\/Fonts\/0e5a6421-f5e4-4938-867d-6891e64d0aba.woff2",
+		"oF": 0
+		},
+	"\/fonts\/nexa\/Fonts\/20d9a7b2-e926-4e6c-b789-ff7224a42c23.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/nexa\/Fonts\/20d9a7b2-e926-4e6c-b789-ff7224a42c23.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/nexa\/Fonts\/3001af72-71a4-40ce-a938-18a92e42d34d.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa\/Fonts\/3001af72-71a4-40ce-a938-18a92e42d34d.eot",
+		"oF": 0
+		},
+	"\/fonts\/nexa\/Fonts\/3027cdb6-c36e-4b08-b30f-6ce7b4b43bd5.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa\/Fonts\/3027cdb6-c36e-4b08-b30f-6ce7b4b43bd5.eot",
+		"oF": 0
+		},
+	"\/fonts\/nexa\/Fonts\/52193e9a-60eb-4053-9041-ed2a0e1043d3.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa\/Fonts\/52193e9a-60eb-4053-9041-ed2a0e1043d3.woff",
+		"oF": 0
+		},
+	"\/fonts\/nexa\/Fonts\/5aa360d1-3618-48dd-81e1-651827d6ce67.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa\/Fonts\/5aa360d1-3618-48dd-81e1-651827d6ce67.ttf",
+		"oF": 0
+		},
+	"\/fonts\/nexa\/Fonts\/774fe857-54ab-41f8-b942-57c1dc6ee179.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa\/Fonts\/774fe857-54ab-41f8-b942-57c1dc6ee179.woff",
+		"oF": 0
+		},
+	"\/fonts\/nexa\/Fonts\/c90f3559-459d-40dd-badd-140a6d4035aa.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts\/nexa\/Fonts\/c90f3559-459d-40dd-badd-140a6d4035aa.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts\/nexa\/Fonts\/ed815298-43fd-424d-b694-5ca1a557da77.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa\/Fonts\/ed815298-43fd-424d-b694-5ca1a557da77.woff2",
+		"oF": 0
+		},
+	"\/fonts\/nexa\/Fonts\/fc56443e-696b-483c-ad53-169f885b2b43.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa\/Fonts\/fc56443e-696b-483c-ad53-169f885b2b43.ttf",
+		"oF": 0
+		},
+	"\/fonts\/nexa\/mtiFontTrackingCode.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa\/mtiFontTrackingCode-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/fonts\/taviraj\/demo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/demo.html",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/taviraj\/Taviraj-Bold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-Bold.eot",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-Bold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-Bold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-Bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-Bold.woff",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-ExtraLight.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-ExtraLight.eot",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-ExtraLight.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-ExtraLight.ttf",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-ExtraLight.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-ExtraLight.woff",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-Light.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-Light.eot",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-Light.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-Light.ttf",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-Light.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-Light.woff",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-Medium.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-Medium.eot",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-Medium.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-Medium.ttf",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-Medium.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-Medium.woff",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-Regular.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-Regular.eot",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-Regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-Regular.ttf",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-Regular.woff",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-SemiBold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-SemiBold.eot",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-SemiBold.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-SemiBold.ttf",
+		"oF": 0
+		},
+	"\/fonts\/taviraj\/Taviraj-SemiBold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/taviraj\/Taviraj-SemiBold.woff",
+		"oF": 0
 		},
 	"\/footer.php": {
 		"cB": 0,
@@ -110,15 +419,494 @@
 		"oAP": "\/homepage_template_parts\/section-1.php",
 		"oF": 0
 		},
-	"\/images\/screenshot.png": {
-		"ft": 32768,
-		"iS": 57403,
+	"\/images\/arrow-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/arrow-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/arrow-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/arrow-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/att-henry.jpg": {
+		"ft": 16384,
+		"iS": 37082,
 		"oA": 0,
-		"oAP": "\/images\/screenshot.png",
+		"oAP": "\/images\/att-henry.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
+		"q": 100
+		},
+	"\/images\/att-henshaw.jpg": {
+		"ft": 16384,
+		"iS": 34368,
+		"oA": 0,
+		"oAP": "\/images\/att-henshaw.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bg-pattern-waves.jpg": {
+		"ft": 16384,
+		"iS": 35390,
+		"oA": 0,
+		"oAP": "\/images\/bg-pattern-waves.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/circular-play-button-hover.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/circular-play-button-hover.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/content-cal-bear-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/content-cal-bear-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/content-free-consults-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/content-free-consults-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/content-handshake-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/content-handshake-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/dash-graphic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/dash-graphic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/footer-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/footer-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/footer-palm-trees-bg-desktop.jpg": {
+		"ft": 16384,
+		"iS": 328945,
+		"oA": 0,
+		"oAP": "\/images\/footer-palm-trees-bg-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/footer-palm-trees-tablet.jpg": {
+		"ft": 16384,
+		"iS": 243384,
+		"oA": 0,
+		"oAP": "\/images\/footer-palm-trees-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/hero-desktop.jpg": {
+		"ft": 16384,
+		"iS": 174680,
+		"oA": 0,
+		"oAP": "\/images\/hero-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/hero-mobile.jpg": {
+		"ft": 16384,
+		"iS": 48499,
+		"oA": 0,
+		"oAP": "\/images\/hero-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/hero-tablet.jpg": {
+		"ft": 16384,
+		"iS": 157937,
+		"oA": 0,
+		"oAP": "\/images\/hero-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/homepage-video-play-button.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/homepage-video-play-button.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/horizontal-dashes-graphic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/horizontal-dashes-graphic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/ilawyer-logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/ilawyer-logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/int-about-cal-bear-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/int-about-cal-bear-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/int-att-overview-coming-soon.jpg": {
+		"ft": 16384,
+		"iS": 12114,
+		"oA": 0,
+		"oAP": "\/images\/int-att-overview-coming-soon.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/int-att-overview-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/int-att-overview-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/int-test-icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/int-test-icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/int-video-center-thumb.jpg": {
+		"ft": 16384,
+		"iS": 24733,
+		"oA": 0,
+		"oAP": "\/images\/int-video-center-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/logo-color.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-color.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/pa-civil-litigation-desktop.jpg": {
+		"ft": 16384,
+		"iS": 29928,
+		"oA": 0,
+		"oAP": "\/images\/pa-civil-litigation-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pa-civil-litigation-mobile.jpg": {
+		"ft": 16384,
+		"iS": 38064,
+		"oA": 0,
+		"oAP": "\/images\/pa-civil-litigation-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pa-civil-litigation-tablet.jpg": {
+		"ft": 16384,
+		"iS": 42816,
+		"oA": 0,
+		"oAP": "\/images\/pa-civil-litigation-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pa-estate-planning-desktop.jpg": {
+		"ft": 16384,
+		"iS": 25571,
+		"oA": 0,
+		"oAP": "\/images\/pa-estate-planning-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pa-estate-planning-mobile.jpg": {
+		"ft": 16384,
+		"iS": 23843,
+		"oA": 0,
+		"oAP": "\/images\/pa-estate-planning-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pa-estate-planning-tablet.jpg": {
+		"ft": 16384,
+		"iS": 41189,
+		"oA": 0,
+		"oAP": "\/images\/pa-estate-planning-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pa-personal-injury-desktop.jpg": {
+		"ft": 16384,
+		"iS": 50657,
+		"oA": 0,
+		"oAP": "\/images\/pa-personal-injury-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pa-personal-injury-mobile.jpg": {
+		"ft": 16384,
+		"iS": 65837,
+		"oA": 0,
+		"oAP": "\/images\/pa-personal-injury-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pa-personal-injury-tablet.jpg": {
+		"ft": 16384,
+		"iS": 81429,
+		"oA": 0,
+		"oAP": "\/images\/pa-personal-injury-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/play-button.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/play-button.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/social-footer-facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/social-footer-facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/social-footer-twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/social-footer-twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/social-footer-yelp.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/social-footer-yelp.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/social-rating-avvo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/social-rating-avvo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/social-rating-facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/social-rating-facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/social-rating-yelp.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/social-rating-yelp.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/sp-attorneys-image-desktop.jpg": {
+		"ft": 16384,
+		"iS": 1371825,
+		"oA": 0,
+		"oAP": "\/images\/sp-attorneys-image-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/sp-icon-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/sp-icon-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/sp-icon-02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/sp-icon-02.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/sp-icon-03.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/sp-icon-03.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/stars-graphic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/stars-graphic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/vertical-dashes-graphic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/vertical-dashes-graphic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/video-thumb-desktop.jpg": {
+		"ft": 16384,
+		"iS": 92228,
+		"oA": 0,
+		"oAP": "\/images\/video-thumb-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/index.php": {
@@ -224,6 +1012,13 @@
 		"oAP": "\/style-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/style.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/style.css.map",
+		"oF": 0
 		}
 	},
 "hooks": [

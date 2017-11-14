@@ -1,0 +1,82 @@
+  
+  // Nexa
+  
+  
+  @font-face{
+        font-family:"Nexa W01 Light";
+        src:url("#{$themePath}fonts/nexa/Fonts/3001af72-71a4-40ce-a938-18a92e42d34d.eot?#iefix");
+        src:url("#{$themePath}fonts/nexa/Fonts/3001af72-71a4-40ce-a938-18a92e42d34d.eot?#iefix") format("eot"),url("#{$themePath}fonts/nexa/Fonts/ed815298-43fd-424d-b694-5ca1a557da77.woff2") format("woff2"),url("#{$themePath}fonts/nexa/Fonts/52193e9a-60eb-4053-9041-ed2a0e1043d3.woff") format("woff"),url("#{$themePath}fonts/nexa/Fonts/fc56443e-696b-483c-ad53-169f885b2b43.ttf") format("truetype"),url("#{$themePath}fonts/nexa/Fonts/20d9a7b2-e926-4e6c-b789-ff7224a42c23.svg#20d9a7b2-e926-4e6c-b789-ff7224a42c23") format("svg");
+    }
+    @font-face{
+        font-family:"Nexa W01 Bold";
+        src:url("#{$themePath}fonts/nexa/Fonts/3027cdb6-c36e-4b08-b30f-6ce7b4b43bd5.eot?#iefix");
+        src:url("#{$themePath}fonts/nexa/Fonts/3027cdb6-c36e-4b08-b30f-6ce7b4b43bd5.eot?#iefix") format("eot"),url("#{$themePath}fonts/nexa/Fonts/0e5a6421-f5e4-4938-867d-6891e64d0aba.woff2") format("woff2"),url("#{$themePath}fonts/nexa/Fonts/774fe857-54ab-41f8-b942-57c1dc6ee179.woff") format("woff"),url("#{$themePath}fonts/nexa/Fonts/5aa360d1-3618-48dd-81e1-651827d6ce67.ttf") format("truetype"),url("#{$themePath}fonts/nexa/Fonts/c90f3559-459d-40dd-badd-140a6d4035aa.svg#c90f3559-459d-40dd-badd-140a6d4035aa") format("svg");
+    }
+
+
+
+
+// Taviraj
+
+
+
+@font-face {
+    font-family: 'Taviraj-Regular';
+    src: url('#{$themePath}fonts/taviraj/Taviraj-Regular.eot');
+    src: url('#{$themePath}fonts/taviraj/Taviraj-Regular.eot?#iefix') format('embedded-opentype'),
+        url('#{$themePath}fonts/taviraj/Taviraj-Regular.woff') format('woff'),
+        url('#{$themePath}fonts/taviraj/Taviraj-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Taviraj-SemiBold';
+    src: url('#{$themePath}fonts/taviraj/Taviraj-SemiBold.eot');
+    src: url('#{$themePath}fonts/taviraj/Taviraj-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('#{$themePath}fonts/taviraj/Taviraj-SemiBold.woff') format('woff'),
+        url('#{$themePath}fonts/taviraj/Taviraj-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Taviraj-Bold';
+    src: url('#{$themePath}fonts/taviraj/Taviraj-Bold.eot');
+    src: url('#{$themePath}fonts/taviraj/Taviraj-Bold.eot?#iefix') format('embedded-opentype'),
+        url('#{$themePath}fonts/taviraj/Taviraj-Bold.woff') format('woff'),
+        url('#{$themePath}fonts/taviraj/Taviraj-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Taviraj-Medium';
+    src: url('#{$themePath}fonts/taviraj/Taviraj-Medium.eot');
+    src: url('#{$themePath}fonts/taviraj/Taviraj-Medium.eot?#iefix') format('embedded-opentype'),
+        url('#{$themePath}fonts/taviraj/Taviraj-Medium.woff') format('woff'),
+        url('#{$themePath}fonts/taviraj/Taviraj-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Taviraj-ExtraLight';
+    src: url('#{$themePath}fonts/taviraj/Taviraj-ExtraLight.eot');
+    src: url('#{$themePath}fonts/taviraj/Taviraj-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('#{$themePath}fonts/taviraj/Taviraj-ExtraLight.woff') format('woff'),
+        url('#{$themePath}fonts/taviraj/Taviraj-ExtraLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Taviraj-Light';
+    src: url('#{$themePath}fonts/taviraj/Taviraj-Light.eot');
+    src: url('#{$themePath}fonts/taviraj/Taviraj-Light.eot?#iefix') format('embedded-opentype'),
+        url('#{$themePath}fonts/taviraj/Taviraj-Light.woff') format('woff'),
+        url('#{$themePath}fonts/taviraj/Taviraj-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

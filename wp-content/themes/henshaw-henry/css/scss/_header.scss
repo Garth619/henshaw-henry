@@ -1,0 +1,79 @@
+header.homepage {
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;	
+	padding:42px;
+}
+
+
+.logo {
+	width:343px;
+	float:left;
+	svg {
+		width:100%;
+	}
+}
+
+
+.header_right {
+	float:right;
+}
+
+
+
+.free_consultation {
+	float:left;
+	margin-right:20px;
+	span {
+		font-family: $nexabold;
+		font-size: 14px;
+		text-transform: uppercase;
+		color:#949cb3;
+		letter-spacing: 5px;
+		display: inline-block;
+	}
+	img {
+		width:143px;
+		display: inline-block;
+		position: relative;
+		top:-2px;
+	}
+	a.tel {
+		display: block;
+		text-align: right;
+		color:#fff;
+		font-size: 42px;
+		text-decoration: none;
+		font-family: $tavirajlight;
+		letter-spacing: 2.2px;
+		margin-right:-3px;
+		margin-top:13px;
+	}
+}
+
+
+.menu_wrapper {
+	float:left;
+	text-align: center;
+	width:56px;
+	span {
+		display: block;
+	}
+	span.menu_title {
+		color:$orange;
+		text-transform: lowercase;
+		font-family: $tavirajlight;
+		font-size: 20px;
+		letter-spacing: 1.6px;
+	}
+	.menu_bar_wrapper {
+		margin-top:10px;
+		span.menu_bar_wrapper {
+			width:100%;
+			background: #cad0e2;
+			height:2px;
+			margin-bottom:3px;	
+		}
+	}
+}
