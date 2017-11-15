@@ -3,5 +3,45 @@ section.section_one {
 	background: url(#{$themePath}images/hero-desktop.jpg) top left no-repeat;
 	background-size:cover;
 	height:1000px;
-	
+}
+
+.inner_section_one {
+	text-align: center;
+	max-width: 1900px;
+	padding:343px 0 0 0;
+	span.sec_one_header {
+		color:#fff;
+		font-size:120px;
+		line-height: 143px;
+		font-family: $tavirajlight;
+		letter-spacing: 0px;
+	}
+}
+
+ul.subheader_bullets {
+	list-style: none;
+	margin-top:35px;
+	li {
+		font-size: 18px;
+		text-transform: uppercase;
+		line-height: 23px;
+		font-family: $nexabold;
+		color:#fff;
+		display: inline-block;
+		letter-spacing: 5.5px;
+		&:last-of-type {
+			&:after {
+				display:none;
+			}
+		}
+		&:after {
+			content:"";
+			display: inline-block;
+			border-radius: 50%;
+			width:9px;
+			height:9px;
+			background: $lightblue;
+			margin:0 20px;
+		}
+	}
 }
