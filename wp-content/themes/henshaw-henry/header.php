@@ -63,6 +63,44 @@
 			
 		</div><!-- header_right -->
 		
+		<div class="sticky_menu">
+			
+			<a class="sticky_logo" href=""><img src="<?php bloginfo('template_directory');?>/images/logo-white.svg"/></a>
+			
+			<div class="sticky_header_right">
+				
+				<div class="sticky_consultion">
+					
+					<span class="sticky_consult_title">Free Consultations</span><!-- sticky_consult_title -->
+					
+					<span class="sticky_tel">(408) 533-1075</span><!-- sticky_tel -->
+					
+				</div><!-- sticky_consultion -->
+				
+				<div class="sticky_start">
+					
+					<span>Start Your Free<br/> Consultation</span>
+					
+				</div><!-- sticky_start -->
+				
+				<div class="sticky_menu_wrapper">
+					
+					<span class="sticky_menu_title">Menu</span><!-- sticky_menu_title -->
+					
+					<div class="sticky_menu_bar_wrapper">
+					
+					<span class="sticky_menu_bar"></span>
+					<span class="sticky_menu_bar"></span>
+					<span class="sticky_menu_bar"></span>
+					
+				</div><!-- menu_bar_wrapper -->
+					
+				</div><!-- sticky_menu_wrapper -->
+				
+			</div><!-- sticky_header_right -->
+			
+		</div><!-- sticky_menu -->
+		
 	</header>
 				
 
