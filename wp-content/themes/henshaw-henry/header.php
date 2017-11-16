@@ -53,9 +53,9 @@
 				
 				<div class="menu_bar_wrapper">
 					
-					<span class="menu_bar_wrapper"></span>
-					<span class="menu_bar_wrapper"></span>
-					<span class="menu_bar_wrapper"></span>
+					<span class="menu_bar"></span>
+					<span class="menu_bar"></span>
+					<span class="menu_bar"></span>
 					
 				</div><!-- menu_bar_wrapper -->
 				

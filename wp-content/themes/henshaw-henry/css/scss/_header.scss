@@ -3,7 +3,7 @@ header.homepage {
 	top:0;
 	left:0;
 	width:100%;	
-	padding:42px;
+	padding:42px 56px;
 }
 
 
@@ -18,13 +18,14 @@ header.homepage {
 
 .header_right {
 	float:right;
+	margin-top:5px;
 }
 
 
 
 .free_consultation {
 	float:left;
-	margin-right:20px;
+	margin-right: 44px;
 	span {
 		font-family: $nexabold;
 		font-size: 14px;
@@ -32,6 +33,7 @@ header.homepage {
 		color:#949cb3;
 		letter-spacing: 5px;
 		display: inline-block;
+		margin-right:5px;
 	}
 	img {
 		width:143px;
@@ -48,7 +50,7 @@ header.homepage {
 		font-family: $tavirajlight;
 		letter-spacing: 2.2px;
 		margin-right:-3px;
-		margin-top:13px;
+		margin-top:11px;
 	}
 }
 
@@ -57,6 +59,7 @@ header.homepage {
 	float:left;
 	text-align: center;
 	width:56px;
+	margin-top:-5px;
 	span {
 		display: block;
 	}
@@ -69,11 +72,102 @@ header.homepage {
 	}
 	.menu_bar_wrapper {
 		margin-top:10px;
-		span.menu_bar_wrapper {
+		span.menu_bar {
 			width:100%;
 			background: #cad0e2;
 			height:2px;
-			margin-bottom:3px;	
+			margin-bottom: 11px;
 		}
 	}
 }
+
+
+@media screen and (max-width: 1450px) {
+	
+
+	.header_right {
+		margin-top:8px;
+	}
+	
+	
+.free_consultation {
+	
+	span {
+		
+	}
+	img {
+		
+	}
+	a.tel {
+		
+		margin-top:8px;
+	}
+}
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1150px) {
+	
+		
+header.homepage {
+	padding:46px;
+}	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 985px) {
+	
+	
+
+	
+	header.homepage {
+		padding:42px 26px;
+	}
+	
+	
+.free_consultation {
+	 margin-right: 25px;
+	span {
+		float:right;
+		margin-right: 0px;
+	}
+	img {
+		display: none;
+	}
+	a.tel {
+		clear:both;
+		display: block;
+		margin-top:0;
+		padding-top: 10px;
+		font-size:38px;
+		letter-spacing: 1px;
+	}
+}
+
+
+.logo {
+	width:300px;
+	
+	svg {
+		
+	}
+}
+
+
+
+
+
+
+	
+	
+	
+	
+} /* Media Query */
