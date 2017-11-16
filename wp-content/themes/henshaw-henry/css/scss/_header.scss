@@ -81,6 +81,10 @@ header.homepage {
 	}
 }
 
+.sticky_menu.visible {
+	opacity: 1;
+	visibility: visible;
+}
 
 .sticky_menu {
 	width:100%;
@@ -89,6 +93,9 @@ header.homepage {
 	position: fixed;
 	top:0;
 	left:0;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .2s ease-in-out;
 }
 
 .sticky_logo {
@@ -103,7 +110,6 @@ header.homepage {
 .sticky_header_right {
 	float:right;
 	display: flex;
-	
 }
 
 .sticky_consultion {
@@ -168,7 +174,7 @@ header.homepage {
 		width:53px;
 		span.sticky_menu_bar {
 			width:100%;
-			background: #cad0e2;
+			background: #fff;
 			height:2px;
 			margin-bottom: 11px;
 			display: block;
@@ -326,7 +332,8 @@ header.homepage {
 	
 .sticky_menu {
 	background: transparent;
-	
+	opacity: 1;
+	visibility: visible;
 }
 
 .sticky_logo {
@@ -366,6 +373,10 @@ header.homepage {
 }
 
 
+
+
+
+
 .sticky_start {
 	height: 56px;
 	width:calc(100% - 80px);
@@ -397,6 +408,48 @@ header.homepage {
 			margin-bottom:8px;
 		}
 	}
+}
+
+
+body.page-template-page-home {
+	
+	.sticky_logo {
+		display: none;
+		
+	}
+	
+	
+.sticky_start {
+	background: $darkblue;
+	span.sticky_start_title {
+		
+	}
+	span.sticky_start_tel {
+		
+	}
+}
+
+
+.sticky_menu_wrapper {
+	background: $blue;
+	span.sticky_menu_title {
+		
+	}
+	.sticky_menu_bar_wrapper {
+		
+		span.sticky_menu_bar {
+			
+		}
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+	
 }
 
 	

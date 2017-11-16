@@ -33,7 +33,7 @@
 	
 	<header class="homepage">
 		
-		<a class="logo" href=""><img src="<?php bloginfo('template_directory');?>/images/logo-white.svg"/></a>
+		<a class="logo" href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_directory');?>/images/logo-white.svg"/></a>
 		
 		<div class="header_right">
 			
@@ -67,7 +67,7 @@
 	
 	<div class="sticky_menu">
 			
-			<a class="sticky_logo" href=""><img src="<?php bloginfo('template_directory');?>/images/logo-white.svg"/></a>
+			<a class="sticky_logo" href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_directory');?>/images/logo-white.svg"/></a>
 			
 			<div class="sticky_header_right">
 				
