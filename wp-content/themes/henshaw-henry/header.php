@@ -63,7 +63,9 @@
 			
 		</div><!-- header_right -->
 		
-		<div class="sticky_menu">
+	</header>
+	
+	<div class="sticky_menu">
 			
 			<a class="sticky_logo" href=""><img src="<?php bloginfo('template_directory');?>/images/logo-white.svg"/></a>
 			
@@ -79,7 +81,9 @@
 				
 				<div class="sticky_start">
 					
-					<span>Start Your Free<br/> Consultation</span>
+					<span class="sticky_start_title">Start Your Free<br/> Consultation</span><!-- sticky_start_title -->
+					
+					<span class="sticky_start_tel">(408) 533-1075</span><!-- sticky_start_tel -->
 					
 				</div><!-- sticky_start -->
 				
@@ -100,8 +104,6 @@
 			</div><!-- sticky_header_right -->
 			
 		</div><!-- sticky_menu -->
-		
-	</header>
 				
 
 <?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>

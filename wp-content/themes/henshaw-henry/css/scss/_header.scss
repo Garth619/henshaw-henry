@@ -135,7 +135,7 @@ header.homepage {
 	height:105px;
 	text-align: center;
 	padding-top:33px;
-	span {
+	span.sticky_start_title {
 		color:#fff;
 		text-transform: uppercase;
 		font-family: $tavirajsemibold;
@@ -145,6 +145,9 @@ header.homepage {
 		padding-left:23px;
 		padding-right:23px;
 		display: block;
+	}
+	span.sticky_start_tel {
+		display: none;
 	}
 }
 
@@ -209,6 +212,11 @@ header.homepage {
 header.homepage {
 	padding:46px;
 }	
+
+
+.sticky_consultion {
+	display: none;
+}
 	
 	
 } /* Media Query */
@@ -254,10 +262,150 @@ header.homepage {
 }
 
 
+.sticky_menu {
+	height:78px;
+}
+
+
+
+.sticky_logo {
+	margin: 13px 0 0 35px;
+	img {
+		width:200px;
+	}
+}
+
+
+.sticky_start {
+	height:78px;
+	padding-top: 20px;
+	span {
+		
+	}
+}
+
+
+.sticky_menu_wrapper {
+	padding: 9px 40px 0;
+	height:78px;
+	span.sticky_menu_title {
+		margin-bottom: 8px;
+	}
+	.sticky_menu_bar_wrapper {
+		
+		span.sticky_menu_bar {
+			margin-bottom: 10px;
+		}
+	}
+}
 
 
 
 
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	header.homepage {
+		display: none;
+	}
+	
+	
+	
+	
+	
+	
+.sticky_menu {
+	background: transparent;
+	
+}
+
+.sticky_logo {
+	background: $blue;
+	width:100%;
+	float:none;
+	display: block;
+	margin:0;
+	padding:15px 0;
+	img {
+		display: block;
+		margin:0 auto;
+		width:180px;
+	}
+}
+
+
+.sticky_header_right {
+	display: block;
+	width:100%;
+	float:none;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+}
+
+.sticky_consultion {
+	
+	span.sticky_consult_title {
+		
+	}
+	span.sticky_tel {
+		
+	}
+}
+
+
+.sticky_start {
+	height: 56px;
+	width:calc(100% - 80px);
+	float:left;
+	padding-top: 15px;
+	span.sticky_start_title {
+		display: none;
+	}
+	span.sticky_start_tel {
+		display: block;
+		color:#fff;
+		font-size: 26px;
+		font-family: $tavirajmedium;
+	}
+}
+
+
+.sticky_menu_wrapper {
+	padding: 16px 19px 0;
+	height: 56px;
+	width:80px;
+	float:right;
+	span.sticky_menu_title {
+		display: none;	
+	}
+	.sticky_menu_bar_wrapper {
+		width: 42px;
+		span.sticky_menu_bar {
+			margin-bottom:8px;
+		}
+	}
+}
+
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
