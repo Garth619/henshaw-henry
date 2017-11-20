@@ -45,6 +45,94 @@
 	<div class="reviews_wrapper">
 		
 		
+		<div class="video_wrapper">
+			
+			
+			
+			<video width="859" height="453" poster="<?php bloginfo('template_url');?>/images/video-thumb-desktop.jpg">
+				
+				<source src="<?php bloginfo('template_url');?>/images/video.mp4"  type="video/mp4">
+				<source src="<?php bloginfo('template_url');?>/images/video.ogg"  type="video/ogg">
+
+			</video>
+			
+			
+			
+			
+		</div><!-- video_wrapper -->
+		
+		<div class="review_slideshow">
+			
+			<div class="single_review">
+				
+				<img class="review_stars" src="<?php bloginfo('template_directory');?>/images/stars-graphic.svg"/>
+				
+				<div class="review_middle_row">
+					
+					<img class="review_social_media" src="<?php bloginfo('template_directory');?>/images/social-rating-yelp.svg"/>
+					<span class="review_bullet">&bull;</span><!-- review_bullet -->
+					<span class="review_rating">5/5</span><!-- review_rating -->
+					
+					
+					
+				</div><!-- review_middle_row -->
+				
+				<div class="line"></div>
+					
+					<span class="review_title">Yelp Rating</span><!-- review_title -->
+				
+				<img class="vertical_lines" src="<?php bloginfo('template_directory');?>/images/vertical-dashes-graphic.png"/>
+				
+			</div><!-- single_review -->
+			
+			<div class="single_review">
+				
+				<img class="review_stars" src="<?php bloginfo('template_directory');?>/images/stars-graphic.svg"/>
+				
+				<div class="review_middle_row">
+					
+					<img class="review_social_media" src="<?php bloginfo('template_directory');?>/images/social-rating-avvo.svg"/>
+					<span class="review_bullet">&bull;</span><!-- review_bullet -->
+					<span class="review_rating">5/5</span><!-- review_rating -->
+					
+					
+					
+				</div><!-- review_middle_row -->
+				
+				<div class="line"></div>
+					
+					<span class="review_title">Avvo Rating</span><!-- review_title -->
+				
+				<img class="vertical_lines" src="<?php bloginfo('template_directory');?>/images/vertical-dashes-graphic.png"/>
+				
+			</div><!-- single_review -->
+			
+			<div class="single_review">
+				
+				<img class="review_stars" src="<?php bloginfo('template_directory');?>/images/stars-graphic.svg"/>
+				
+				<div class="review_middle_row">
+					
+					<img class="review_social_media" src="<?php bloginfo('template_directory');?>/images/social-rating-facebook.svg"/>
+					<span class="review_bullet">&bull;</span><!-- review_bullet -->
+					<span class="review_rating">5/5</span><!-- review_rating -->
+					
+					
+					
+				</div><!-- review_middle_row -->
+				
+				<div class="line"></div>
+					
+					<span class="review_title">Facebook Rating</span><!-- review_title -->
+				
+				<img class="vertical_lines" src="<?php bloginfo('template_directory');?>/images/vertical-dashes-graphic.png"/>
+				
+			</div><!-- single_review -->
+			
+			
+			
+		</div><!-- review_slideshow -->
+		
 		
 	</div><!-- reviews_wrapper -->
 	
