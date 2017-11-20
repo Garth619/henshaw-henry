@@ -1,5 +1,77 @@
 section#section_two {
-	height:1000px;
+	width:100%;
 	margin-top:0px;
 	background:#fff;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+}
+
+
+
+.testi_wrapper {
+	width:50%;
+	float:left;
+	height:1040px;
+	background: $blue;
+	padding:154px 0px 0 130px;
+}
+
+
+.testi_inner_wrapper {
+	span.large_header {
+		font-family: $nexalight;
+		color:#fff;
+		font-size: 50px;
+		line-height: 50px;
+		display: inline-block;
+		border-bottom:1px solid $orange;
+		padding-bottom:35px;
+		margin-bottom:40px;
+	}
+}
+
+.testi_slide {
+	.testi_content {
+		color:#fff;
+		font-family:$tavirajlight;
+		font-size: 20px;
+		line-height: 30px;
+		letter-spacing: 0.3px;
+		max-width: 480px;
+		
+		p {
+			margin-bottom: 35px;
+		}
+	}
+}
+
+
+.testi_name_wrapper {
+	margin:95px 0 0 0;
+	svg {
+		width:30px;
+		margin-right:7px;
+		path {
+			fill:#fff;
+		}
+	}
+	span.testi_name {
+		font-family: $tavirajbold;
+		text-transform: uppercase;
+		font-size: 17px;
+		letter-spacing: 5px;
+	}
+}
+
+
+
+
+.reviews_wrapper {
+	width:50%;
+	float:right;
+	
+	background: url(#{$themePath}images/bg-pattern-waves.jpg) top left repeat;
 }
