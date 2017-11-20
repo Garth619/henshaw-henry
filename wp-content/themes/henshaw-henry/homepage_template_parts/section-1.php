@@ -2,6 +2,8 @@
 	
 	<div class="inner_section_one">
 		
+		<img class="sec_one_mobile_logo" src="<?php bloginfo('template_directory');?>/images/logo-white.svg"/>
+		
 		<svg id="mobile_play" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120.2 120.2">
 			
 			<defs><style>.cls-1{fill:#fff;opacity:0.2;isolation:isolate;}.cls-2{fill:none;stroke:#103b99;stroke-miterlimit:10;stroke-width:3px;}.cls-3{fill:#103b99;}</style></defs>
@@ -24,7 +26,7 @@
 			
 		</ul><!-- bullets -->
 		
-		<a class="start_button" href="">Start Your Free Consultation</a>
+		<a class="start_button" href="">Start Your<br/> Free Consultation</a>
 		
 	</div><!-- inner_section_one -->
 	
