@@ -75,6 +75,8 @@ section#section_two {
 	float:right;
 	height:1040px;
 	background: url(#{$themePath}images/bg-pattern-waves.jpg) top left repeat;
+	position: relative;
+	z-index: 20;
 }
 
 
