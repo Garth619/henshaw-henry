@@ -55,6 +55,8 @@ section#section_two {
 	svg {
 		width:30px;
 		margin-right:7px;
+		position: relative;
+    top: -3px;
 		path {
 			fill:#fff;
 		}
@@ -82,6 +84,9 @@ section#section_two {
 
 .video_wrapper {
 	margin:155px 0 0 -130px;
+	width:859px;
+	height:453px;
+	background: #000;
 	video {
 		
 	}
@@ -100,10 +105,18 @@ section#section_two {
 	}
 }
 
-
-.single_review:nth-of-type(2) {
+.single_review {
 	.review_middle_row {
-		img.review_social_media {
+		img.review_social_media.yelp {
+			// width:120px;
+		}
+	}
+}
+
+
+.single_review {
+	.review_middle_row {
+		img.review_social_media.avvo {
 			height:28px;
 			top:5px;
 			position: relative;
@@ -111,9 +124,9 @@ section#section_two {
 	}
 }
 
-.single_review:nth-of-type(3) {
+.single_review {
 	.review_middle_row {
-		img.review_social_media {
+		img.review_social_media.facebook {
 			height:31px;
 			top:4px;
 			position: relative;
@@ -132,7 +145,7 @@ section#section_two {
 .single_review {
 	text-align: center;
 	position: relative;
-
+	padding-bottom: 35px;
 	img.review_stars {
 		width:120px;
 		display: block;
@@ -236,5 +249,272 @@ svg.next_icon {
 			margin:0 10px 0 5px;
 		}
 	}
+	
+	
+	
+	@media screen and (max-width: 1600px) {
+		
+		
+		.testi_wrapper {
+			padding: 106px 0px 0 78px;
+			height: 987px;
+			width:48%;
+		}
+		
+		
+		.testi_name_wrapper {
+    		margin: 84px 0 0 0;
+		}
+		
+		
+		
+	.testi_slide {
+		.testi_content {
+    	letter-spacing: 0.1px;
+    	 max-width: 470px;
+   	}
+	}
+	
+	
+	.video_wrapper {
+    margin: 111px 0 0 -70px;
+    width:730px;
+	  height:380px;
+    video {
+	    
+    }
+	}
+		
+		
+	.review_slideshow {
+    margin-top: 157px;
+    margin-left: 30px;
+    max-width: 652px;
+   }
+		
+		
+	.test_back_next_wrapper {
+    bottom: -127px;
+   }
+   
+   
+   .reviews_wrapper {
+	   height: 987px;
+	   width:52%;
+   }
+		
+		
+	} /* Media Query */
+	
+	
+	
+	@media screen and (max-width: 1300px) {
+		
+		
+		
+		section#section_two {
+			display: flex;
+			flex-direction: column;
+		}
+		
+		
+		.testi_wrapper {
+			width:100%;
+			float:none;
+			order:2;
+			padding: 76px 30px 0px;
+			height:auto;
+		}
+		
+		
+		
+		.reviews_wrapper {
+			width:100%;
+			float:none;
+			order:1;
+		}
+		
+		.video_wrapper {
+			margin:50px auto 0;
+			width:794px;
+			height:419px;
+			video {
+				
+			}
+		}
+		
+		
+		.testi_slideshow {
+			max-width: 840px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		
+		
+		.testi_inner_wrapper {
+			span.large_header {
+				width:100%;
+				max-width: 840px;
+				margin-left:auto;
+				margin-right:auto;
+				display: block;
+				text-align: center;
+				padding-bottom: 34px;
+				margin-bottom: 33px;
+				br {
+					display: none;
+				}
+			}
+		} 
+		
+		
+		.testi_slide {
+			text-align: center;
+			.testi_content {
+				max-width:100%;
+				
+			}
+		} 
+		
+		
+		
+		
+		.testi_name_wrapper {
+    	margin: 42px 0 0 0;
+		}
+		
+		.test_back_next_wrapper {
+			position: static;
+			margin:60px auto 78px;
+			width:242px;
+		}
+		
+		
+		.reviews_wrapper {
+			padding-right:30px;
+			height: 735px;
+		}
+		
+		.review_slideshow {
+			margin:60px auto 0;
+			max-width: 950px;
+		}
+		
+		
+	} /* Media Query */
+	
+	
+	
+	@media screen and (max-width: 950px) {
+		
+		section#section_two {
+			
+		}
+		
+		.video_wrapper {
+			display: none;
+		}
+		
+		
+		.reviews_wrapper {
+			padding:0;
+			height: 229px;
+		}
+		
+		
+		.review_slideshow {
+    	margin: 40px auto 0;
+    	.slick-dots {
+    		bottom: -5px;
+    		li.slick-active {
+    			button {
+    				&:before {
+    					color:$blue;
+    					
+    				}
+    			}
+    		}
+    		li:hover {
+    			button {
+    				&:before {
+    					color:$blue;
+    				}
+    			}
+    		}
+    		li {
+    			margin:0;
+    			width: 15px;
+    			button {
+    				&:before {
+    					opacity: 1;
+    					color: $orange;
+    					font-size: 8px;
+    				}
+    			}
+    		}
+    	}
+    }
+    
+    .testi_wrapper {
+	    padding: 60px 30px 0px;
+    }
+    
+    
+    .testi_inner_wrapper {
+			span.large_header {
+				max-width: 640px;
+				padding-bottom:32px;
+				margin-bottom: 33px;
+				br {
+					
+				}
+			}
+		} 
+    
+   
+   
+   .testi_slideshow {
+			max-width: 640px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		
+		
+		
+	.test_back_next_wrapper {
+    position: static;
+    margin: 51px auto 68px;
+    width: 242px;
+	}
+	
+	
+	
+	.single_review {
+		.vertical_lines {
+			// display: none;
+		}
+	} 
+   
+    
+		
+		
+		
+	} /* Media Query */
+	
+	
+	@media screen and (max-width: 767px) {
+		
+		
+		
+	.single_review {
+		.vertical_lines {
+			display: none;
+		}
+	}
+		
+		
+		
+		
+	} /* Media Query */
 
 

@@ -142,12 +142,14 @@
 			
 			
 			
-			<video width="859" height="453" poster="<?php bloginfo('template_url');?>/images/video-thumb-desktop.jpg">
+<!--
+			<video>
 				
 				<source src="<?php bloginfo('template_url');?>/images/video.mp4"  type="video/mp4">
 				<source src="<?php bloginfo('template_url');?>/images/video.ogg"  type="video/ogg">
 
 			</video>
+-->
 			
 			
 			
@@ -162,10 +164,10 @@
 				
 				<div class="review_middle_row">
 					
-					<img class="review_social_media" src="<?php bloginfo('template_directory');?>/images/social-rating-yelp.svg"/>
+					<img class="review_social_media yelp" src="<?php bloginfo('template_directory');?>/images/social-rating-yelp.svg"/>
+					
 					<span class="review_bullet">&bull;</span><!-- review_bullet -->
 					<span class="review_rating">5/5</span><!-- review_rating -->
-					
 					
 					
 				</div><!-- review_middle_row -->
@@ -184,10 +186,9 @@
 				
 				<div class="review_middle_row">
 					
-					<img class="review_social_media" src="<?php bloginfo('template_directory');?>/images/social-rating-avvo.svg"/>
+					<img class="review_social_media avvo" src="<?php bloginfo('template_directory');?>/images/social-rating-avvo.svg"/>
 					<span class="review_bullet">&bull;</span><!-- review_bullet -->
 					<span class="review_rating">5/5</span><!-- review_rating -->
-					
 					
 					
 				</div><!-- review_middle_row -->
@@ -206,10 +207,9 @@
 				
 				<div class="review_middle_row">
 					
-					<img class="review_social_media" src="<?php bloginfo('template_directory');?>/images/social-rating-facebook.svg"/>
+					<img class="review_social_media facebook" src="<?php bloginfo('template_directory');?>/images/social-rating-facebook.svg"/>
 					<span class="review_bullet">&bull;</span><!-- review_bullet -->
 					<span class="review_rating">5/5</span><!-- review_rating -->
-					
 					
 					
 				</div><!-- review_middle_row -->
