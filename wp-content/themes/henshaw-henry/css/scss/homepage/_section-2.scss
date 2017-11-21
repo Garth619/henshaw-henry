@@ -2,6 +2,8 @@ section#section_two {
 	width:100%;
 	margin-top:0px;
 	background:#fff;
+	
+	
 	&:after {
 		content:"";
 		clear:both;
@@ -18,6 +20,8 @@ section#section_two {
 	background: $blue;
 	padding:154px 0px 0 130px;
 	position: relative;
+	
+	
 }
 
 
@@ -79,6 +83,8 @@ section#section_two {
 	background: url(#{$themePath}images/bg-pattern-waves.jpg) top left repeat;
 	position: relative;
 	z-index: 20;
+	
+	overflow: hidden;
 }
 
 
