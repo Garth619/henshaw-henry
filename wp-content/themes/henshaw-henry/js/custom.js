@@ -65,6 +65,24 @@ jQuery(document).ready(function(){
 
     createWaypoint("section_two", ".sticky_menu", "visible", "300px", null,true);
    
+   
+		
+		
+		// Testimonials
+		
+		
+		
+		$('.testi_slideshow').slick({
+			infinite: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows:true,
+			fade:true,
+			prevArrow:'.back_icon',
+			nextArrow:'.next_icon'
+		});
+		
+		
 
 
 
