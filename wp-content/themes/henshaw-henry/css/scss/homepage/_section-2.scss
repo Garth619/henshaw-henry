@@ -184,7 +184,7 @@ section#section_two {
 
 .test_back_next_wrapper {
 	position: absolute;
-	bottom:58px;
+	bottom: -120px;
 	right:50px;
 	display: flex;
 }
@@ -228,7 +228,7 @@ svg.next_icon {
 	margin:21px 27px 0;
 	width:130px;
 	text-align: center;
-	span {
+	
 		color:$orange;
 		font-size: 20px;
 		font-family:$tavirajsemibold;
@@ -236,5 +236,5 @@ svg.next_icon {
 			margin:0 10px 0 5px;
 		}
 	}
-}
+
 

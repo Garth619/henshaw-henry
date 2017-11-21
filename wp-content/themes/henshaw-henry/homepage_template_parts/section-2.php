@@ -90,11 +90,7 @@
 					
 				</div><!-- testi_slide -->
 				
-			</div><!-- testi_slideshow -->
-			
-		</div><!-- testi_inner_wrapper -->
-		
-		<div class="test_back_next_wrapper">
+				<div class="test_back_next_wrapper">
 			
 						
 			<svg class="back_icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.76 55.51">
@@ -110,7 +106,7 @@
 			
 			<div class="counter_wrapper">
 				
-				<span>01 <span class="counter_spacing">/</span>04</span>
+				<span class="count"></span>
 				
 			</div><!-- counter_wrapper -->
 			
@@ -130,6 +126,12 @@
 			
 			
 		</div><!-- test_back_next_wrapper -->
+				
+			</div><!-- testi_slideshow -->
+			
+		</div><!-- testi_inner_wrapper -->
+		
+		
 		
 	</div><!-- testi_wrapper -->
 	

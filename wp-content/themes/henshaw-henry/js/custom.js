@@ -71,6 +71,7 @@ jQuery(document).ready(function(){
 		// Testimonials
 		
 		
+/*
 		
 		$('.testi_slideshow').slick({
 			infinite: true,
@@ -81,6 +82,38 @@ jQuery(document).ready(function(){
 			prevArrow:'.back_icon',
 			nextArrow:'.next_icon'
 		});
+*/
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		var $statusinnerabout = jQuery('.counter_wrapper span');
+    var $slickElementinnerabout = jQuery('.testi_slideshow');
+
+    $slickElementinnerabout.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        var i = (currentSlide ? currentSlide : 0) + 1;
+       jQuery(this).find('.counter_wrapper').text('0' + i + ' / ' + '0' + slick.slideCount);
+    });
+
+
+
+    $slickElementinnerabout.slick({
+      	infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows:true,
+				slide:".testi_slide",
+				fade:true,
+				prevArrow:'.back_icon',
+				nextArrow:'.next_icon'
+    });
 		
 		
 
