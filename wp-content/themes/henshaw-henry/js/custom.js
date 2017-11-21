@@ -112,7 +112,8 @@ jQuery(document).ready(function(){
 				slide:".testi_slide",
 				fade:true,
 				prevArrow:'.back_icon',
-				nextArrow:'.next_icon'
+				nextArrow:'.next_icon',
+				adaptiveHeight: true
     });
 		
 		
@@ -133,6 +134,7 @@ jQuery(document).ready(function(){
 				    slidesToShow: 1,
 				    slidesToScroll: 1,
 						dots: true
+						
 				  }
 				}
 			]
