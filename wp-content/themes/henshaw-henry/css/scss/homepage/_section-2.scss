@@ -18,7 +18,7 @@ section#section_two {
 	float:left;
 	height:1040px;
 	background: $blue;
-	padding:154px 0px 0 130px;
+	padding:154px 0px 0 150px;
 	position: relative;
 	
 	
@@ -84,7 +84,7 @@ section#section_two {
 	position: relative;
 	z-index: 20;
 	
-	overflow: hidden;
+	
 }
 
 
@@ -321,6 +321,7 @@ svg.next_icon {
 		section#section_two {
 			display: flex;
 			flex-direction: column;
+			
 		}
 		
 		
@@ -425,6 +426,7 @@ svg.next_icon {
 		.reviews_wrapper {
 			padding:0;
 			height: 229px;
+			overflow: hidden;
 		}
 		
 		

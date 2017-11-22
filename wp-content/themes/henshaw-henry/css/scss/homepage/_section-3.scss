@@ -1,0 +1,77 @@
+section.section_three {
+	width:100%;
+	
+	background: $darkblue;
+	padding:145px 0 0 0;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+}
+
+
+.inner_section_three {
+	width:100%;
+	max-width:1350px;
+	margin:0 auto;
+}
+
+h1.large_header {
+	color:$orange;
+	font-size: 200px;
+	font-family: $tavirajregular;
+	font-style: normal;
+	font-weight: 300;
+}
+
+h2.sub_header {
+	color:#fff;
+	text-transform: uppercase;
+	font-family: $nexabold;
+	font-size:25px;
+	letter-spacing: 22px;
+	margin:35px 0 0 90px;
+	display: block;
+	&:after {
+		content:"";
+		width:100%;
+		height:2px;
+		background: $lightblue;
+		display: block;
+		margin:55px 0 0 10px;
+	}
+}
+
+
+.bear_wrapper {
+	float:left;
+	margin:70px 0 0 0;
+}
+
+
+svg#bear_icon {
+	width:350px;
+}
+
+.section_three_content {
+	font-family: $tavirajlight;
+	color:#fff;
+	font-size: 20px;
+	line-height: 35px;
+	margin:65px 0 0;
+	padding-left:80px;
+	float:left;
+	width:calc(100% - 350px);
+	p:first-of-type {
+		&:first-letter {
+		text-shadow: 4px 3px #f5862d;
+		font-size:55px;
+		font-family: $tavirajmedium;
+		font-size: 110px;
+	}
+	}
+	
+}
+
+
