@@ -24,7 +24,23 @@
 		
 	</div><!-- inner_section_three -->
 	
-	
+	<div class="why_choose_wrapper">
+		
+		<div class="why_chose_inner">
+		
+			<span class="why_choose_title">Why choose our firm?</span><!-- why_choose_title -->
+		
+				<svg class="why_choose_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.76 55.51">
+			
+					<polyline class="why_choose_cls-1" points="0.35 0.36 28.05 27.66 0.35 55.16"/>
+			
+				</svg>
+				
+				<img class="handshake" src="<?php bloginfo('template_directory');?>/images/content-handshake-icon.svg"/>
+		
+			</div><!-- why_chose_inner -->
+		
+	</div><!-- why_choose_wrapper -->
 	
 	
 </section><!-- section_three -->

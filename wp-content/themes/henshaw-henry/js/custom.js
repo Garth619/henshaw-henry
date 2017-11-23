@@ -112,8 +112,8 @@ jQuery(document).ready(function(){
 				slide:".testi_slide",
 				fade:true,
 				prevArrow:'.back_icon',
-				nextArrow:'.next_icon',
-				adaptiveHeight: true
+				nextArrow:'.next_icon'
+				// adaptiveHeight: true
     });
 		
 		
