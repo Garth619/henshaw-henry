@@ -4,7 +4,7 @@
 		
 		<h1 class="large_header">San Jose</h1><!-- large_header -->
 		
-		<h2 class="sub_header">Personal Injury Attorneys</h2><!-- sub_header -->
+		<h2 class="sub_header">Personal Injury<br> Attorneys</h2><!-- sub_header -->
 		
 		
 			

@@ -34,6 +34,9 @@ h2.sub_header {
 	letter-spacing: 22px;
 	margin:35px 0 0 90px;
 	display: block;
+	br {
+		display: none;
+	}
 	&:after {
 		content:"";
 		width:100%;
@@ -301,12 +304,13 @@ h2.sub_header {
 	
 	h2.sub_header {
 		font-size:14px;
-		
 		line-height: 18px;
 		letter-spacing: 8px;
 		margin-top: 8px;
 		max-width: 500px;
-		
+		br {
+			display: inline-block;
+		}
 		&:after {
 			margin: 25px 0 0 0px;
 			max-width: 100%;
