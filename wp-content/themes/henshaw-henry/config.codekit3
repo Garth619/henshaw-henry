@@ -147,6 +147,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/homepage\/_section-4.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/_section-4.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -472,6 +485,13 @@
 		"oAP": "\/homepage_template_parts\/section-3.php",
 		"oF": 0
 		},
+	"\/homepage_template_parts\/section-4.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-4.php",
+		"oF": 0
+		},
 	"\/images\/about-att-img.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -792,6 +812,36 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/pa-civil-litigation-hover-desktop.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/pa-civil-litigation-hover-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pa-civil-litigation-hover-mobile.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/pa-civil-litigation-hover-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pa-civil-litigation-hover-tablet.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/pa-civil-litigation-hover-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/pa-civil-litigation-mobile.jpg": {
 		"ft": 16384,
 		"iS": 38064,
@@ -822,6 +872,36 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/pa-estate-planning-hover-desktop.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/pa-estate-planning-hover-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pa-estate-planning-hover-mobile.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/pa-estate-planning-hover-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pa-estate-planning-hover-tablet.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/pa-estate-planning-hover-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/pa-estate-planning-mobile.jpg": {
 		"ft": 16384,
 		"iS": 23843,
@@ -847,6 +927,36 @@
 		"iS": 50657,
 		"oA": 0,
 		"oAP": "\/images\/pa-personal-injury-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pa-personal-injury-hover-desktop.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/pa-personal-injury-hover-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pa-personal-injury-hover-mobile.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/pa-personal-injury-hover-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pa-personal-injury-hover-tablet.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/pa-personal-injury-hover-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

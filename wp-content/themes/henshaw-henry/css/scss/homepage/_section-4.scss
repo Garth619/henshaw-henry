@@ -1,0 +1,142 @@
+section.section_four {
+	width:100%;
+	
+}
+
+
+.pa_wrapper {
+	display: flex;
+}
+	
+	
+	
+	
+	.single_pa {
+		width:33.3333%;
+		position: relative;
+		text-align: center;
+		height:600px;
+		overflow: hidden;
+		a {
+			text-decoration: none;
+			color:#fff;
+		}
+		&:hover {
+			.orange_image {
+				opacity: 1;
+			}
+			.pa_view_more {
+				transform: translateY(0);
+			}
+			span.single_pa_title {
+				color:#fff;
+			}
+		}
+	}
+	
+	
+	
+	span.single_pa_title {
+		position: relative;
+		z-index:10;
+		display: inline-block;
+		margin:0 auto;
+		color:$orange;
+		font-family:$tavirajextralight;
+		text-transform: uppercase;
+		font-size: 70px;
+		line-height: 70px;
+		margin-top:34%;
+		display: block;
+		transition: all .2s ease-in-out;
+	}	
+
+	.blue_image, .orange_image {
+		width:100%;
+		height:100%;
+		position: absolute;
+		top:0;
+		left:0;
+	}
+		
+	.orange_image {
+		opacity: 0;
+		transition: all .2s ease-in-out;
+	}
+	
+	
+ .single_pa:nth-of-type(1) {
+	 .blue_image {
+			background: url(#{$themePath}images/pa-civil-litigation-desktop.jpg) top center;
+			background-size: cover;
+	}
+	.orange_image {
+		background: url(#{$themePath}images/pa-civil-litigation-hover-desktop.jpg) top center;
+		background-size: cover;
+	}
+}
+
+
+.single_pa:nth-of-type(2) {
+	.blue_image {
+		background: url(#{$themePath}images/pa-personal-injury-desktop.jpg) top center;
+		background-size: cover;
+	}
+	.orange_image {
+		background: url(#{$themePath}images/pa-personal-injury-hover-desktop.jpg) top center;
+		background-size: cover;
+	}
+}
+
+
+.single_pa:nth-of-type(3) {
+	.blue_image {
+		background: url(#{$themePath}images/pa-estate-planning-desktop.jpg) top center;
+		background-size: cover;
+	}
+	.orange_image {
+		background: url(#{$themePath}images/pa-estate-planning-hover-desktop.jpg) top center;
+		background-size: cover;
+	}
+}
+
+
+
+.pa_dots_wrapper {
+	width:100%;
+	position: absolute;
+	bottom:40px;
+	left:0;
+}
+
+
+.pa_dot {
+	width:7px;
+	height:7px;
+	background: $orange;
+	border-radius: 50%;
+	position: relative;
+	z-index:10;
+	display: inline-block;
+	margin:0 1px;
+}
+
+.pa_view_more {
+	width:100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index: 10;
+	background: $orange;
+	font-family: $nexabold;
+	text-transform: uppercase;
+	font-size: 17px;
+	padding:34px 0;
+	letter-spacing: 6px;
+	transform: translateY(85px);
+	transition: transform 800ms cubic-bezier(.17,.66,.34,.98);
+}
+
+
+
+
