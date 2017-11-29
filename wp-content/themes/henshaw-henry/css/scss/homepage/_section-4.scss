@@ -349,9 +349,76 @@ section.section_four {
 }
 
 
+} /* Media Query */
 
 
+@media screen and (max-width: 767px) {
 	
+	
+	.single_pa {
+		height: 159px;
+	}
+	
+	span.single_pa_title {
+		font-size: 30px;
+		line-height: 30px;
+		margin-top: 37px;
+		br {
+			display: inline-block;
+		}
+	}
+	
+	
+	.pa_dots_wrapper {
+    bottom: 17px;
+	}
+	
+	.pa_dot {
+    width: 4px;
+    height: 4px;
+    margin: 0px;
+}
+
+
+
+.single_pa:nth-of-type(1) {
+	 .blue_image {
+			background: url(#{$themePath}images/pa-civil-litigation-mobile.jpg) top center;
+			background-size: cover;
+			background-position: 0 -50px;
+	}
+	.orange_image {
+		background-position: 0 -50px;
+	}
+}
+
+
+
+.single_pa:nth-of-type(3) {
+	.blue_image {
+
+		
+		background-position: 0 -80px;
+
+	}
+	.orange_image {
+
+		
+		background-position: 0 -80px;
+
+	}
+}
+
+
+.pa_view_more {
+	padding: 18px 0;
+	font-size: 13px;
+	letter-spacing: 4px;
+}
+
+
+
+
 	
 	
 } /* Media Query */
