@@ -160,6 +160,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/homepage\/_section-5.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/_section-5.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -492,6 +505,13 @@
 		"oAP": "\/homepage_template_parts\/section-4.php",
 		"oF": 0
 		},
+	"\/homepage_template_parts\/section-5.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-5.php",
+		"oF": 0
+		},
 	"\/images\/about-att-img.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -641,6 +661,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/dot.png": {
+		"ft": 32768,
+		"iS": 1014,
+		"oA": 0,
+		"oAP": "\/images\/dot.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/footer-icon.svg": {
 		"ft": 2097152,

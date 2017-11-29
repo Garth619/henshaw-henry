@@ -1,0 +1,161 @@
+section.section_five {
+	background: #f3f3f3;
+	.section_five_inner {
+		max-width:1580px;
+		margin:0 auto;
+		overflow: hidden;
+		padding:195px 0 155px;
+		
+		
+		font-family: $tavirajlight;
+		font-size:17px;
+		line-height: 28px;
+		color:$darkblue;
+		letter-spacing: 0.5px;
+		p {
+			margin-bottom:28px;
+		}
+		h3 {
+			font-family: $nexabold;
+			font-size:16px;
+			text-transform: uppercase;
+			letter-spacing: 0.9px;
+			line-height: 19px;
+			padding-top:4px;
+			font-style:normal;
+			font-weight: 300;
+			margin-bottom:33px;
+		}
+		h2 {
+			font-family: $tavirajmedium;
+			font-size:24px;
+			font-weight: 300;
+			font-style: normal;
+			line-height: 28px;
+			color:$blue;
+			margin-bottom: 30px;
+		}
+		ul {
+			list-style: none;
+			margin-bottom:20px;
+			li {
+				background: url(#{$themePath}images/dot.png) no-repeat scroll 0 8px;
+				list-style: none;
+				padding: 0 0 0 30px;
+				margin-bottom:10px;
+			}
+		}
+		blockquote {
+			overflow: hidden;
+			padding-bottom:10px;
+			padding-top:24px;
+			margin-bottom:52px;
+			margin-left:-10px;
+			display: flex;
+			.image_wrapper {
+				width:225px;
+				display: flex;
+				justify-content: center;
+				align-items: center; 
+				
+// 				float:left;
+			}
+			img {
+				width: 100%;
+			}
+			span.blockquote_text {
+// 				float:left;
+				width:calc(100% - 225px);
+				padding-left:13px;
+				color:$orange;
+				font-family: $nexalight;
+				font-size: 42px;
+				line-height: 45px;
+				padding-top:10px;
+			}
+		}
+	}
+}
+
+
+.sec_five_col {
+	width:50%;
+	&:first-of-type {
+		float:left;
+		padding-right:40px;
+		padding-left:40px;
+		
+	}
+	&:last-of-type {
+		float:right;
+		padding-left:40px;
+		padding-right:40px;
+		
+	}
+}
+
+
+@media screen and (max-width: 1450px) {
+	
+
+	
+	
+	section.section_five {
+	
+	.section_five_inner {
+		padding:143px 70px 115px;
+		p {
+			
+		}
+		h3 {
+			
+		}
+		h2 {
+			
+		}
+		ul {
+			
+			li {
+				
+			}
+		}
+		blockquote {
+			
+			.image_wrapper {
+				 width:205px;		
+			}
+			img {
+				
+			}
+			span.blockquote_text {
+				width:calc(100% - 205px);
+			}
+		}
+	}
+}
+
+
+	
+	
+	
+.sec_five_col {
+	
+	&:first-of-type {
+		
+		padding-right:35px;
+		padding-left:0px;
+		
+	}
+	&:last-of-type {
+		
+		padding-left:35px;
+		padding-right:0px;
+		
+	}
+}
+	
+	
+	
+	
+	
+} /* Media Query */
