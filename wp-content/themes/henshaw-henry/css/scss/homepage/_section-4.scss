@@ -46,7 +46,7 @@ section.section_four {
 		text-transform: uppercase;
 		font-size: 70px;
 		line-height: 70px;
-		margin-top:34%;
+		margin-top:220px;
 		display: block;
 		transition: all .2s ease-in-out;
 	}	
@@ -132,11 +132,227 @@ section.section_four {
 	text-transform: uppercase;
 	font-size: 17px;
 	padding:34px 0;
-	letter-spacing: 6px;
+	letter-spacing: 8px;
 	transform: translateY(85px);
 	transition: transform 800ms cubic-bezier(.17,.66,.34,.98);
 }
 
 
+@media screen and (max-width: 1500px) {
+	
+	.single_pa {
+		height:437px;
+	}
+	
+	span.single_pa_title {
+		font-size: 60px;
+		letter-spacing: 3px;
+		line-height: 60px;
+		margin-top:162px;
+	}
+	
+	
+	.single_pa:nth-of-type(1) {
+	 .blue_image {
+			background: url(#{$themePath}images/pa-civil-litigation-tablet.jpg) top center;
+			background-size: cover;
+	}
+	.orange_image {
+		background: url(#{$themePath}images/pa-civil-litigation-hover-tablet.jpg) top center;
+		background-size: cover;
+	}
+}
 
+
+.single_pa:nth-of-type(2) {
+	.blue_image {
+		background: url(#{$themePath}images/pa-personal-injury-desktop.jpg) top center;
+		background-size: cover;
+	}
+	.orange_image {
+		background: url(#{$themePath}images/pa-personal-injury-hover-desktop.jpg) top center;
+		background-size: cover;
+	}
+}
+
+
+.single_pa:nth-of-type(3) {
+	.blue_image {
+		background: url(#{$themePath}images/pa-estate-planning-desktop.jpg) top center;
+		background-size: cover;
+	}
+	.orange_image {
+		background: url(#{$themePath}images/pa-estate-planning-hover-desktop.jpg) top center;
+		background-size: cover;
+	}
+}
+
+
+.pa_dots_wrapper {
+	width:100%;
+	position: absolute;
+	bottom:27px;
+	left:0;
+	
+}
+
+.pa_dot {
+	width:5px;
+	height:5px;
+}
+
+
+.pa_view_more {
+	padding: 23px 0;
+}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1260px) {
+	
+	.single_pa {
+		height:345px;
+	}
+	
+	
+	span.single_pa_title {
+		font-size: 50px;
+		line-height: 50px;
+		margin-top:125px;
+	}
+	
+	
+.pa_view_more {
+	padding: 18px 0;
+	// transform: translateY(0px);
+	font-size: 15px;
+	letter-spacing: 4px;
+}
+
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 980px) {
+	
+	
+	
+	
+.pa_wrapper {
+	display: block;
+}
+	
+	
+	
+	
+	.single_pa {
+		width:100%;
+		height:225px;
+/*
+		&:hover {
+			.orange_image {
+				opacity: 1;
+			}
+			.pa_view_more {
+				transform: translateY(0);
+			}
+			span.single_pa_title {
+				color:#fff;
+			}
+		}
+*/
+	}
+	
+	
+	
+	span.single_pa_title {
+		font-size: 56px;
+		line-height: 56px;
+		margin-top:80px;
+		br {
+			display: none;
+		}
+	}
+	
+	
+	
+	.pa_dots_wrapper {
+		bottom:27px;
+	}
+
+.pa_dot {
+	width:7px;
+	height:7px;
+}
+
+
+
+
+
+
+
+.single_pa:nth-of-type(1) {
+	 .blue_image {
+			// background-size:668px;
+			background-position: 0 -50px;
+	}
+	.orange_image {
+		background-position: 0 -50px;
+	}
+}
+
+
+.single_pa:nth-of-type(2) {
+	.blue_image {
+
+		background: url(#{$themePath}images/pa-personal-injury-mobile.jpg) top center;
+		background-size: cover;
+		background-position: 0 -60px;
+
+	}
+	.orange_image {
+
+		background: url(#{$themePath}images/pa-personal-injury-hover-mobile.jpg) top center;
+		background-size: cover;
+		background-position: 0 -60px;
+
+	}
+}
+
+
+.single_pa:nth-of-type(3) {
+	.blue_image {
+
+		background: url(#{$themePath}images/pa-estate-planning-mobile.jpg) top center;
+		background-size: cover;
+		background-position: 0 -140px;
+
+	}
+	.orange_image {
+
+		background: url(#{$themePath}images/pa-estate-planning-hover-mobile.jpg) top center;
+		background-size: cover;
+		background-position: 0 -140px;
+
+	}
+}
+
+.pa_view_more {
+	padding: 20px 0;
+	font-size: 17px;
+}
+
+
+
+
+	
+	
+	
+} /* Media Query */
 
