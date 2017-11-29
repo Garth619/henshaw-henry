@@ -53,8 +53,16 @@
 		
 	
 	</div><!-- sec_five_col -->
+	
+	
 		
 	</div><!-- section_five_inner -->
+	
+	<div class="why_choose_button_wrapper">
+	
+		<a class="why_choose_button" href="">Why Choose Our Firm?</a><!-- why_choose -->
+	
+	</div><!-- why_choose_wrapper -->
 	
 	
 </section><!-- section_five -->
