@@ -139,7 +139,37 @@ jQuery(document).ready(function(){
 				}
 			]
 		});
+		
+		
+		
+	// selling points
+	
+	
+		
+		
+		
+		var $statussp = jQuery('.sp_counter span');
+    var $slickElementsp = jQuery('.selling_point_slideshow');
 
+    $slickElementsp.on('init reInit afterChange', function (event, slick, currentSlide, nextSlide) {
+        //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+        var i = (currentSlide ? currentSlide : 0) + 1;
+       jQuery(this).find('.sp_counter').text('0' + i + ' / ' + '0' + slick.slideCount);
+    });
+
+
+
+    $slickElementsp.slick({
+      	infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				fade:true,
+				slide:".selling_point_slide",
+				prevArrow:".sp_prev",
+				nextArrow:".sp_next"
+    });
+
+	
 
 
 }); // document ready
