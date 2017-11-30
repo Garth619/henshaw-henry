@@ -1,8 +1,83 @@
 section.section_six {
 	width:100%;
-	height:500px;
-	background: red;
+	background: url(#{$themePath}images/bg-pattern-waves.jpg);
+	display: flex;
+}
+
+.section_six_img_wrapper {
+	height:1150px;
+	width:57%;
+}
+
+.section_six_img_inner {
+	background: url(#{$themePath}images/sp-attorneys-image-desktop.jpg);
+	background-size: 2000px auto;
+	background-position: -620px top;
+	width:100%;
+	height:100%;
+}
+
+
+.section_six_selling_wrapper {
+	width:43%;
+	display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.selling_point_wrapper {
+	// width:105%;
+	width:855px;
+	height:895px;
+	background: $blue;
+	margin-left:-255px;
+	position: relative;
+}
+
+
+a.sec_six_why_button {
+	color:#fff;
+	background: $darkblue;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: $nexabold;
+	font-size: 16px;
+	padding:36px 180px;
+	display: inline-block;
+	letter-spacing: 7.5px;
 	
+	transform: rotate(-90deg);
+	transform-origin: 0 0 0;
+	position: absolute;
+	top: 804px;
+	left: -61px;
+}
+
+
+
+.selling_point_slideshow {
+	
+}
+
+.selling_point_slide {
+	text-align: center;
+	margin-top:125px;
+	img.sp_icon {
+		width:140px;
+		display: block;
+		margin:0 auto;
+	}
+}
+
+
+span.sp_slide_title {
+	color:$orange;
+	text-transform: lowercase;
+	font-size: 80px;
+	font-family: $nexalight;
+	letter-spacing: 5px;
+	margin-top:40px;
+	display: inline-block;
 }
 
     
