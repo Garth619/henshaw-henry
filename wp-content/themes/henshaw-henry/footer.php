@@ -7,7 +7,7 @@
 			
 			<img class="footer_icon" src="<?php bloginfo('template_directory');?>/images/footer-icon.svg"/>
 			
-			<span class="top_footer_content">Henshaw & Henry, PC takes an analytic approach to your personal needs, contact us today.</span><!-- top_footer_content -->
+			<span class="top_footer_content">Henshaw & Henry, PC takes an analytic approach to your personal needs, contact us&nbsp;today.</span><!-- top_footer_content -->
 			
 			
 			<div class="location_col">
@@ -19,6 +19,20 @@
 				<a class="directions" href="">Get Directions</a>
 				
 				<a class="tel" href="tel:(408) 533-1075">(408) 533-1075</a>
+				
+				<div class="soical_media mobile">
+					
+					<a class="" href=""><img src="<?php bloginfo('template_directory');?>/images/twitter.svg"/></a>
+					
+					<a class="" href=""><img src="<?php bloginfo('template_directory');?>/images/footer-yelp.svg"/></a>
+					
+					<a class="" href=""><img src="<?php bloginfo('template_directory');?>/images/footer-fb.svg"/></a>
+					
+					<a class="" href=""><img src="<?php bloginfo('template_directory');?>/images/footer-google.svg"/></a>
+					
+					
+					
+				</div><!-- soical_media_top_footer -->
 				
 			</div><!-- location_col -->
 			
@@ -36,6 +50,20 @@
 		</div><!-- inner_top_footer -->
 		
 	</div><!-- top_footer -->
+	
+	
+	<div class="bottom_footer">
+		
+		
+		<div class="form_wrapper">
+			
+			<span class="large_header">Request your free consultation</span><!-- large_header -->
+			
+			
+		</div><!-- form_wrapper -->
+		
+		
+	</div><!-- bottom_footer -->
 	
 	
 </footer>
