@@ -84,7 +84,7 @@ span.sp_slide_title {
 }
 
 span.sp_slide_content {
-	display: top;
+	display: block;
 	border-top:1px solid #fff;
 	color:#fff;
 	font-family:$tavirajlight;
@@ -105,7 +105,10 @@ span.sp_slide_content {
 	bottom:48px;
 	right:45px;
 	
-	display: flex;
+	
+	.sp_arrows_inner_wrapper {
+		display: flex;
+	}
 	.sp_button {
 		width:30px;
 		cursor: pointer;
@@ -327,6 +330,7 @@ svg {
 		
 	.selling_point_slideshow {
     max-width: 521px;
+    height: 838px;
    }
    
    span.sp_slide_content {
@@ -351,6 +355,7 @@ svg {
 	
 	.section_six_selling_wrapper {
 		margin-top:0;
+		  padding:0;
 	}
 	    
 	 
@@ -363,9 +368,74 @@ svg {
 	   display: none;
    }
    
-   .section_six_selling_wrapper {
-	   padding:0;
+  
+   
+   .selling_point_slide {
+    	margin-top: 83px;
+		}	
+	
+	span.sp_slide_title {
+		 margin-top: 15px;
+		 padding: 0 30px 25px;
+	}
+	
+	
+	.selling_point_slideshow {
+		padding-bottom:165px;
+		height:auto;
+	}
+	   
+	 .selling_point_slide {
+		 
+	 }
+	 
+	 .sp_arrows_wrapper {
+	  bottom: 70px; 
+	  left:0;
+	  width:100%;
+	  position: absolute;
+	  
+	  .sp_arrows_inner_wrapper {
+		  justify-content: center;
+	  }
    }
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	.selling_point_slide {
+		margin-top: 56px;
+		img.sp_icon {
+			width:125px;
+		}
+	} 
+	
+	
+	span.sp_slide_title {
+		font-size: 45px;
+		letter-spacing: 2.5px;
+	}
+	
+	span.sp_slide_content {
+		font-size: 20px;
+		line-height: 29px;
+	}
+	
+	.selling_point_slideshow {
+		padding-left: 25px;
+		padding-right:25px;
+	}
+	
+	
+	.sp_arrows_wrapper {
+    bottom: 62px;
+   }
+	
 	
 	
 	

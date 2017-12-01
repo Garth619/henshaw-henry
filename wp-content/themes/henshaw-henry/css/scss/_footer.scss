@@ -1,0 +1,27 @@
+footer {
+	text-align: center;
+}
+
+.top_footer {
+	width:100%;
+	height:1000px;
+	background: $darkblue;
+}
+
+.inner_top_footer {
+	margin:0px auto;
+	padding: 145px 0 0;
+	max-width:900px;
+}
+
+img.footer_icon {
+	width:180px;
+	margin:0 auto;
+	display: block;
+}
+
+
+span.top_footer_content {
+	color:$orange;
+	font-size:80px;
+}

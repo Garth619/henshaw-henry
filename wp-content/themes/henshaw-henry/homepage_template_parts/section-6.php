@@ -46,6 +46,8 @@
 				
 				<div class="sp_arrows_wrapper">
 					
+					<div class="sp_arrows_inner_wrapper">
+					
 					<div class="sp_prev sp_button">
 						
 						<svg id="sp_arrows_left" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.76 55.51">
@@ -74,7 +76,7 @@
 						
 					</div><!-- sp_next -->
 					
-					
+					</div><!-- sp_arrows_inner_wrapper -->
 					
 				</div><!-- sp_arrows_wrapper -->
 				

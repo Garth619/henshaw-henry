@@ -166,7 +166,19 @@ jQuery(document).ready(function(){
 				fade:true,
 				slide:".selling_point_slide",
 				prevArrow:".sp_prev",
-				nextArrow:".sp_next"
+				nextArrow:".sp_next",
+				responsive: [
+				{
+				  breakpoint: 1020,
+				  settings: {
+				    slidesToShow: 1,
+				    slidesToScroll: 1,
+						dots: false,
+						adaptiveHeight: true
+						
+				  }
+				}
+			]
     });
 
 	
