@@ -55,10 +55,11 @@
 	<div class="bottom_footer">
 		
 		
-		<div class="form_wrapper">
+		<div class="footer_form_wrapper">
 			
 			<span class="large_header">Request your free consultation</span><!-- large_header -->
 			
+			<?php gravity_form(1, false, false, false, '', true, 12); ?>
 			
 		</div><!-- form_wrapper -->
 		

@@ -201,7 +201,7 @@ a.tel {
 	padding:0 45px;
 }
 
-.form_wrapper {
+.footer_form_wrapper {
 	background: #fff;
 	width:100%;
 	max-width: 1144px;
@@ -209,11 +209,52 @@ a.tel {
 	margin:0 auto;
 	top:-290px;
 	text-align: left;
-	padding:80px 65px;
+	padding:100px 65px;
 	span.large_header {
 		font-family: $tavirajregular;
 		font-size: 60px;
+		display: block;
+		margin-bottom:46px;
 	}
+	ul {
+		list-style: none;
+		li {
+			margin-bottom:15px;
+			label {
+			 display: none;	
+			}
+			input {
+				
+				
+			}
+			textarea {
+				
+			}
+			input, textarea, select {
+				border:none;
+				background: #f3f3f3;
+				width:100%;
+				display: block;
+				color:$blue;
+				font-family: $nexalight;
+				border-radius: 0;
+				-webkit-appearance: none;
+				font-size: 19px;
+				padding:23px 10px;
+			}
+		}
+		 li ::-webkit-input-placeholder {
+        color: $blue; }
+     li ::-moz-placeholder {
+        color: $blue; }
+     li :-moz-placeholder {
+        color: $blue; }
+     li :-ms-input-placeholder {
+        color: $blue; }
+      li ::-moz-placeholder {
+        opacity: 1; }
+	}
+	
 }
 
 
