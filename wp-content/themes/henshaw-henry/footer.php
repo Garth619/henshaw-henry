@@ -61,6 +61,8 @@
 			
 			<?php gravity_form(1, false, false, false, '', true, 12); ?>
 			
+			<span class="my_required_fields"><span class="my_asterisk">*</span> Required Fields</span><!-- my_required_fields -->
+			
 		</div><!-- form_wrapper -->
 		
 		

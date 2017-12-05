@@ -204,12 +204,12 @@ a.tel {
 .footer_form_wrapper {
 	background: #fff;
 	width:100%;
-	max-width: 1144px;
+	max-width: 1326px;
 	position: relative;
 	margin:0 auto;
 	top:-290px;
 	text-align: left;
-	padding:100px 65px;
+	padding:100px 95px;
 	span.large_header {
 		font-family: $tavirajregular;
 		font-size: 60px;
@@ -218,8 +218,44 @@ a.tel {
 	}
 	ul {
 		list-style: none;
+		
+		li#field_1_1, li#field_1_2, li#field_1_4 {
+			width:32.5%;
+			margin-right:14px;
+			input {
+				
+			}
+		}
+		 li#field_1_4 {
+			 margin-right:0;
+			
+		 }
+		 li#field_1_5 {
+			 width:32.5%;
+			 margin-right:14px;
+		 }
+		 li#field_1_6 {
+			 width:66.2%;
+		 }
+		 li#field_1_7 {
+			 clear: both;
+		 }
+		 li:not(#field_1_7) {
+			 float:left;
+		 }
 		li {
-			margin-bottom:15px;
+			margin-bottom:18px;
+			position: relative;
+			&:before {
+				content:"*";
+				display: block;
+				position: absolute;
+				top: 25px;
+				right: 12px;
+				z-index:100;
+				font-size:24px;
+				color:$blue;
+			}
 			label {
 			 display: none;	
 			}
@@ -228,7 +264,7 @@ a.tel {
 				
 			}
 			textarea {
-				
+				height:125px;
 			}
 			input, textarea, select {
 				border:none;
@@ -240,7 +276,7 @@ a.tel {
 				border-radius: 0;
 				-webkit-appearance: none;
 				font-size: 19px;
-				padding:23px 10px;
+				padding:23px 17px;
 			}
 		}
 		 li ::-webkit-input-placeholder {
@@ -256,6 +292,42 @@ a.tel {
 	}
 	
 }
+
+input#gform_submit_button_1 {
+	background: $orange;
+	color:#fff;
+	border:none;
+	font-family: $tavirajsemibold;
+	text-transform: uppercase;
+	font-size:22px;
+	padding:12px 45px;
+	border-radius: 2px;
+	letter-spacing: 4px;
+	transition: all .2s ease-in-out;
+	cursor: pointer;
+	float:right;
+	margin-top:5px;
+	&:hover {
+		background: $darkblue;
+	}
+}
+
+
+span.my_required_fields {
+	font-family: $nexalight;
+	font-size: 18px;
+	color:$blue;
+	text-transform: lowercase;
+	letter-spacing: 1.8px;
+	span.my_asterisk {
+		font-size: 24px;
+		font-family: $tavirajlight;
+		margin-right:-7px;
+		display: inline-block;
+	}
+}
+
+
 
 
 @media screen and (max-width: 1250px) {
