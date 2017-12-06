@@ -216,6 +216,9 @@ a.tel {
 		font-size: 60px;
 		display: block;
 		margin-bottom:46px;
+		br {
+			display: none;
+		}
 	}
 	ul {
 		list-style: none;
@@ -493,8 +496,8 @@ span.my_required_fields {
 	.footer_form_wrapper {
     
     span.large_header {
-	     font-size:56px;
-	     background: red;
+	     font-size:55px;
+	     
 	     text-align: center;
     }
   }
@@ -641,13 +644,13 @@ span.my_required_fields {
 
 
 
-@media screen and (max-width: 1099px) {
+@media screen and (max-width: 1092px) {
 	
 	
 	
 	.footer_form_wrapper {
    	span.large_header {
-	    // font-size: 43px;
+	    font-size: 43px;
 	   
     }
   }
@@ -731,7 +734,267 @@ span.my_required_fields {
 
 
 
+@media screen and (max-width: 950px) {
+	
+	
+	.bottom_footer {
+    padding: 0 58px;
+    height: 549px;
+    background: url(#{$themePath}images/footer-palm-trees-tablet.jpg) left top;
+    background-size:1200px 650px;
+   
+	}
+	
+	.footer_form_inner {
+    padding: 48px 37px 116px;
+    span.large_header {
+    font-size: 40px;
+		}
+	}
+	
+	
+.footer_form_wrapper {
+	
+	span.large_header {
+		
+	}
+	ul {
+		
+	
+		
+		li#field_1_1, li#field_1_2, li#field_1_4 {
+			width:49%;
+			margin-right: 2%;
+			input {
+				
+			}
+		}
+		li#field_1_2 {
+			margin-right:0;
+			input {
+				
+			}
+			
+		}
+		 li#field_1_4 {
+			 
+			
+		 }
+		 li#field_1_5 {
+				width:49%;
+				margin-right:0;
+			}
+		 li#field_1_6 {
+			 width:100%;
+			 float: none;
+			 &:before {
+				 
+			 }
+		 }
+		 li#field_1_7 {
+			 float:none;
+		 }
+		 li:not(#field_1_7) {
+			 
+		 }
+		li {
+			margin-bottom: 16px;
+			&:before {
+				
+			}
+			label {
+			 	
+			}
+			input {
+				
+				
+			}
+			textarea {
+				
+			}
+			
+			input, textarea, select {
+				
+			}
+			select {
+				
+			}
+		}
+	}
+	
+}
+
+input#gform_submit_button_1 {
+	margin-top: 20px;
+}
+
+
+span.my_required_fields {
+	margin-top: 23px;
+	display: block;
+}
+
+
+.footer_bar {
+	text-align: center;
+	height:auto;
+	padding: 20px 40px;
+	span {
+		float:none;
+		display: block;
+	}
+	a.ilawyer {
+		float:none;
+		width:230px;
+		display: block;
+		margin:8px auto 0;
+		
+		img {
+			max-width: 100%;
+		}
+	}
+}
+	
+	
+} /* Media Query */
+
+
+
 @media screen and (max-width: 767px) {
+	
+		
+} /* Media Query */
+
+
+
+
+@media screen and (min-width: 1250px) {
+	
+	.soical_media {
+		display: none;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	.footer_form_inner span.large_header {
+    font-size: 36px;
+	}
+	
+	.footer_form_inner {
+    padding: 50px 37px 116px;
+	}
+	
+	
+	
+	
+	.footer_form_wrapper {
+	
+	span.large_header {
+		line-height: 41px;
+		margin-bottom: 28px;
+		br {
+			display: inline-block;
+		}
+	}
+	ul {
+		
+	
+		
+		li#field_1_1, li#field_1_2, li#field_1_4 {
+			width:100%;
+			margin-right: 0%;
+			float:none;
+			input {
+				
+			}
+		}
+		li#field_1_2 {
+			margin-right:0;
+			input {
+				
+			}
+			
+		}
+		 li#field_1_4 {
+			 
+			
+		 }
+		 li#field_1_5 {
+				width:100%;
+				margin-right:0;
+				float:none;
+			}
+		 li#field_1_6 {
+			 width:100%;
+			 
+			 &:before {
+				 
+			 }
+		 }
+		 li#field_1_7 {
+			 
+		 }
+		 li:not(#field_1_7) {
+			 
+		 }
+		li {
+			    margin-bottom: 12px;
+			&:before {
+				
+			}
+			label {
+			 	
+			}
+			input {
+				
+				
+			}
+			textarea {
+				
+			}
+			
+			input, textarea, select {
+				font-size: 16px;
+				margin-bottom: 14px;
+				letter-spacing: 0.3px;
+			}
+			select {
+				
+			}
+		}
+	}
+	
+}
+
+	
+	
+	
+	
+	.bottom_footer {
+		padding:0;
+	}
+	
+	
+	.footer_form_wrapper {
+    margin:0px auto;
+    max-width: 100%;
+	}
+	
+	
+	.inner_top_footer {
+    padding: 51px 23px 69px;
+}
+	
+	
+	
 	
 	.inner_top_footer {
 		padding: 51px 23px 0;
@@ -783,18 +1046,23 @@ span.my_required_fields {
 		}
 		
 		
+		
+		span.my_required_fields {
+			margin-top:0;
+			font-size:17px;
+			letter-spacing: 0.8px;
+			span.my_asterisk {
+				font-size: 17px;
+				margin-right: -3px;
+			}
+		}
+		
+
 	
-} /* Media Query */
-
-
-
-
-@media screen and (min-width: 1250px) {
 	
-	.soical_media {
-		display: none;
+	input#gform_submit_button_1 {
+		float:none;
 	}
-	
 	
 	
 	

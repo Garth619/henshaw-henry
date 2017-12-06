@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "0060A5FF-9C17-49B6-BC53-FB7C28FED4ED"
+		"uuidString": "1785DF33-BA8A-475C-B768-D287ACE07DAD"
 		}
 	],
 "creatorBuild": "26148",
@@ -198,6 +198,16 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/css\/scss\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/scss\/style-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/css\/scss\/style.scss": {
 		"aP": 1,
@@ -547,7 +557,7 @@
 		},
 	"\/images\/about-att-img.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 83817,
 		"oA": 0,
 		"oAP": "\/images\/about-att-img.jpg",
 		"oF": 0,
@@ -697,12 +707,12 @@
 		},
 	"\/images\/dot.png": {
 		"ft": 32768,
-		"iS": 1014,
+		"iS": 180,
 		"oA": 0,
 		"oAP": "\/images\/dot.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -908,7 +918,7 @@
 		},
 	"\/images\/pa-civil-litigation-hover-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 53214,
 		"oA": 0,
 		"oAP": "\/images\/pa-civil-litigation-hover-desktop.jpg",
 		"oF": 0,
@@ -918,7 +928,7 @@
 		},
 	"\/images\/pa-civil-litigation-hover-mobile.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 65786,
 		"oA": 0,
 		"oAP": "\/images\/pa-civil-litigation-hover-mobile.jpg",
 		"oF": 0,
@@ -928,7 +938,7 @@
 		},
 	"\/images\/pa-civil-litigation-hover-tablet.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 74508,
 		"oA": 0,
 		"oAP": "\/images\/pa-civil-litigation-hover-tablet.jpg",
 		"oF": 0,
@@ -968,7 +978,7 @@
 		},
 	"\/images\/pa-estate-planning-hover-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 45006,
 		"oA": 0,
 		"oAP": "\/images\/pa-estate-planning-hover-desktop.jpg",
 		"oF": 0,
@@ -978,7 +988,7 @@
 		},
 	"\/images\/pa-estate-planning-hover-mobile.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 38446,
 		"oA": 0,
 		"oAP": "\/images\/pa-estate-planning-hover-mobile.jpg",
 		"oF": 0,
@@ -988,7 +998,7 @@
 		},
 	"\/images\/pa-estate-planning-hover-tablet.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 71390,
 		"oA": 0,
 		"oAP": "\/images\/pa-estate-planning-hover-tablet.jpg",
 		"oF": 0,
@@ -1018,7 +1028,7 @@
 		},
 	"\/images\/pa-personal-injury-desktop.jpg": {
 		"ft": 16384,
-		"iS": 50657,
+		"iS": 47027,
 		"oA": 0,
 		"oAP": "\/images\/pa-personal-injury-desktop.jpg",
 		"oF": 0,
@@ -1028,7 +1038,7 @@
 		},
 	"\/images\/pa-personal-injury-hover-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 50657,
 		"oA": 0,
 		"oAP": "\/images\/pa-personal-injury-hover-desktop.jpg",
 		"oF": 0,
@@ -1038,7 +1048,7 @@
 		},
 	"\/images\/pa-personal-injury-hover-mobile.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 65837,
 		"oA": 0,
 		"oAP": "\/images\/pa-personal-injury-hover-mobile.jpg",
 		"oF": 0,
@@ -1048,7 +1058,7 @@
 		},
 	"\/images\/pa-personal-injury-hover-tablet.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 81429,
 		"oA": 0,
 		"oAP": "\/images\/pa-personal-injury-hover-tablet.jpg",
 		"oF": 0,
@@ -1058,7 +1068,7 @@
 		},
 	"\/images\/pa-personal-injury-mobile.jpg": {
 		"ft": 16384,
-		"iS": 65837,
+		"iS": 62126,
 		"oA": 0,
 		"oAP": "\/images\/pa-personal-injury-mobile.jpg",
 		"oF": 0,
@@ -1068,7 +1078,7 @@
 		},
 	"\/images\/pa-personal-injury-tablet.jpg": {
 		"ft": 16384,
-		"iS": 81429,
+		"iS": 76003,
 		"oA": 0,
 		"oAP": "\/images\/pa-personal-injury-tablet.jpg",
 		"oF": 0,
@@ -1286,7 +1296,7 @@
 		"oA": 0,
 		"oAP": "\/js\/custom-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/slick\/.gitignore": {
@@ -2101,7 +2111,7 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 57403,
+		"iS": 653807,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
@@ -2154,14 +2164,14 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 532377770,
+	"creationDate": 534275990,
 	"displayValue": "henshaw-henry",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-daenerys"
+	"iconImageName": "meme-facepalm"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -3547,7 +3557,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/henshaw-henry.com",
+	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
