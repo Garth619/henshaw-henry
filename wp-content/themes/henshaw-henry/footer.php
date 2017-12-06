@@ -69,7 +69,7 @@
 			
 			<div class="footer_bar">
 				
-				<span>&copy; Copyright 2017 by Henshaw & Henry, PC. All Rights Reserved.</span>
+				<span>&copy; Copyright 2017 by Henshaw<br/> & Henry, PC. All Rights Reserved.</span>
 				
 				<a class="ilawyer" href="//ilawyermarketing.com" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/ilawyer-logo.svg"/></a>
 				

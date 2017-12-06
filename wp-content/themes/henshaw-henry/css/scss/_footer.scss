@@ -375,7 +375,9 @@ span.my_required_fields {
 	span {
 		font-size: 16px;
 		float:left;
-		
+		br {
+			display: none;
+		}
 	}
 	a.ilawyer {
 		float:right;
@@ -860,13 +862,6 @@ span.my_required_fields {
 
 
 
-@media screen and (max-width: 767px) {
-	
-		
-} /* Media Query */
-
-
-
 
 @media screen and (min-width: 1250px) {
 	
@@ -986,6 +981,7 @@ span.my_required_fields {
 	.footer_form_wrapper {
     margin:0px auto;
     max-width: 100%;
+    
 	}
 	
 	
@@ -1022,6 +1018,11 @@ span.my_required_fields {
 	}
 	
 	
+	
+	
+	
+	
+	
 	a.address {
     font-size: 22px;
     line-height: 30px;
@@ -1048,8 +1049,8 @@ span.my_required_fields {
 		
 		
 		span.my_required_fields {
-			margin-top:0;
 			font-size:17px;
+			margin-top: -95px;
 			letter-spacing: 0.8px;
 			span.my_asterisk {
 				font-size: 17px;
@@ -1062,7 +1063,43 @@ span.my_required_fields {
 	
 	input#gform_submit_button_1 {
 		float:none;
+		width:100%;
+		margin-top: 45px;
+		font-size:18px;
+		letter-spacing: 0.5px;
 	}
+	
+	
+	.footer_form_inner {
+    padding: 50px 37px 139px;
+	}
+	
+	
+.footer_bar {
+	height:111px;
+	padding: 15px 40px 0;
+	span {
+		max-width:267px;
+		margin-left:auto;
+		margin-right:auto;
+		line-height: 22px;
+		br {
+			display: inline-block;
+		}
+	}
+	a.ilawyer {
+		margin: 15px auto 0;
+		img {
+			
+		}
+	}
+}
+
+	.inner_top_footer {
+    padding: 51px 23px 70px;
+}
+	
+	
 	
 	
 	
