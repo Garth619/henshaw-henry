@@ -1196,6 +1196,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/tri.png": {
+		"ft": 32768,
+		"iS": 1083,
+		"oA": 0,
+		"oAP": "\/images\/tri.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,

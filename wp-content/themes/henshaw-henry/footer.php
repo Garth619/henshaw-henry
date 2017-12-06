@@ -57,13 +57,36 @@
 		
 		<div class="footer_form_wrapper">
 			
-			<span class="large_header">Request your free consultation</span><!-- large_header -->
+			<div class="footer_form_inner">
 			
-			<?php gravity_form(1, false, false, false, '', true, 12); ?>
+				<span class="large_header">Request your free consultation</span><!-- large_header -->
 			
-			<span class="my_required_fields"><span class="my_asterisk">*</span> Required Fields</span><!-- my_required_fields -->
+				<?php gravity_form(1, false, false, false, '', true, 12); ?>
 			
-		</div><!-- form_wrapper -->
+				<span class="my_required_fields"><span class="my_asterisk">*</span> Required Fields</span><!-- my_required_fields -->
+			
+			</div><!-- footer_form_inner -->
+			
+			<div class="footer_bar">
+				
+				<span>&copy; Copyright 2017 by Henshaw & Henry, PC. All Rights Reserved.</span>
+				
+				<a class="ilawyer" href="//ilawyermarketing.com" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/ilawyer-logo.svg"/></a>
+				
+			</div><!-- footer_bar -->
+			
+			<div class="desktop_social_media">
+				
+				<a class="twitter" href=""><img src="<?php bloginfo('template_directory');?>/images/twitter.svg"/></a>
+				<a class="yelp" href=""><img src="<?php bloginfo('template_directory');?>/images/footer-yelp.svg"/></a>
+				<a class="facebook" href=""><img src="<?php bloginfo('template_directory');?>/images/footer-fb.svg"/></a>
+				<a class="google" href=""><img src="<?php bloginfo('template_directory');?>/images/footer-google.svg"/></a>
+				
+				
+				
+			</div><!-- desktop_social_media -->
+			
+		</div><!-- footer_form_wrapper -->
 		
 		
 	</div><!-- bottom_footer -->
