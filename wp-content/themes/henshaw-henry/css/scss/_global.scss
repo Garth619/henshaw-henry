@@ -61,6 +61,15 @@ body:not(.page-template-page-home) {
 		padding-bottom:55px;
 		margin-bottom:50px;
 	}
+	blockquote {
+		font-family: $nexalight;
+		color:$blue;
+		font-size: 30px;
+		line-height:40px;
+		margin:45px 0;
+		padding:0 13% 0 9%;
+		letter-spacing: 0;
+	}
 	p {
 		margin-bottom:28px;
 	}
@@ -99,24 +108,22 @@ body:not(.page-template-page-home) {
 			list-style: none;
 			counter-reset: item;
 			li {
-   counter-increment: item;
-   margin-bottom: 5px;
- }
- li:before {
-   margin-right: 10px;
-   content: counter(item);
-   background: lightblue;
-   border-radius: 100%;
-   color: white;
-   width: 1.2em;
-   text-align: center;
-   display: inline-block;
- }
-/*
-			li {
-				margin-left:17px;
-			}
-*/
+				counter-increment: item;
+				margin-bottom: 5px;
+				position: relative;
+				padding-left:34px;
+ 			}
+ 			li:before {
+ 			  margin-right: 10px;
+ 			  content: counter(item)".";
+ 				color: $orange;
+ 			  
+ 			  position: absolute;
+ 			  top:0;
+ 			  left:0px;
+ 			  font-family: $tavirajmedium;
+ 			  display: inline-block;
+ 			}
 		}
 	}
 

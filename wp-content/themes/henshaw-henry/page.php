@@ -43,6 +43,11 @@
 	<li>Nunc consectetur risus non tellus dictum, pellentesque hendrerit nulla feugiat. Roin ut justo pulvinar, bibendum purus quis, convallis massa. </li>
 	<li>Nulla blandit urna id ex pretium aliquam. Nunc at tellus condimentum, consequat diam quis, cursus sapien. Mauris facilisis tempus est eget tempor.	</li>	
 </ol>	
+
+<blockquote>“Pull out quote aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error dolore magnam aliquam quaerat voluptatem.”</blockquote>
+
+<p>Donec aliquet libero tellus, ut feugiat mi vehicula id. Aenean egestas, tortor quis eleifend dignissim, ipsum arcu venenatis magna, dapibus lobortis felis nunc a sem. Etiam lacus orci, fermentum fermentum augue at, mollis hendrerit sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. In-line text style, hover in-line text style semper consectetur ex. Etiam eget lectus feugiat, ultrices dui nec, varius mi. Quisque pharetra ac diam sed laoreet. Praesent sit amet massa neque. Aliquam cursus posuere ligula, sed molestie erat porta quis. Proin mollis metus velit, quis interdum lorem egestas ut. Pellentesque sed nunc ultricies, euismod ante sit amet, iaculis erat. Donec porta ante sit amet massa scelerisque, at pulvinar dolor pellentesque. Donec semper sapien non nisl consequat, ut cursus nunc vestibulum. Vivamus ut pharetra augue.</p>
+
 	</div><!-- container -->
 	
 	

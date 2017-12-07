@@ -4,7 +4,12 @@
 	<span class="sidebar_title">Practice Areas</span><!-- sidebar_title -->
 	
 	<div class="menu-header">
+		
+		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_sidebar' ) ); ?>
+		
+		<?php // dynamic_sidebar( 'sidebar' ); ?>
 	
+<!--
 		<ul class="menu">
 			<li class="menu-item-has-children">
 			<a href="">Personal Injury</a>
@@ -19,10 +24,11 @@
 			<li><a href="">Civil Litigation</a></li>
 			<li><a href="">Estate Planning</a></li>
 		</ul>
+-->
 	
 	</div><!-- menu-header -->
 	
 </div><!-- sidebar -->
 
-	<?php // dynamic_sidebar( 'sidebar' ); ?>
+
 			
