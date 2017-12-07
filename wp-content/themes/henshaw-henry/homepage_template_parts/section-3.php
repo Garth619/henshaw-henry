@@ -15,7 +15,7 @@
 			
 			</div><!-- bear_wrapper -->
 			
-		<div class="section_three_content content">
+		<div class="section_three_content">
 			
 			<p><span>L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt at diam eu rutrum. Nam consectetur mi ac viverra pellentesque. In sit amet tortor porttitor, eleifend turpis in, finibus tortor. Sed sit amet mattis mi. Mauris ultricies leo ut sollicitudin viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. In egestas magna id dolor malesuada cursus. Mauris a cursus quam. Aenean feugiat euismod lacus congue imperdiet. Etiam eu leo nec libero bibendum facilisis. Maecenas mi orci, imperdiet iaculis tortor nec, hendrerit tristique orci. Nulla sed dui vehicula, lacinia risus a, convallis turpis. Nulla facilisi. Nunc fermentum, justo efficitur mollis sagittis, ipsum eros tempus urna, ac consectetur lorem metus eu lorem. Duis sem sem, dictum ut malesuada a, cursus at nisi. Quisque ac maximus lacus. Etiam eu leo nec libero bibendum facilisis. Maecenas mi orci, imperdiet iaculis tortor nec, hendrerit tristique orci. Nulla sed dui vehicula, lacinia risus a, convallis turpis.</p>
 			

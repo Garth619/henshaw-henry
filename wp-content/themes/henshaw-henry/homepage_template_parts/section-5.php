@@ -1,6 +1,6 @@
 <section class="section_five">
 	
-	<div class="section_five_inner">
+	<div class="section_five_inner content">
 	
 	<div class="sec_five_col">
 		
