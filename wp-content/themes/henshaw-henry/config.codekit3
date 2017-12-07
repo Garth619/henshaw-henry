@@ -82,6 +82,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page-internal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-internal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -91,6 +104,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_sidebar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_sidebar.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -198,16 +224,6 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/css\/scss\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/scss\/style-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/css\/scss\/style.scss": {
 		"aP": 1,

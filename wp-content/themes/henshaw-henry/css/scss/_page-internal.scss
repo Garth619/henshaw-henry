@@ -1,0 +1,26 @@
+.internal_main {
+	width:100%;
+	margin-top: 105px;
+	display: flex;
+}
+
+
+
+body:not(.page-template-page-home) {
+	header {
+		display: none;
+	}
+	.sticky_menu, .sticky_menu.visible {
+		opacity: 1;
+		visibility: visible;
+	} 
+}
+
+
+
+.container {
+	width:calc(100% - 445px);
+}
+
+
+
