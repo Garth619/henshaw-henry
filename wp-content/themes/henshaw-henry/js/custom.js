@@ -30,28 +30,7 @@ jQuery(document).ready(function(){
 		
 		
 		// Testimonials
-		
-		
-/*
-		
-		$('.testi_slideshow').slick({
-			infinite: true,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			arrows:true,
-			fade:true,
-			prevArrow:'.back_icon',
-			nextArrow:'.next_icon'
-		});
-*/
-		
-		
-		
-		
-		
-		
-		
-		
+
 		
 		
 		var $statusinnerabout = jQuery('.counter_wrapper span');
@@ -149,6 +128,8 @@ jQuery(document).ready(function(){
     
     
     $('ul.menu > li.menu-item-has-children').on('click', function(e) {
+	    
+	    $(this).toggleClass('active');
       
       $(this).find('ul.sub-menu').toggleClass('open');
       

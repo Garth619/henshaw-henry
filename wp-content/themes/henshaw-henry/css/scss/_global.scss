@@ -58,8 +58,9 @@ body:not(.page-template-page-home) {
 		font-style: normal;
 		letter-spacing: 0;
 		border-bottom:2px solid $orange;
-		padding-bottom:55px;
-		margin-bottom:50px;
+		padding-bottom:40px;
+		margin-bottom:45px;
+		line-height: 60px;
 	}
 	blockquote {
 		font-family: $nexalight;
@@ -129,8 +130,39 @@ body:not(.page-template-page-home) {
 
 
 
+@media screen and (max-width: 1250px) {
+	
+	
+	
+.content {
+	h1 {
+		padding-bottom: 40px;
+		margin-bottom: 43px;
+	}
+}
+	
+	
+	
+} /* Media Query */
 
 
+@media screen and (max-width: 1090px) {
+	
+	
+	.content {
+		blockquote {
+			padding-left:5%;
+			padding-right:5%;
+		}
+		h1 {
+			font-size: 60px;
+		}
+	}
+	
+	
+	
+	
+} /* Media Query */
 
 
 @media screen and (max-width: 767px) {
@@ -147,6 +179,24 @@ img.aligncenter {
 	max-width:100%;
 	height:auto;
 }
+
+
+
+
+.content {
+	h1 {
+		font-size: 35px;
+		line-height: 35px;
+	}
+	blockquote {
+		padding:0;
+		font-size:24px;
+		line-height: 29px;
+		margin: 30px 0 45px;
+	}
+}
+
+
 	
 	
 	

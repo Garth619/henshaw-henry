@@ -69,7 +69,7 @@
 			
 			<a class="sticky_logo" href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_directory');?>/images/logo-white.svg"/></a>
 			
-			<div class="sticky_header_right">
+			<div id="internal_trigger" class="sticky_header_right">
 				
 				<div class="sticky_consultion">
 					

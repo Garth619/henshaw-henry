@@ -335,6 +335,10 @@ header.homepage {
 	background: transparent;
 	opacity: 1;
 	visibility: visible;
+	
+	position: absolute;
+	
+	
 }
 
 .sticky_logo {
@@ -352,10 +356,18 @@ header.homepage {
 }
 
 
+.sticky_header_right.sticky {
+	position: fixed;
+	top:0;
+}
+
+
+
 .sticky_header_right {
 	display: block;
 	width:100%;
 	float:none;
+	
 	&:after {
 		content:"";
 		clear:both;

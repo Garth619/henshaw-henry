@@ -26,7 +26,23 @@ function my_jquery_enqueue() {
      // Load my javascripts
      wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );
      
-     wp_enqueue_script( 'jquery-waypoint', get_template_directory_uri() . '/js/home-min.js', array('jquery'), '', true );
+     
+     if(is_front_page()) {
+	     
+	     wp_enqueue_script( 'jquery-waypoint', get_template_directory_uri() . '/js/home-min.js', array('jquery'), '', true );
+     
+     }
+     
+     else {
+	     
+	     wp_enqueue_script( 'jquery-waypointinternal', get_template_directory_uri() . '/js/internal-min.js', array('jquery'), '', true );
+	     
+     }
+     
+     
+     
+     
+     
  }
  
  add_action( 'wp_enqueue_scripts', 'load_my_styles_scripts', 20 );
