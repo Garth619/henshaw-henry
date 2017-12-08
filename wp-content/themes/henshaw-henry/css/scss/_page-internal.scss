@@ -26,8 +26,13 @@ body:not(.page-template-page-home) {
 
 .one_column {
 	width:100%;
-	background: #f3f3f3;
+	padding-top:142px;
+	padding-left:45px;
+	padding-right:45px;
 }
+
+
+
 
 
 
@@ -51,6 +56,11 @@ body:not(.page-template-page-home) {
 	
 	.container {
 		padding:78px 35px 78px;
+	}
+	
+	
+	.one_column {
+		padding-top:80px;
 	}
 	
 	
@@ -117,6 +127,13 @@ body:not(.page-template-page-home) {
 			padding-bottom: 25px;
 			margin-bottom: 22px;
 		}
+	}
+	
+	
+	.one_column {
+		padding-top:100px;
+		padding-left:25px;
+		padding-right:25px;
 	}
 	
 	
