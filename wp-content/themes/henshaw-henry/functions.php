@@ -102,7 +102,9 @@ remove_action('admin_print_styles', 'print_emoji_styles');
 
 register_nav_menus(array(
     'main_menu' => 'Main Menu',
-    'pa_sidebar' => 'PA Sidebar'
+    'pa_sidebar' => 'PA Sidebar',
+    'pa_directory_menu_col_one' => 'Pa Directory Menu Column One',
+    'pa_directory_menu_col_two' => 'Pa Directory Menu Column Two'
 ));
 
 /* Widgets

@@ -1,0 +1,17 @@
+.practice_areas_directory {
+	margin-top:75px;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+	.pa_col {
+		width:50%;
+		&:first-of-type {
+			float:left;
+		}
+		&:last-of-type {
+			float:right;
+		}
+	}
+}

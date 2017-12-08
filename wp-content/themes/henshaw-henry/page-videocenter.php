@@ -9,13 +9,15 @@
 <div class="internal_main">
 	
 	
-	<div class="one_column">
+	<div class="one_column content">
+		
+		<h1 class="center">Video Center</h1><!--- smaller_internal_header -->
 		
 		
-		<div class="video_center_wrapper content">
+		<div class="video_center_wrapper">
 			
 			
-			<h1 class="center">Video Center</h1><!--- smaller_internal_header -->
+
 			
 			
 			<div class="videos">
