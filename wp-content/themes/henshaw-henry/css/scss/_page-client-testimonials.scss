@@ -1,0 +1,45 @@
+
+body.page-template-page-clienttestimonials {
+	.one_column {
+		max-width:1570px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
+
+.client_page_wrapper {
+	.client_col {
+		width:47%;
+		&:first-of-type {
+			float:left;
+			.single_client {
+				&:nth-of-type(2n + 1) {
+					background: $darkblue;
+				}
+				&:nth-of-type(2n + 2) {
+					background: #f3f3f3;
+				}
+			}
+		}
+		&:last-of-type {
+			float:right;
+			.single_client {
+				&:nth-of-type(2n + 1) {
+					background: #f3f3f3;
+				}
+				&:nth-of-type(2n + 2) {
+					background: $darkblue;
+				}
+			}
+		}
+	}
+}
+
+
+.single_client {
+
+	width:100%;
+}
+
+
