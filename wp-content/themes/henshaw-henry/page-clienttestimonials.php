@@ -69,6 +69,8 @@
 									
 								</div><!-- client_testi -->
 								
+								<span class="single_client_name">D.R. - Past Client</span><!-- single_client_name -->
+								
 							</div><!-- client_content -->
 							
 							
@@ -94,6 +96,8 @@
 									
 									
 								</div><!-- client_testi -->
+								
+								<span class="single_client_name">D.R. - Past Client</span><!-- single_client_name -->
 								
 							</div><!-- client_content -->
 							
@@ -128,6 +132,8 @@
 									
 								</div><!-- client_testi -->
 								
+								<span class="single_client_name">D.R. - Past Client</span><!-- single_client_name -->
+								
 							</div><!-- client_content -->
 							
 							
@@ -154,6 +160,8 @@
 									
 								</div><!-- client_testi -->
 								
+								<span class="single_client_name">D.R. - Past Client</span><!-- single_client_name -->
+								
 							</div><!-- client_content -->
 							
 							
@@ -179,6 +187,8 @@
 									
 									
 								</div><!-- client_testi -->
+								
+								<span class="single_client_name">D.R. - Past Client</span><!-- single_client_name -->
 								
 							</div><!-- client_content -->
 							

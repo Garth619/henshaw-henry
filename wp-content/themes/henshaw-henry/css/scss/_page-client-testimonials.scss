@@ -30,6 +30,9 @@ body.page-template-page-clienttestimonials {
 					}
 					span.single_client_name {
 						color:$orange;
+						&:before {
+							content:url(images/dash-graphic-orange.svg);
+						}
 					}
 				}
 				&:nth-of-type(2n + 2) {
@@ -45,6 +48,13 @@ body.page-template-page-clienttestimonials {
 					.client_testi {
 						color:$darkblue;
 					}
+					span.single_client_name {
+						color:$orange;
+						&:before {
+							content:url(images/dash-graphic-blue.svg);
+						}
+					}
+					
 				}
 			}
 		}
@@ -64,6 +74,12 @@ body.page-template-page-clienttestimonials {
 					.client_testi {
 						color:$darkblue;
 					}
+					span.single_client_name {
+						color:$orange;
+						&:before {
+							content:url(images/dash-graphic-blue.svg);
+						}
+					}
 				}
 				&:nth-of-type(2n + 2) {
 					background: $darkblue;
@@ -77,6 +93,12 @@ body.page-template-page-clienttestimonials {
 					}
 					.client_testi {
 						color:#fff;
+					}
+					span.single_client_name {
+						color:$orange;
+						&:before {
+							content:url(images/dash-graphic-orange.svg);
+						}
 					}
 				}
 			}
@@ -119,9 +141,7 @@ span.single_client_name {
 	text-transform: uppercase;
 	letter-spacing: 6px;
 	&:before {
-		content:url(images/dash-graphic-orange.svg);
 		width:29px;
-		//height:5px;
 		display: inline-block;
 		position: relative;
 		top:-3px;
@@ -129,3 +149,6 @@ span.single_client_name {
 	}
 }
 
+
+
+//dash-graphic-blue
