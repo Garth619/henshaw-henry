@@ -9,6 +9,7 @@ body.page-template-page-clienttestimonials {
 
 
 .client_page_wrapper {
+	margin-top:95px;
 	.client_col {
 		width:47%;
 		&:first-of-type {
@@ -16,9 +17,19 @@ body.page-template-page-clienttestimonials {
 			.single_client {
 				&:nth-of-type(2n + 1) {
 					background: $darkblue;
+					svg.client_icon {
+						.client_icon-cls-1 {
+							fill:#fff;
+						}
+					}
 				}
 				&:nth-of-type(2n + 2) {
 					background: #f3f3f3;
+					svg.client_icon {
+						.client_icon-cls-1 {
+							fill:#ff593e;
+						}
+					}
 				}
 			}
 		}
@@ -27,9 +38,19 @@ body.page-template-page-clienttestimonials {
 			.single_client {
 				&:nth-of-type(2n + 1) {
 					background: #f3f3f3;
+					svg.client_icon {
+						.client_icon-cls-1 {
+							fill:#ff593e;
+						}
+					}
 				}
 				&:nth-of-type(2n + 2) {
 					background: $darkblue;
+					svg.client_icon {
+						.client_icon-cls-1 {
+							fill:#fff;
+						}
+					}
 				}
 			}
 		}
@@ -38,8 +59,18 @@ body.page-template-page-clienttestimonials {
 
 
 .single_client {
-
+	padding:41px 45px;
 	width:100%;
+	svg.client_icon {
+		width:145px;
+		display: block;
+		margin-left:auto;
+		margin-right:auto;
+		
+	}
+	span.client_blockquote {
+		
+	}
 }
 
 
