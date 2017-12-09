@@ -22,6 +22,15 @@ body.page-template-page-clienttestimonials {
 							fill:#fff;
 						}
 					}
+					span.client_blockquote {
+						color:$orange
+					}
+					.client_testi {
+						color:#fff;
+					}
+					span.single_client_name {
+						color:$orange;
+					}
 				}
 				&:nth-of-type(2n + 2) {
 					background: #f3f3f3;
@@ -29,6 +38,12 @@ body.page-template-page-clienttestimonials {
 						.client_icon-cls-1 {
 							fill:#ff593e;
 						}
+					}
+					span.client_blockquote {
+						color:$blue;
+					}
+					.client_testi {
+						color:$darkblue;
 					}
 				}
 			}
@@ -43,6 +58,12 @@ body.page-template-page-clienttestimonials {
 							fill:#ff593e;
 						}
 					}
+					span.client_blockquote {
+						color:$blue;
+					}
+					.client_testi {
+						color:$darkblue;
+					}
 				}
 				&:nth-of-type(2n + 2) {
 					background: $darkblue;
@@ -50,6 +71,12 @@ body.page-template-page-clienttestimonials {
 						.client_icon-cls-1 {
 							fill:#fff;
 						}
+					}
+					span.client_blockquote {
+						color:$orange;
+					}
+					.client_testi {
+						color:#fff;
 					}
 				}
 			}
@@ -59,18 +86,46 @@ body.page-template-page-clienttestimonials {
 
 
 .single_client {
-	padding:41px 45px;
+	padding:38px 17%;
 	width:100%;
 	svg.client_icon {
-		width:145px;
+		width:140px;
 		display: block;
 		margin-left:auto;
 		margin-right:auto;
 		
 	}
 	span.client_blockquote {
-		
+		font-family: $tavirajlight;
+		font-size: 34px;
+		line-height: 41px;
+		margin-top:45px;
+		margin-bottom:30px;
+		display: block;
+		letter-spacing: 0.9px;
+	}
+	.client_testi {
+		font-family: $tavirajlight;
+		font-size: 18px;
+		line-height: 28px;
+		letter-spacing: 0.2px;
 	}
 }
 
+
+span.single_client_name {
+	font-family: $tavirajbold;
+	font-size: 19px;
+	text-transform: uppercase;
+	letter-spacing: 6px;
+	&:before {
+		content:url(images/dash-graphic-orange.svg);
+		width:29px;
+		//height:5px;
+		display: inline-block;
+		position: relative;
+		top:-3px;
+		margin-right:8px;
+	}
+}
 
