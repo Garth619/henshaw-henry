@@ -113,6 +113,80 @@ body.page-template-page-practiceareas-directory {
 	
 	
 	
+.practice_areas_directory {
+	ul {
+		li {
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		
+		> li {
+			> a {
+					padding-left: 15px;
+			}
+		}
+	}
+	ul.sub-menu {
+		margin-top:30px;
+		margin-bottom: 60px;
+		> li {
+			 > a {
+				 	padding-left: 15px;
+			 }
+		}
+	}
+}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	.practice_areas_directory {
+    margin-top: 54px;
+    margin-bottom: 60px;
+  }
+  
+  
+ .practice_areas_directory {
+	ul {
+		li {
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		
+		> li {
+			font-size: 25px;
+			> a {
+					padding-left: 15px;
+			}
+		}
+	}
+	ul.sub-menu {
+		margin-top:30px;
+		margin-bottom: 60px;
+		> li {
+			 > a {
+				 	padding-left: 15px;
+			 }
+		}
+	}
+}
+
+	
+	
 	
 	
 } /* Media Query */
