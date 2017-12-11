@@ -1,0 +1,43 @@
+.about_wrapper {
+	display: flex;
+	width:100%;
+	margin-bottom:190px;
+}
+
+.about_content {
+	width:50%;
+	padding-top:142px;
+}
+
+.about_sidebar {
+	width:50%;
+	background: url(#{$themePath}images/bg-pattern-waves.jpg);
+}
+
+.about_content_inner {
+	padding:0 125px;
+}
+
+.about_page_blockquote {
+	display: flex;
+	padding:7px 0 45px;
+	.about_blockquote_img_wrapper {
+		width:270px;
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+		img {
+			width:100%;
+			height:auto;
+			display: block;
+		}
+	}
+	.about_blockquote_text_wrapper {
+		width:calc(100% - 270px);
+		color:$orange;
+		font-size: 33px;
+		line-height: 40px;
+		font-family: $nexalight;
+		padding-left:55px;
+	}
+}
