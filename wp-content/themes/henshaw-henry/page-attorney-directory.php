@@ -72,7 +72,7 @@
 						
 						<a class="overlay" href="">
 							
-							<img class="att_image" src="<?php bloginfo('template_directory');?>/images/int-att-overview-coming-soon.jpg"/>
+							<img class="att_image" src="<?php bloginfo('template_directory');?>/images/placeholder-new.jpg"/>
 						
 						</a>
 							
