@@ -43,17 +43,36 @@ We are experienced in various legal matters including: civil litigation, estate 
 				
 				<p>Too often people are afraid to contact their lawyer. Our clients appreciate that we listen to their goals and objectives during the entire representation. In doing so, we are able to advise them towards the most desired legal conclusion.</p>
 
-				<p>Henshaw & Henry, PC in San Jose, California, serves its clients throughout San Jose and San Francisco Bay Area in the areas of civil litigation, including real property law, employment law, contract law, personal injury and construction law, estate planning, probate litigation, and trust administration.</p>
-				
-				
-					
+				<p>Henshaw & Henry, PC in San Jose, California, serves its clients throughout San Jose and San Francisco Bay Area in the areas of civil litigation, including real property law, employment law, contract law, personal injury and construction law, estate planning, probate litigation, and trust administration.</p>	
 				
 				
 			</div><!-- about_content_inner -->
 			
 		</div><!-- about_content -->
 		
-		<div class="about_sidebar"></div><!-- about_sidebar -->
+		<div class="about_sidebar">
+			
+			<div class="about_sidebar_inner">
+			
+				<img src="<?php bloginfo('template_directory');?>/images/about-att-img.jpg"/>
+				
+				<span class="about_sidebar_title">Why Us?</span><!-- about_sidebar_title -->
+				
+				<ul>	
+				
+					<li>Henshaw & Henry, PC takes an analytic approach to your personal needs.</li>
+
+					<li>We review your situation to determine the necessary and important actions 
+	for your specific legal concerns.</li>
+
+					<li>We offer free consultations so that you can feel comfortable making the right decisions during what is likely a difficult time.</li>
+		
+				</ul>
+			
+			</div><!-- about_sidebar_inner -->
+			
+			
+		</div><!-- about_sidebar -->
 		
 		
 	</div><!-- about_wrapper -->

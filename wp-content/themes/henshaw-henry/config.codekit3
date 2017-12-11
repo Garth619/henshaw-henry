@@ -829,6 +829,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/dot-blue.png": {
+		"ft": 32768,
+		"iS": 1015,
+		"oA": 0,
+		"oAP": "\/images\/dot-blue.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/dot.png": {
 		"ft": 32768,
 		"iS": 180,
