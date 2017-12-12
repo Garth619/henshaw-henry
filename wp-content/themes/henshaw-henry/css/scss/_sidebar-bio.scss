@@ -34,12 +34,18 @@ img.attor_profile_img {
 				color:$blue;
 				font-family: $tavirajlight;
 				font-size:32px;
-				
+				span.sidebar_toggle {
+					
+					width:100%;
+					display: block;
+					position: relative;
+				}
 			}
 		}
 	ul.bio_sub_list {
 		margin-top:26px;
 		margin-bottom:35px;
+		
 		> li:last-of-type {
 				border-bottom: none;
 		}
@@ -59,8 +65,13 @@ img.attor_profile_img {
 				margin-bottom:10px;
 		}
 	}
+	
 }
 
+
+svg.sidebar_toggle {
+	display: none;
+}
 
 
 @media screen and (max-width: 1515px) {
@@ -106,6 +117,55 @@ img.attor_profile_img {
 	.sidebar_bio {
 		width:100%;
 		order:2;
+		padding:43px 62px 22px;
+		ul.bio_list {
+			max-width: 100%;
+			padding-right:0;
+		}
+		ul.bio_sub_list {
+			max-height:0;
+			opacity: 0;
+			visibility: hidden;
+			transition: all 400ms ease-in-out;
+		}
+		ul.bio_sub_list.open {
+			max-height:3000px;
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+	
+
+	
+	
+	
+	.sidebar_bio ul.bio_list>li span.sidebar_toggle.open {
+		
+		
+		svg.sidebar_toggle {
+		
+		.sidebar_toggle-cls-1{
+			
+			stroke:$orange;
+			
+		}
+	}
+		
+	}
+	
+	svg.sidebar_toggle {
+		width:35px;
+		position: absolute;
+		top:8px;
+		right:0;
+		display: block;
+		.sidebar_toggle-cls-1{
+			fill:none;
+			stroke:$darkblue;
+			stroke-width:2px;
+			stroke-miterlimit:10;
+			transition: all .2s ease-in-out;
+		}
 	}
 	
 } /* Media Query */

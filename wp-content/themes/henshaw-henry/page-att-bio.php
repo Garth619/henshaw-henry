@@ -40,7 +40,22 @@
 		
 		<ul>
 			
-			<li class="cases_title">Cases
+			<li class="cases_title">
+			
+			<span class="sidebar_toggle_content">Cases
+			
+				<svg class="sidebar_toggle" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55.51 28.76">
+			
+					<defs><style></style></defs>
+			
+					<title>arrow-right</title>
+			
+					<polyline class="sidebar_toggle-cls-1" points="55.16 0.35 27.86 28.05 0.35 0.35"/>
+		
+				</svg>
+			
+			
+			</span>
 				
 				<ul class="case_bullets">
 					

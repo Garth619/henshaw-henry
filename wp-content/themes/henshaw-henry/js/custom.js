@@ -134,6 +134,64 @@ jQuery(document).ready(function(){
       $(this).find('ul.sub-menu').toggleClass('open');
       
     });
+    
+    
+    
+    
+    
+    
+    
+    	
+    	var windowWidth = $(window).width();
+    
+    
+    
+    	function checkWidthsidebartoggle() {
+        
+        if (windowWidth < 1090) {
+            
+          
+        	// sidebar - profile 
+    
+		
+					$('span.sidebar_toggle').on('click', function(e) {
+      
+						$(this).toggleClass('open');
+						$(this).next('ul.bio_sub_list').toggleClass('open');
+    
+    			});
+    
+					// cases in the content area
+    
+					$('span.sidebar_toggle_content').on('click', function(e) {
+      
+						$(this).toggleClass('open');
+						$(this).next('ul.case_bullets').toggleClass('open');
+    
+    			});
+        	   		
+        		
+        } 
+        
+        
+       
+    };
+    	
+    
+    checkWidthsidebartoggle();
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 	
 

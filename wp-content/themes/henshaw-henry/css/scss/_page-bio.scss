@@ -42,10 +42,17 @@ img.attor_profile_img.mobile {
 				background: none;
 				margin:0;
 				padding:0;
+				span.sidebar_toggle_content {
+					
+					position: relative;
+					width:100%;
+					display: block;
+				}
 		}
 	}
 	ul.case_bullets {
 		margin-top:22px;
+		
 		> li:last-of-type {
 				border-bottom: none;
 		}
@@ -61,6 +68,7 @@ img.attor_profile_img.mobile {
 				background: url(#{$themePath}images/dot.png) no-repeat scroll 0 21px;
 		}
 	}
+	
 }
 
 
@@ -137,18 +145,40 @@ body.page-template-page-att-bio {
 	padding-left:62px;
 	padding-right:62px;
 	padding-top:62px;
+	
 	ul {
 		> li.cases_title {
 				
 		}
 	}
 	ul.case_bullets {
-		
+		max-height: 0;
+		opacity: 0;
+		visibility: hidden;
+		transition: all 400ms ease-in-out;
 		> li:last-of-type {
 				
 		}
 		> li {
 				
+		}
+	}
+	ul.case_bullets.open {
+		max-height: 3000px;
+		opacity: 1;
+		visibility: visible;
+		
+	}
+}
+
+
+.bio_cases_wrapper ul>li.cases_title span.sidebar_toggle_content.open {
+	svg.sidebar_toggle {
+		
+		.sidebar_toggle-cls-1{
+			
+			stroke:$orange;
+			
 		}
 	}
 }
