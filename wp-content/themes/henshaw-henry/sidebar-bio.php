@@ -3,36 +3,36 @@
 	
 	<img class="attor_profile_img" src="<?php bloginfo('template_directory');?>/images/att-henshaw.jpg"/>
 	
-	<ul>
+	<ul class="bio_list">
 		<li>Education
 			
-			<ul>
+			<ul class="bio_sub_list">
 				
 				<li>JD  – University of the Pacific, McGeorge School of Law, With Honors, Certificate in International Legal Studies</li>
 				
-				<li>MBA – Indiana University, Kelley Schoolof Business</li>
+				<li>MBA – Indiana University, Kelley School of Business</li>
 				
 				<li>BA, Economics – California State University, Fullerton</li>
 			
 			</ul>
 		
 		</li>
-		<li>Education
+		<li>Awards
 			
-			<ul>
+			<ul class="bio_sub_list">
 				
 				<li>JD  – University of the Pacific, McGeorge School of Law, With Honors, Certificate in International Legal Studies</li>
 				
-				<li>MBA – Indiana University, Kelley Schoolof Business</li>
+				<li>MBA – Indiana University, Kelley School of Business</li>
 				
 				<li>BA, Economics – California State University, Fullerton</li>
 			
 			</ul>
 		
 		</li>
-		<li>Education
+		<li>Bar Admissions
 			
-			<ul>
+			<ul class="bio_sub_list">
 				
 				<li>JD  – University of the Pacific, McGeorge School of Law, With Honors, Certificate in International Legal Studies</li>
 				

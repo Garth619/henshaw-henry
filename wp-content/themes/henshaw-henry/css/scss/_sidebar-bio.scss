@@ -17,4 +17,51 @@
 
 img.attor_profile_img {
 	max-width: 100%;
+	display: block;
+	margin-bottom:63px;
 }
+
+.sidebar_bio {
+	ul {
+		list-style: none;
+		margin:0;
+		
+	}
+	ul.bio_list {
+		padding-right:30px;
+		padding-left:50px;
+		max-width:540px;
+		
+		> li {
+				color:$blue;
+				font-family: $tavirajlight;
+				font-size:32px;
+				
+			}
+		}
+	ul.bio_sub_list {
+		margin-top:26px;
+		margin-bottom:35px;
+		> li:last-of-type {
+				border-bottom: none;
+		}
+		> li {
+				color:$darkblue;
+				font-family: $nexabold;
+				font-size: 14px;
+				line-height: 22px;
+				text-transform: uppercase;
+				letter-spacing: 1.4px;
+				border-bottom: 1px solid #e9e9e9;
+			
+				
+				background: url(#{$themePath}images/dot.png) no-repeat scroll 0 20px;
+				list-style: none;
+				padding: 16px 0 23px 30px;
+				margin-bottom:10px;
+		}
+	}
+}
+
+
+
