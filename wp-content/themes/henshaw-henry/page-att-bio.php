@@ -12,6 +12,8 @@
 	
 	<div class="bio_container content">
 		
+		<img class="attor_profile_img mobile" src="<?php bloginfo('template_directory');?>/images/att-henshaw.jpg"/>
+		
 		<h1 class="bio_header"><?php the_title();?></h1><!-- bio_header -->
 		
 		<span class="bio_position">Founding Partner</span><!-- bio_position -->
@@ -33,6 +35,36 @@
 <p>David is admitted to all courts in the State of California, all Federal District Courts (Northern, Central, Southern, and Eastern) in California, and the United States Court of Appeals.</p>
 
 <p>In his spare time, David enjoys spending time with his wife and young son. He also enjoys playing hockey, softball, and golf.</p>
+
+	<div class="bio_cases_wrapper">
+		
+		<ul>
+			
+			<li class="cases_title">Cases
+				
+				<ul class="case_bullets">
+					
+					<li>Mariano v. Villa, 2017 U.S. Dist. LEXIS 95116</li>
+
+					<li>Ramos v. Ramos, 2017 U.s. App. Lexis 9449, 2016 U.S. Dist. Lexis 19948</li>
+
+					<li>Shahedi V. Trimble, 2015 Cal. App. Unpub. LEXIS 2136</li> 
+
+					<li>Gillion V. Saini, 2015 Bankr. Lexis 302</li>
+
+					<li>Rafsanjani v. Malihi, 2014 BANKR. Lexis 287</li>
+
+					<li>In re: Nguyen, 2012 BANKR. Lexis 5078</li>
+
+					<li>Song v Lee (IN Re Lee), 2015 Bankr. 2130</li>
+				
+				</ul>
+			
+			</li>
+			
+		</ul>
+		
+	</div><!-- bio_cases_wrapper -->
 
 	</div><!-- bio_container -->
 	

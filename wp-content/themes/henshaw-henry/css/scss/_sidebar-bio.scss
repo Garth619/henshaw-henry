@@ -1,5 +1,5 @@
 .sidebar_bio {
-	width:35%;
+	width:675px;
 	background: url(#{$themePath}images/bg-pattern-waves.jpg);
 }
 
@@ -10,9 +10,7 @@
 
 
 .sidebar_bio {
-	padding-left:50px;
-	padding-right:50px;
-	padding-top:154px;
+	padding:154px 0px 60px 68px;
 }
 
 img.attor_profile_img {
@@ -28,8 +26,8 @@ img.attor_profile_img {
 		
 	}
 	ul.bio_list {
-		padding-right:30px;
-		padding-left:50px;
+		padding-right:44px;
+		padding-left: 32px;
 		max-width:540px;
 		
 		> li {
@@ -55,13 +53,62 @@ img.attor_profile_img {
 				border-bottom: 1px solid #e9e9e9;
 			
 				
-				background: url(#{$themePath}images/dot.png) no-repeat scroll 0 20px;
+				background: url(#{$themePath}images/dot.png) no-repeat scroll 0 21px;
 				list-style: none;
 				padding: 16px 0 23px 30px;
 				margin-bottom:10px;
 		}
 	}
 }
+
+
+
+@media screen and (max-width: 1515px) {
+	
+	
+	
+	.sidebar_bio {
+		width:606px;
+		padding:42px 0px 60px 39px;
+	}
+	
+
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1360px) {
+	
+	
+	.sidebar_bio {
+		width:480px;
+		padding: 95px 0px 60px 30px;
+		ul.bio_list {
+			padding-left:0;
+			padding-right: 76px;
+		}
+	}
+	
+	img.attor_profile_img {
+  padding-right: 30px;
+}
+	
+
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1090px) {
+	
+	
+	
+	.sidebar_bio {
+		width:100%;
+		order:2;
+	}
+	
+} /* Media Query */
 
 
 
