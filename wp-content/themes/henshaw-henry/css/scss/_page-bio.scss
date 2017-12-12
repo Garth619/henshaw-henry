@@ -1,0 +1,25 @@
+
+
+.bio_container {
+	padding:140px 90px 0;
+}
+
+
+body.page-template-page-att-bio {
+	.content {
+		h1 {
+			border-bottom:none;
+			padding-bottom:0;
+			margin-bottom:0;
+		}
+		span.bio_position {
+			font-family: $tavirajlight;
+			font-size:36px;
+			display: block;
+			border-bottom:2px solid $orange;
+			margin-top:20px;
+			padding-bottom:47px;
+			margin-bottom:44px;
+		}
+	}
+}

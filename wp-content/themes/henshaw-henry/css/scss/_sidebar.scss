@@ -28,6 +28,9 @@
 			> li.menu-item-has-children.active {
 				> a {
 					color:$lightblue;
+					&:after {
+						content:"-";
+					}
 				}
 			}
 			> li.menu-item-has-children {
