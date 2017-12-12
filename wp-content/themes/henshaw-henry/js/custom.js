@@ -138,8 +138,20 @@ jQuery(document).ready(function(){
     
     
     
+    // Blog Sidebar Toggle
     
     
+    
+    $('.sidebar_blog_inner #categories-4 h3, .sidebar_blog_inner #archives-4 h3').on('click', function(e) {
+      
+    
+    	$(this).next('ul').toggleClass('open');
+    
+    
+    });
+    
+    
+
     
     	
     	var windowWidth = $(window).width();
