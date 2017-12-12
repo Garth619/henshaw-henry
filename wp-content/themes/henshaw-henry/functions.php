@@ -121,7 +121,8 @@ if (function_exists('register_sidebars')) {
         'before_title' => '<h3 class="widgettitle">',
         'after_title' => '</h3>'
     ));
-
+    
+    
  }
 
 /* Add Theme Support Page Thumbnails

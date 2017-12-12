@@ -1,0 +1,161 @@
+
+
+.blog_post {
+	border-bottom:2px solid #f3f3f3;
+	padding-bottom:82px;
+	&:last-of-type {
+		border:none;
+	}
+}
+
+.blog_post:not(:first-of-type) {
+	
+	margin-top:78px;
+	
+}
+
+.blog_content {
+	display: block;
+}
+
+a.read_more {
+	display: inline-block;
+	background: $darkblue;
+	text-transform: uppercase;
+	font-family: $tavirajbold;
+	font-size:13px;
+	color:$orange;
+	letter-spacing: 2px;
+	padding:5px 53px;
+	margin-top:28px;
+	transition: all .2s ease-in-out;
+	&:hover {
+		background: $orange;
+		color:#fff;
+	}
+}
+
+
+
+body.blog {
+	.container {
+		padding: 144px 140px 133px 65px;
+	}
+	.content {
+		h2 {
+			margin-top: 46px;
+			margin-bottom: 30px;
+		}
+	}
+}
+
+.meta {
+	text-transform: uppercase;
+	font-family: $tavirajregular;
+	font-size: 14px;
+	color:$blue;
+	display: block;
+	margin-bottom:28px;
+	letter-spacing: 3.5px;
+	span.date {
+		font-family: $tavirajbold;
+	}
+	a {
+		color:$orange;
+		text-decoration: none;
+		font-family: $tavirajbold;
+		&:hover {
+			text-decoration: underline;
+		}
+		
+	}
+}
+
+
+ul.post-categories {
+	display: inline;
+	li {
+		background: none;
+		margin:0;
+		padding:0;
+		display: inline;
+	}
+}
+
+#nav-below {
+	font-family: $tavirajsemibold;
+	margin-top:85px;
+	font-size:16px;
+	width: 260px;
+	display: flex;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+	svg {
+		width:13px;
+		position: relative;
+		height:20px;
+		top:4px;
+		
+	}
+	a {
+		color:$darkblue;
+		transition: all .2s ease-in-out;
+		&:hover {
+			color:$orange;
+		}
+	}
+}
+
+.nav_previous {
+	display: flex;
+	width:50%;
+	&:hover {
+		svg {
+			.prev_icon-cls-1 {
+				stroke:$orange;
+			}
+		}
+	}
+	svg {
+		margin-right:10px;
+		.prev_icon-cls-1 {
+			fill:none;
+			stroke:$darkblue;
+			stroke-miterlimit:10;
+			stroke-width:2px;
+			transition: all .2s ease-in-out;
+		}
+	}
+}
+
+
+
+
+.nav_next {
+	
+	display: flex;
+	width:50%;
+	&:hover {
+		svg {
+			
+			.next_icon-cls-1 {
+				stroke:$orange;
+			}
+		}
+	}
+	svg {
+		margin-left:10px;
+		.next_icon-cls-1 {
+			fill:none;
+			stroke:$darkblue;
+			stroke-miterlimit:10;
+			stroke-width:2px;
+			transition: all .2s ease-in-out;
+		}
+	}
+}
+
+

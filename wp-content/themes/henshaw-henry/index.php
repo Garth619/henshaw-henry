@@ -4,7 +4,7 @@
 <div class="internal_main">
 	
 	
-	<?php get_sidebar(); ?>
+	<?php get_sidebar('blog'); ?>
 	
 	<div class="container content">
 		
