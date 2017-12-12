@@ -121,7 +121,7 @@ body.page-template-page-att-bio {
 	.bio_container {
 		width:100%;
 		order:1;
-		padding: 87px 62px 0px;
+		padding: 0px 62px 0px;
 	}
 	
 	
@@ -129,6 +129,8 @@ body.page-template-page-att-bio {
 		display: block;
 		margin-left:auto;
 		margin-right:auto;
+		margin-top:76px;
+		padding-right:0;
 	}
 	
 	img.attor_profile_img {
@@ -183,6 +185,63 @@ body.page-template-page-att-bio {
 	}
 }
 
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	img.attor_profile_img.mobile {
+		margin-top:90px;
+	}
+	
+	body.page-template-page-att-bio .content span.bio_position {
+		font-size:22px;
+		margin-top: 3px;
+		padding-bottom: 22px;
+		margin-bottom: 23px;
+	}
+	
+	
+	.bio_cases_wrapper {
+   
+    width: 100vw;
+    margin-left: -25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 48px;
+    
+    ul>li.cases_title {
+	    font-size:28px;
+    }
+    ul.case_bullets {
+	        margin-top: 10px;
+    }
+}
+	
+	
+	
+ 
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 555px) {
+	
+	img.attor_profile_img.mobile {
+		margin-top:55px;
+		margin-bottom: 47px;
+		width:100%;
+	}
+	
+	
+	.bio_container {
+		padding:0 25px;
+	}
 	
 	
 } /* Media Query */

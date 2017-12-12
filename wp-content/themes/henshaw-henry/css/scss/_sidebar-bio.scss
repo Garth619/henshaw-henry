@@ -172,3 +172,41 @@ svg.sidebar_toggle {
 
 
 
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	.sidebar_bio {
+		padding: 43px 25px 3px;
+		ul.bio_list>li {
+			font-size:28px;
+			span.sidebar_toggle {
+		
+			}
+		}
+		ul.bio_sub_list {
+    	margin-bottom: 27px;
+    }
+
+	} 	
+	
+	
+	
+	.bio_cases_wrapper {
+    margin-top: 52px;
+	}
+	
+	
+	svg.sidebar_toggle {
+    width: 25px;
+	}
+
+
+	
+	
+	
+} /* Media Query */
+
+
+

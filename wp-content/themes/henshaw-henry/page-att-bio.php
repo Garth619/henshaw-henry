@@ -10,9 +10,9 @@
 	
 	<?php get_sidebar('bio'); ?>
 	
+	<img class="attor_profile_img mobile" src="<?php bloginfo('template_directory');?>/images/att-henshaw.jpg"/>
+	
 	<div class="bio_container content">
-		
-		<img class="attor_profile_img mobile" src="<?php bloginfo('template_directory');?>/images/att-henshaw.jpg"/>
 		
 		<h1 class="bio_header"><?php the_title();?></h1><!-- bio_header -->
 		
