@@ -2327,6 +2327,13 @@
 		"oAP": "\/page-attorney-directory.php",
 		"oF": 0
 		},
+	"\/page-blog.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-blog.php",
+		"oF": 0
+		},
 	"\/page-clienttestimonials.php": {
 		"cB": 0,
 		"ft": 8192,

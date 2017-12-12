@@ -1,9 +1,22 @@
 <?php get_header(); ?>
 
 
-<?php get_template_part( 'loop', 'index' );?>
+<div class="internal_main">
+	
+	
+	<?php get_sidebar(); ?>
+	
+	<div class="container content">
+		
+		<h1>Blog</h1>
+		
+		<?php get_template_part( 'loop', 'index' );?>
+
+	</div><!-- container -->
+	
+	
+</div><!-- internal_main -->
 
 
-<?php // get_sidebar(); ?>
 
 <?php get_footer(); ?>
