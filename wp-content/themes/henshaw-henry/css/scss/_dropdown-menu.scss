@@ -92,6 +92,7 @@
 	
 	
 	opacity: 0;
+	visibility: hidden;
 	  
 	  
 }
@@ -106,17 +107,20 @@
 
 .sub_menu_wrapper.active {
 	opacity: 1;
+	visibility: visible;
 }
 
 
 .sub_menu_nested_wrapper {
 	width:100%;
 	left:35%;
+	z-index:100;
 }
 
 
 .sub_menu_nested_wrapper.active {
 	opacity: 1;
+	visibility: visible;
 }
 
 
