@@ -18,36 +18,54 @@ jQuery(document).ready(function(){
 
 
 
-	
-	
-	
-	
-	
-	
-	$('.dropdown_menu ul#menu-top-nav > li.menu-item-has-children > a').on('click', function(e) {
-	  
-	
-	
-	
-			$(".menu_col.col_two").empty();
-	  
-				$(this).next('ul.sub-menu').clone().appendTo('.menu_col.col_two').fadeIn();
-	
-	
-	
-	});
-	
-	
-	
-	// current page
-	
-	// $('ul#menu-top-nav > li.current-menu-parent > a').next('ul.sub-menu').clone().appendTo('.sub_menu_container').show();
-	
-
-
-   
-   
+		$('.dropdown_menu ul.menu > li > ul.sub-menu').wrap('<div class="sub_menu_wrapper"></div>');
 		
+		
+		$('.dropdown_menu ul.menu li ul.sub-menu li ul.sub-menu').wrap('<div class="sub_menu_nested_wrapper"></div>');
+		
+		
+		$('.dropdown_menu ul.menu > li.menu-item-has-children > a').on('click', function(e) {
+		  
+					
+					$('.sub_menu_wrapper').removeClass('active');
+					
+					$(this).next('.sub_menu_wrapper').addClass('active');
+			
+		
+		});
+		
+		
+		
+		$('.sub_menu_wrapper ul.sub-menu li.menu-item-has-children a').on('click', function(e) {
+			
+			
+					$('.sub_menu_nested_wrapper').removeClass('active');
+					
+					$(this).next('.sub_menu_nested_wrapper').addClass('active');
+
+		});
+		
+
+		
+		$('.sticky_menu_wrapper, .menu_wrapper').on('click', function(e) {
+		  
+		
+			$('.dropdown_menu_wrapper').addClass('open');
+		
+		});
+		
+		
+		$('span.close').on('click', function(e) {
+		  
+		
+			$('.dropdown_menu_wrapper').removeClass('open');
+		
+		});
+		
+		
+		
+
+	      
 		
 		// Testimonials
 
@@ -147,7 +165,7 @@ jQuery(document).ready(function(){
     
     
     
-    $('ul.menu > li.menu-item-has-children').on('click', function(e) {
+    $('.sidebar ul.menu > li.menu-item-has-children').on('click', function(e) {
 	    
 	    $(this).toggleClass('active');
       

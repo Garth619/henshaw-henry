@@ -114,21 +114,9 @@
 			
 			<div class="dropdown_menu">
 				
-				<div class="menu_col col_one">
+				<span class="close">Close</span><!-- close -->
 				
-					<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
-				
-				</div><!-- menu_col -->
-				
-				<div class="menu_col col_two">
-					
-					
-					
-				</div><!-- menu_col -->
-				
-				<div class="menu_col col_three">
-					
-				</div><!-- menu_col -->
+				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
 				
 			</div><!-- dropdown_menu -->
 			
