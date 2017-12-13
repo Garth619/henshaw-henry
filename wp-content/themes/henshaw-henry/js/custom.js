@@ -18,11 +18,31 @@ jQuery(document).ready(function(){
 
 
 
-
-
-
-
-
+	
+	
+	
+	
+	
+	
+	$('.dropdown_menu ul#menu-top-nav > li.menu-item-has-children > a').on('click', function(e) {
+	  
+	
+	
+	
+			$(".menu_col.col_two").empty();
+	  
+				$(this).next('ul.sub-menu').clone().appendTo('.menu_col.col_two').fadeIn();
+	
+	
+	
+	});
+	
+	
+	
+	// current page
+	
+	// $('ul#menu-top-nav > li.current-menu-parent > a').next('ul.sub-menu').clone().appendTo('.sub_menu_container').show();
+	
 
 
    

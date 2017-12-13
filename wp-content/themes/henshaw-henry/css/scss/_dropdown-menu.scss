@@ -16,11 +16,20 @@
 
 .dropdown_menu {
 	width:calc(100% - 650px);
-	background: $blue;
+	background: rgba(16, 59, 153, 0.98);
 	display: flex;
 	ul {
 		list-style: none;
 		margin:0;
+		li.menu-item-has-children {
+			a {
+				&:after {
+					content:"+";
+					display: inline-block;
+					margin-left:15px;
+				}
+			}
+		}
 		li {
 			font-family: $nexalight;
 			text-transform: uppercase;
@@ -31,13 +40,13 @@
 				text-decoration: none;
 				display: inline-block;
 				padding-bottom:9px;
-				border-bottom:2px solid $orange;
-				
-				&:after {
-					content:"+";
-					display: inline-block;
-					margin-left:15px;
+				border-bottom:2px solid transparent;
+				transition: all .2s ease-in-out;
+				&:hover {
+					border-bottom:2px solid $orange;
 				}
+				
+				
 			}
 		}
 	}
