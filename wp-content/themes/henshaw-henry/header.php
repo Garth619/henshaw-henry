@@ -104,7 +104,34 @@
 			</div><!-- sticky_header_right -->
 			
 		</div><!-- sticky_menu -->
+		
+		<div class="dropdown_menu_wrapper">
+			
+			<div class="dropdown_form">
+				
+				
+			</div><!-- dropdown_form -->
+			
+			<div class="dropdown_menu">
+				
+				<div class="menu_col">
+				
+					<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+				
+				</div><!-- menu_col -->
+				
+				<div class="menu_col">
+					
+				</div><!-- menu_col -->
+				
+				<div class="menu_col">
+					
+				</div><!-- menu_col -->
+				
+			</div><!-- dropdown_menu -->
+			
+		</div><!-- dropdown_menu -->
 				
 
-<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+
 			
