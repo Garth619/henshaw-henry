@@ -791,6 +791,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/blog_arrow.png": {
+		"ft": 32768,
+		"iS": 342,
+		"oA": 0,
+		"oAP": "\/images\/blog_arrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/blog_arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
