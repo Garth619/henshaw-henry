@@ -791,6 +791,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/blog_arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/blog_arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/circular-play-button-hover.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1092,16 +1102,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/images\/nike.jpg": {
-		"ft": 16384,
-		"iS": 50226,
-		"oA": 0,
-		"oAP": "\/images\/nike.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"\/images\/pa-civil-litigation-desktop.jpg": {
 		"ft": 16384,
