@@ -178,3 +178,31 @@ function cc_mime_types($mimes)
 
 add_filter('upload_mimes', 'cc_mime_types');
 
+
+
+
+// Shortcode Blockquote with Image
+
+function blockquote_image( $atts, $content = null ) { 
+	
+	ob_start();?>
+	
+	<blockquote>
+				
+		<div class="image_wrapper">
+					
+			<img src="<?php bloginfo('template_directory');?>/images/content-free-consults-icon.svg"/>
+					
+		</div>
+				
+		<span class="blockquote_text"><?php echo $content ?></span>
+				
+	</blockquote>
+	
+	<?php return ob_get_clean(); }
+
+
+
+add_shortcode( 'blockquoteimage', 'blockquote_image' );
+
+

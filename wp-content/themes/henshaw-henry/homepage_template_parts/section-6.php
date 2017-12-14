@@ -10,7 +10,7 @@
 		
 		<div class="selling_point_wrapper">
 			
-			<a class="sec_six_why_button" href="">Why Choose Our Firm?</a><!-- sec_six_why_button -->
+			<a class="sec_six_why_button" href="<?php the_field( 'why_choose_our_firm_page_link' ); ?>"><?php the_field( 'why_choose_our_firm_verbiage' ); ?></a><!-- sec_six_why_button -->
 			
 			<div class="selling_point_slideshow">
 				
