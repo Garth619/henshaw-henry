@@ -16,7 +16,7 @@
 			
 			<div class="about_content_inner content">
 				
-				<h1>About Our Firm</h1>
+				<h1><?php the_title();?></h1>
 				
 				<h2>Henshaw & Henry, PC in San Jose, California, serves clients throughout the Bay Area.</h2>
 				

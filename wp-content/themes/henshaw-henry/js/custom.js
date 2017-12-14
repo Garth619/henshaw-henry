@@ -16,42 +16,86 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 jQuery(document).ready(function(){
   
 		
-		// dropdown menu
+		
+		
+		
+		
+			
+			var windowWidth = $(window).width();
+		
+		
+		
+			function checkWidthmenu() {
+		    
+		    if (windowWidth < 1497) {
+		            		
+		    		
+		    		$('.dropdown_menu ul li.menu-item-has-children a').on('click', function(e) {
+		    		  
+		    				$(this).next('ul').toggleClass('mobile_slide');
+		    				
+		    				$(this).toggleClass('current');
+		    		
+		    		});
+		    	   		
+		    		
+		    } 
+		    
+		    
+		    else {
+			    
+			    
+			    // dropdown menu
 
 
-		$('.dropdown_menu ul.menu > li > ul.sub-menu').wrap('<div class="sub_menu_wrapper"></div>');
+					$('.dropdown_menu ul.menu > li > ul.sub-menu').wrap('<div class="sub_menu_wrapper"></div>');
 		
 		
-		$('.dropdown_menu ul.menu li ul.sub-menu li ul.sub-menu').wrap('<div class="sub_menu_nested_wrapper"></div>');
+					$('.dropdown_menu ul.menu li ul.sub-menu li ul.sub-menu').wrap('<div class="sub_menu_nested_wrapper"></div>');
 		
 		
-		$('.dropdown_menu ul.menu > li.menu-item-has-children > a').on('click', function(e) {
+					$('.dropdown_menu ul.menu > li.menu-item-has-children > a').on('click', function(e) {
 		  		
 		  		
-		  		$('.dropdown_menu ul.menu > li.menu-item-has-children > a').removeClass('current');
+		  			$('.dropdown_menu ul.menu > li.menu-item-has-children > a').removeClass('current');
 					
-					$(this).addClass('current');
+						$(this).addClass('current');
 					
-					$('.sub_menu_wrapper').removeClass('active');
+						$('.sub_menu_wrapper').removeClass('active');
 					
-					$(this).next('.sub_menu_wrapper').addClass('active');
+						$(this).next('.sub_menu_wrapper').addClass('active');
 			
 		
-		});
+					});
 		
 		
 		
-		$('.sub_menu_wrapper ul.sub-menu li.menu-item-has-children a').on('click', function(e) {
+					$('.sub_menu_wrapper ul.sub-menu li.menu-item-has-children a').on('click', function(e) {
 			
-					$('.sub_menu_wrapper ul.sub-menu li.menu-item-has-children a').removeClass('current');
+						$('.sub_menu_wrapper ul.sub-menu li.menu-item-has-children a').removeClass('current');
 					
-					$(this).addClass('current');
+						$(this).addClass('current');
 					
-					$('.sub_menu_nested_wrapper').removeClass('active');
+						$('.sub_menu_nested_wrapper').removeClass('active');
 					
-					$(this).next('.sub_menu_nested_wrapper').addClass('active');
+						$(this).next('.sub_menu_nested_wrapper').addClass('active');
 
-		});
+					});
+			    
+			    
+		    }
+		    
+		    
+		    
+		};
+			
+		
+		checkWidthmenu();
+		
+		
+		
+		
+		
 		
 
 		
@@ -87,8 +131,7 @@ jQuery(document).ready(function(){
 			});
 	
 		  
-		
-			// $('.dropdown_menu_wrapper').removeClass('open');
+	
 		
 		});
 		

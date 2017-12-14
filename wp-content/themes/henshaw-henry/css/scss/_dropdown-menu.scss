@@ -145,7 +145,7 @@ span.menu_request {
 		li {
 			font-family: $nexalight;
 			text-transform: uppercase;
-			margin-bottom: 58px;
+			 margin-bottom: 40px;
 			letter-spacing: 2.5px;
 			font-size:18px;
 			max-width:330px;
@@ -470,54 +470,96 @@ span.menu_required {
 			  // background: red;
 			  margin:0 auto;
 			  padding-top:40%;
-			  padding-bottom:200px
+			  padding-bottom:100px
 		}
 		ul {
 			li {
-				margin-bottom: 20px;
+				margin-bottom: 35px;
+				a {
+					padding-bottom: 2px;
+				}
 			}
 		}
 		ul.menu {
 			padding:0;
 		}
 		ul.sub-menu {
-			margin-top:20px;
-		}
-	}
-	
-	
-	.sub_menu_wrapper, .sub_menu_nested_wrapper {
-		top:0;
-		left:0;
-		position: static;
-		width:auto;
-		padding:0;
-		display: block;
-		align-items: inherit;
-/*
-		opacity: 1;
-		visibility: visible;
-*/
-		height: auto;
-		ul.sub-menu {
-			max-height: 0px;
+			margin-top:0px;
 			opacity: 0;
 			visibility: hidden;
-			transition: all 400ms ease;
+			max-height: 0;
+			transition: all 400ms ease-in-out;
 		}
-		
-	}
-	
-	.sub_menu_wrapper.active, .sub_menu_nested_wrapper.active {
-		opacity: 1;
-		visibility: visible;
-		animation-name: none;
-		> ul.sub-menu {
+		ul.sub-menu.mobile_slide {
 			max-height: 3000px;
 			opacity: 1;
 			visibility: visible;
+			margin-top:35px;
+		} 
+	}
+	
+	
+		
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1020px) {
+	
+	
+	.dropdown_menu_wrapper {
+		display: block;
+	}
+	
+	
+	
+	.dropdown_form {
+		display: none;
+	}
+	
+	.dropdown_menu {
+		width:100%;
+		background: $blue;
+		display: block;
+		height:100%;
+		.menu-header {
+			padding-top: 184px;
+			width:100%;
+			height:100%;
+			// padding:0;
+			padding-bottom: 50px;
+		}
+		ul {
+			text-align: center;
+			li {
+				max-width:100%;
+				margin-bottom:0;
+				a.current {
+					border-bottom:none;
+					background: $orange;
+				}
+				a {
+					border-top:1px solid #0c348c;
+					display: block;
+					border-bottom:none;
+					padding:17px 25px;
+					&:hover {
+						border-bottom: none;
+					}
+				}
+			}
+		}
+		ul.sub-menu.mobile_slide {
+			margin-top:0;
 		}
 	}
+	
+	
+	    
+	
+	
+	
 	
 	
 } /* Media Query */

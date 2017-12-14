@@ -12,13 +12,13 @@
 			
 			<div class="location_col">
 				
-				<span class="our_office">Our Office</span><!-- our_office -->
+				<span class="our_office"><?php the_field( 'our_office',63 ); ?></span><!-- our_office -->
 				
-				<a class="address" href="">1871 The Alameda<br/> Suite 333<br/> San Jose, CA 95126</a>
+				<a class="address" href="<?php the_field( 'contact_us_address_link',63); ?>" target="_blank"><?php the_field( 'contact_us_address',63); ?></a>
 				
-				<a class="directions" href="">Get Directions</a>
+				<a class="directions" href="<?php the_field( 'contact_us_address_link',63); ?>" target="_blank"><?php the_field( 'get_directions_verbiage', 63); ?></a>
 				
-				<a class="tel" href="tel:(408) 533-1075">(408) 533-1075</a>
+				<a class="tel" href="tel:<?php the_field( 'contact_us_tel',63); ?>"><?php the_field( 'contact_us_tel',63); ?></a>
 				
 				<div class="soical_media mobile">
 					
@@ -69,7 +69,7 @@
 			
 			<div class="footer_bar">
 				
-				<span>&copy; Copyright 2017 by Henshaw<br/> & Henry, PC. All Rights Reserved.</span>
+				<span>&copy; Copyright <?php echo date("Y"); ?> by Henshaw<br/> & Henry, PC. All Rights Reserved.</span>
 				
 				<a class="ilawyer" href="//ilawyermarketing.com" target="_blank"><img src="<?php bloginfo('template_directory');?>/images/ilawyer-logo.svg"/></a>
 				

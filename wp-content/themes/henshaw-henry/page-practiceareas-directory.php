@@ -15,7 +15,7 @@
 		
 			
 			
-			<h1 class="center">Practice Areas</h1><!--- smaller_internal_header -->
+			<h1 class="center"><?php the_title();?></h1><!--- smaller_internal_header -->
 			
 			<div class="practice_areas_directory">
 				
@@ -38,32 +38,13 @@
 				
 			</div><!-- practice_areas_directory -->
 						
-			
-			
-		
-			
-			
 
-			
-			
-	
-		
 		
 	</div><!-- one_column -->
 	
 	
 </div><!-- internal_main -->
 
-
-
-<?php // get_template_part( 'loop', 'index' );?>
-
-
-
-
-<?php //use get_template_part( 'loop', 'page' ) if needed ?>
-
-	
 
 
 
