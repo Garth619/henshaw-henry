@@ -21,6 +21,14 @@ line-height: 1;
 
 
 
+
+
+body.fixed {
+	overflow: hidden;
+}
+
+
+
 body .gform_wrapper .gform_validation_container {
 	display: none;
 }

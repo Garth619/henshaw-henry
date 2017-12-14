@@ -3,7 +3,6 @@
 	
 <div class="internal_main">
 	
-	
 	<?php get_sidebar('blog'); ?>
 	
 	<div class="container content">
@@ -16,9 +15,6 @@
 	
 	
 </div><!-- internal_main -->
-
-
-
 
 
 <?php get_footer(); ?>

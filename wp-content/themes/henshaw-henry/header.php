@@ -114,7 +114,13 @@
 			
 			<div class="dropdown_menu">
 				
-				<span class="close">Close</span><!-- close -->
+				<div class="close_wrapper">
+					
+					<span class="close_bar"></span><!-- close_bar -->
+					
+					<span class="close_bar"></span><!-- close_bar -->
+					
+				</div><!-- close_wrapper -->
 				
 				<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
 				

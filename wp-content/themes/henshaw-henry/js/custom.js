@@ -15,7 +15,8 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 
 jQuery(document).ready(function(){
   
-
+		
+		// dropdown menu
 
 
 		$('.dropdown_menu ul.menu > li > ul.sub-menu').wrap('<div class="sub_menu_wrapper"></div>');
@@ -25,7 +26,11 @@ jQuery(document).ready(function(){
 		
 		
 		$('.dropdown_menu ul.menu > li.menu-item-has-children > a').on('click', function(e) {
-		  
+		  		
+		  		
+		  		$('.dropdown_menu ul.menu > li.menu-item-has-children > a').removeClass('current');
+					
+					$(this).addClass('current');
 					
 					$('.sub_menu_wrapper').removeClass('active');
 					
@@ -38,7 +43,10 @@ jQuery(document).ready(function(){
 		
 		$('.sub_menu_wrapper ul.sub-menu li.menu-item-has-children a').on('click', function(e) {
 			
-			
+					$('.sub_menu_wrapper ul.sub-menu li.menu-item-has-children a').removeClass('current');
+					
+					$(this).addClass('current');
+					
 					$('.sub_menu_nested_wrapper').removeClass('active');
 					
 					$(this).next('.sub_menu_nested_wrapper').addClass('active');
@@ -51,14 +59,36 @@ jQuery(document).ready(function(){
 		  
 		
 			$('.dropdown_menu_wrapper').addClass('open');
+			
+			$('body').addClass('fixed');
 		
 		});
 		
 		
-		$('span.close').on('click', function(e) {
+		$('.close_wrapper').on('click', function(e) {
+			
+			$('body').removeClass('fixed');
+			
+			
+			$('.dropdown_form, .dropdown_menu').addClass('close');
+			
+			
+			$('.dropdown_menu_wrapper').delay(1000).queue(function(){
+     
+					$(this).removeClass('open').dequeue();
+  
+			});
+			
+			
+			$('.dropdown_form, .dropdown_menu').delay(1000).queue(function(){
+     
+					$(this).removeClass('close').dequeue();
+  
+			});
+	
 		  
 		
-			$('.dropdown_menu_wrapper').removeClass('open');
+			// $('.dropdown_menu_wrapper').removeClass('open');
 		
 		});
 		
