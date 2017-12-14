@@ -109,6 +109,17 @@
 			
 			<div class="dropdown_form">
 				
+				<div class="dropdown_inner_form">
+
+				<a class="" href="<?php bloginfo('url');?>"><img class="form_logo" src="<?php bloginfo('template_directory');?>/images/logo-color.svg"/></a>
+				
+				<span class="menu_request">Request your<br/> free consultation</span><!-- menu_request -->
+				
+				<?php gravity_form(2, false, false, false, '', true, 12); ?>
+				
+				<span class="menu_required">*required fields</span><!-- menu_required -->
+				
+				</div><!-- dropdown_inner_form -->
 				
 			</div><!-- dropdown_form -->
 			
