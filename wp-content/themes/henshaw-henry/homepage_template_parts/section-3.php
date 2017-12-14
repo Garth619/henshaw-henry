@@ -2,9 +2,9 @@
 	
 	<div class="inner_section_three">
 		
-		<h1 class="large_header">San Jose</h1><!-- large_header -->
+		<h1 class="large_header"><?php the_field( 'section_three_header' ); ?></h1><!-- large_header -->
 		
-		<h2 class="sub_header">Personal Injury<br> Attorneys</h2><!-- sub_header -->
+		<h2 class="sub_header"><?php the_field( 'section_three_subheader' ); ?></h2><!-- sub_header -->
 		
 		
 			
@@ -17,8 +17,7 @@
 			
 		<div class="section_three_content">
 			
-			<p><span>L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt at diam eu rutrum. Nam consectetur mi ac viverra pellentesque. In sit amet tortor porttitor, eleifend turpis in, finibus tortor. Sed sit amet mattis mi. Mauris ultricies leo ut sollicitudin viverra. Interdum et malesuada fames ac ante ipsum primis in faucibus. In egestas magna id dolor malesuada cursus. Mauris a cursus quam. Aenean feugiat euismod lacus congue imperdiet. Etiam eu leo nec libero bibendum facilisis. Maecenas mi orci, imperdiet iaculis tortor nec, hendrerit tristique orci. Nulla sed dui vehicula, lacinia risus a, convallis turpis. Nulla facilisi. Nunc fermentum, justo efficitur mollis sagittis, ipsum eros tempus urna, ac consectetur lorem metus eu lorem. Duis sem sem, dictum ut malesuada a, cursus at nisi. Quisque ac maximus lacus. Etiam eu leo nec libero bibendum facilisis. Maecenas mi orci, imperdiet iaculis tortor nec, hendrerit tristique orci. Nulla sed dui vehicula, lacinia risus a, convallis turpis.</p>
-			
+			<?php the_field( 'section_three_col_one' ); ?>			
 			
 		</div><!-- section_three_content -->
 		
@@ -26,11 +25,11 @@
 	
 	<div class="why_choose_wrapper">
 		
-		<a class="" href="">
+		<a href="<?php the_field( 'why_choose_our_firm_page_link' ); ?>">
 		
 		<div class="why_chose_inner">
 		
-			<span class="why_choose_title">Why choose our firm?</span><!-- why_choose_title -->
+			<span class="why_choose_title"><?php the_field( 'why_choose_our_firm_verbiage' ); ?></span><!-- why_choose_title -->
 		
 				<svg class="why_choose_svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.76 55.51">
 			
