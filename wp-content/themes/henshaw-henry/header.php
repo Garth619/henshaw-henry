@@ -35,6 +35,8 @@
 		
 		<a class="logo" href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_directory');?>/images/logo-white.svg"/></a>
 		
+		
+		
 		<div class="header_right">
 			
 			<div class="free_consultation">
@@ -68,6 +70,8 @@
 	<div class="sticky_menu">
 			
 			<a class="sticky_logo" href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_directory');?>/images/logo-white.svg"/></a>
+			
+			<a class="sticky_logo color_logo" href="<?php bloginfo('url');?>"><img src="<?php bloginfo('template_directory');?>/images/logo-color.svg"/></a>
 			
 			<div id="internal_trigger" class="sticky_header_right">
 				

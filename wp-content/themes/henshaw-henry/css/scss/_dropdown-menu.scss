@@ -128,6 +128,11 @@ span.menu_request {
 	ul.menu {
 		padding-left:22%;
 		//width:400px;
+		> li.current-menu-ancestor {
+			 > a {
+				 	// border-bottom:2px solid $orange;
+			 }
+		}
 	}
 	ul {
 		list-style: none;
@@ -164,6 +169,7 @@ span.menu_request {
 				padding-bottom:9px;
 				border-bottom:2px solid transparent;
 				transition: all .2s ease-in-out;
+				cursor: pointer;
 				&:hover {
 					border-bottom:2px solid $orange;
 				}
@@ -538,6 +544,13 @@ span.menu_required {
 		}
 		ul {
 			text-align: center;
+			li.menu-item-has-children {
+				> a.current {
+						&:after {
+							content:"-";
+						}
+				}
+			}
 			li {
 				max-width:100%;
 				margin-bottom:0;
@@ -545,6 +558,9 @@ span.menu_required {
 				a.current {
 					border-bottom:none;
 					background: $orange;
+					&:after {
+						content:"";
+					}
 				}
 				a {
 					border-top:1px solid #0c348c;

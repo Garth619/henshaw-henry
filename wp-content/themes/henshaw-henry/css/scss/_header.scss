@@ -107,7 +107,32 @@ header.homepage {
 	z-index: 50;
 	visibility: hidden;
 	transition: all .2s ease-in-out;
-	
+}
+
+
+body.page-template-page-home {
+	.sticky_menu {
+		background: #fff;
+	}
+	.sticky_menu_wrapper {
+		background: $blue;
+	}
+	.sticky_consultion {
+		span.sticky_tel {
+			color:$blue;
+		}
+	} 
+	.sticky_logo {
+		display: none;
+	}
+	.sticky_logo.color_logo {
+		display: block;
+	}
+}
+
+
+.sticky_logo.color_logo {
+	display: none;
 }
 
 .sticky_logo {
@@ -166,6 +191,10 @@ header.homepage {
 	}
 	span.sticky_start_tel {
 		display: none;
+	}
+	a {
+		color:#fff;
+		text-decoration: none;
 	}
 }
 
@@ -446,6 +475,8 @@ header.homepage {
 }
 
 
+
+
 body.page-template-page-home {
 	
 	.sticky_logo {
@@ -453,6 +484,9 @@ body.page-template-page-home {
 		
 	}
 	
+	.sticky_logo.color_logo {
+		display: none;
+	}
 	
 .sticky_start {
 	background: $darkblue;
@@ -462,6 +496,8 @@ body.page-template-page-home {
 	span.sticky_start_tel {
 		
 	}
+	
+
 }
 
 

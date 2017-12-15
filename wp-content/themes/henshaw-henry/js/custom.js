@@ -265,11 +265,11 @@ jQuery(document).ready(function(){
     
     
     
-    $('.sidebar ul.menu > li.menu-item-has-children').on('click', function(e) {
+    $('.sidebar ul.menu > li.menu-item-has-children > a').on('click', function(e) {
 	    
-	    $(this).toggleClass('active');
+	    $(this).parent('li.menu-item-has-children').toggleClass('active');
       
-      $(this).find('ul.sub-menu').toggleClass('open');
+      $(this).next('ul.sub-menu').toggleClass('open');
       
     });
     

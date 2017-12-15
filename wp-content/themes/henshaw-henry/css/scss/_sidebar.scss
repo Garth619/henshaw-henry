@@ -26,6 +26,14 @@
 			}
 		}
 		ul.menu {
+			> li.current-menu-ancestor {
+					> a {
+					color:$lightblue;
+					&:after {
+						content:"-";
+					}
+				}
+			}
 			> li.menu-item-has-children.active {
 				> a {
 					color:$lightblue;
@@ -68,6 +76,12 @@
 			opacity: 0;
 			visibility: hidden;
 			transition: all 500ms ease-in-out;
+			> li.current-menu-item {
+				> a {
+					background: $darkblue;
+					color:$orange;
+				}
+			}
 			> li {
 				> a {
 					transition: all .2s ease-in-out;
