@@ -142,7 +142,7 @@ jQuery(document).ready(function(){
 		
 
 		
-		$('span.start_button').on('click', function(e) {
+		$('span.start_button, .sticky_start').on('click', function(e) {
 		  
 				
 				$('.form_overlay').addClass('open');  

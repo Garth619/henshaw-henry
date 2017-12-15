@@ -60,6 +60,7 @@ header.homepage {
 	text-align: center;
 	width:56px;
 	margin-top:-5px;
+	cursor: pointer;
 	span {
 		display: block;
 	}
@@ -77,6 +78,15 @@ header.homepage {
 			background: #cad0e2;
 			height:2px;
 			margin-bottom: 11px;
+			transition: all .2s ease-in-out;
+		}
+	}
+}
+
+.menu_wrapper:hover {
+	.menu_bar_wrapper {
+		span.menu_bar {
+			background:$orange;
 		}
 	}
 }
@@ -164,6 +174,7 @@ header.homepage {
 	background:$darkblue;
 	text-align: center;
 	padding:19px 65px 0;
+	cursor: pointer;
 	span.sticky_menu_title {
 		color:$orange;
 		text-transform: lowercase;
@@ -180,6 +191,16 @@ header.homepage {
 			height:2px;
 			margin-bottom: 11px;
 			display: block;
+			transition: all 200ms ease-in-out;
+		}
+	}
+}
+
+
+.sticky_menu_wrapper:hover {
+	.sticky_menu_bar_wrapper {
+		span.sticky_menu_bar {
+			background: $orange;
 		}
 	}
 }
