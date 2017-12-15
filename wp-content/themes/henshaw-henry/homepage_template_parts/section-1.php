@@ -26,7 +26,7 @@
 			
 		</ul><!-- bullets -->
 		
-		<a class="start_button" href="">Start Your<br/> Free Consultation</a>
+		<span class="start_button" href="">Start Your<br/> Free Consultation</span>
 		
 	</div><!-- inner_section_one -->
 	

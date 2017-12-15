@@ -6,8 +6,42 @@
 	height:100%;
 	background:#fff;
 	z-index:300;
+	transform: translateX(100%);
+	transition: all 800ms cubic-bezier(.17,.66,.34,.98);
+	.close_wrapper {
+		position: absolute;
+		top:55px;
+		right:35px;
+		z-index: 250;
+		cursor: pointer;
+		span {
+			display: block;
+			width:50px;
+			height:3px;
+			background: $darkblue;
+			transition: all .2s ease-in-out;
+		}
+		span:first-of-type {
+			transform-origin: 25px 2px 0;
+			transform: rotate(-45deg);
+		}
+		span:last-of-type {
+			transform-origin: 27px 0px 0;
+			transform: rotate(45deg);
+		}
+	}
+	.close_wrapper:hover {
+		span {
+			background: $orange;
+		}
+	}
 }
 
+
+
+.form_overlay.open {
+	transform: translateX(0%);
+}
 
 
 
@@ -140,6 +174,11 @@ ul {
 			display: inline-block;
 		}
 	}
+
+
+
+
+
 }
 
 

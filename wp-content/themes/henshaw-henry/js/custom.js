@@ -137,7 +137,34 @@ jQuery(document).ready(function(){
 		
 		
 		
+		// Form Overlay
+		
+		
 
+		
+		$('span.start_button').on('click', function(e) {
+		  
+				
+				$('.form_overlay').addClass('open');  
+		
+		
+		});
+		
+		
+		
+		
+		$('.close_form').on('click', function(e) {
+		  
+				
+				$('.form_overlay').removeClass('open');  
+		
+		
+		});
+		
+		
+		
+		
+		
 	      
 		
 		// Testimonials

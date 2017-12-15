@@ -141,6 +141,14 @@
 		
 		<div class="form_overlay">
 			
+			<div class="close_wrapper close_form">
+					
+				<span class="close_bar"></span><!-- close_bar -->
+					
+				<span class="close_bar"></span><!-- close_bar -->
+					
+			</div><!-- close_wrapper -->
+
 			
 			<div class="form_overlay_inner">
 				
