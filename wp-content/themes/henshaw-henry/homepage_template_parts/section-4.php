@@ -8,7 +8,7 @@
 		
 			<div class="single_pa">
 				
-				<a class="" href="">
+				<a class="" href="<?php bloginfo('url');?>/estate-planning/">
 			
 				<span class="single_pa_title">Civil<br/> Litigation</span><!-- single_pa_title -->
 			
@@ -34,7 +34,7 @@
 		
 		<div class="single_pa">
 			
-				<a class="" href="">
+				<a class="" href="<?php bloginfo('url');?>/personal-injury/bike-accidents">
 			
 				<span class="single_pa_title">Personal<br/> Injury</span><!-- single_pa_title -->
 			
@@ -59,7 +59,7 @@
 		
 		<div class="single_pa">
 			
-				<a class="" href="">
+				<a class="" href="<?php bloginfo('url');?>/estate-planning">
 			
 				<span class="single_pa_title">Estate<br/> Planning</span><!-- single_pa_title -->
 			

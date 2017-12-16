@@ -1,7 +1,7 @@
 section.section_three {
 	width:100%;
 	background: $darkblue;
-	padding: 145px 0 150px 0;
+	padding: 145px 0 135px 0;
 	&:after {
 		content:"";
 		clear:both;
@@ -81,6 +81,18 @@ svg#bear_icon {
      padding: 20px 15px 0 0;
    
 		}
+	}
+	p {
+		margin-bottom:27px;
+	}
+	h2 {
+		color:#2c67e7;
+		font-size:24px;
+		font-weight: 300;
+		font-style: normal;
+		font-family: $tavirajmedium;
+		margin-bottom:5px;
+		margin-top:0px;
 	}
 }
 

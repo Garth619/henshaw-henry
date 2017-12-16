@@ -22,13 +22,13 @@
 				
 				<div class="soical_media mobile">
 					
-					<a class="" href=""><img src="<?php bloginfo('template_directory');?>/images/twitter.svg"/></a>
+					<a class="" href="https://twitter.com/HenshawHenry"><img src="<?php bloginfo('template_directory');?>/images/twitter.svg"/></a>
 					
-					<a class="" href=""><img src="<?php bloginfo('template_directory');?>/images/footer-yelp.svg"/></a>
+					<a class="" href="https://www.yelp.com/biz/henshaw-and-henry-san-jose"><img src="<?php bloginfo('template_directory');?>/images/footer-yelp.svg"/></a>
 					
-					<a class="" href=""><img src="<?php bloginfo('template_directory');?>/images/footer-fb.svg"/></a>
+					<a class="" href="https://www.facebook.com/Henshaw-Henry-PC-732274050175937/"><img src="<?php bloginfo('template_directory');?>/images/footer-fb.svg"/></a>
 					
-					<a class="" href=""><img src="<?php bloginfo('template_directory');?>/images/footer-google.svg"/></a>
+					<a class="" href="https://plus.google.com/+Henshawhenry"><img src="<?php bloginfo('template_directory');?>/images/footer-google.svg"/></a>
 					
 					
 					
@@ -77,10 +77,10 @@
 			
 			<div class="desktop_social_media">
 				
-				<a class="twitter" href=""><img src="<?php bloginfo('template_directory');?>/images/twitter.svg"/></a>
-				<a class="yelp" href=""><img src="<?php bloginfo('template_directory');?>/images/footer-yelp.svg"/></a>
-				<a class="facebook" href=""><img src="<?php bloginfo('template_directory');?>/images/footer-fb.svg"/></a>
-				<a class="google" href=""><img src="<?php bloginfo('template_directory');?>/images/footer-google.svg"/></a>
+				<a class="twitter" href="https://twitter.com/HenshawHenry"><img src="<?php bloginfo('template_directory');?>/images/twitter.svg"/></a>
+				<a class="yelp" href="https://www.yelp.com/biz/henshaw-and-henry-san-jose"><img src="<?php bloginfo('template_directory');?>/images/footer-yelp.svg"/></a>
+				<a class="facebook" href="https://www.facebook.com/Henshaw-Henry-PC-732274050175937/"><img src="<?php bloginfo('template_directory');?>/images/footer-fb.svg"/></a>
+				<a class="google" href="https://plus.google.com/+Henshawhenry"><img src="<?php bloginfo('template_directory');?>/images/footer-google.svg"/></a>
 				
 				
 				

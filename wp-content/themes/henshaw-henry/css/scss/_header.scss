@@ -178,6 +178,7 @@ body.page-template-page-home {
 	height:105px;
 	text-align: center;
 	padding-top:33px;
+	cursor: pointer;
 	span.sticky_start_title {
 		color:#fff;
 		text-transform: uppercase;
@@ -320,6 +321,12 @@ header.homepage {
 }
 
 
+
+
+
+
+
+
 .sticky_menu {
 	height:78px;
 }
@@ -379,6 +386,14 @@ header.homepage {
 	
 	
 	
+body.page-template-page-home {
+	.sticky_menu {
+		 height: 56px;
+		 position: fixed;
+		 top:0;
+		 left:0;
+	}
+}
 	
 	
 	
@@ -418,7 +433,7 @@ header.homepage {
 	display: block;
 	width:100%;
 	float:none;
-	
+	transform: translate3d(0,0,0);
 	&:after {
 		content:"";
 		clear:both;

@@ -92,9 +92,61 @@ section#section_two {
 	margin:155px 0 0 -130px;
 	width:859px;
 	height:453px;
-	background: #000;
+	background: url(#{$themePath}images/video-thumb-desktop.jpg);
+	position: relative;
+	cursor: pointer;
 	video {
 		
+	}
+	.homepage_video_inner {
+		position: absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		display: flex;
+		justify-content: center;
+		align-items: center; 
+		pointer-events: none;
+		
+	}
+	svg.homepage_video_play {
+		width:130px;
+		display: block;
+		.homepage_video-cls-1,.homepage_video-cls-3 {
+			fill:$blue;
+			transition: all .2s ease-in-out;
+		}
+		.homepage_video-cls-1 {
+			opacity:0.2;isolation:isolate;
+		}
+		.homepage_video-cls-2 {
+			fill:none;
+			stroke:$blue;
+			stroke-miterlimit:10;
+			stroke-width:3px;
+			transition: all .2s ease-in-out;
+		}
+	}
+}
+
+
+.video_wrapper:hover {
+	.homepage_video_inner {
+		svg.homepage_video_play {
+			.homepage_video-cls-1,.homepage_video-cls-3 {
+			fill:#fff;
+		}
+		.homepage_video-cls-1 {
+			opacity:0.2;isolation:isolate;
+		}
+		.homepage_video-cls-2 {
+			fill:none;
+			stroke:#fff;
+			stroke-miterlimit:10;
+			stroke-width:3px;
+		}
+		}
 	}
 }
 

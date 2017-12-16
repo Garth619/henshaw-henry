@@ -52,7 +52,7 @@ span.top_footer_content {
 	}
 	&:last-of-type {
 		float:right;
-		padding-left:20px;
+		// padding-left:20px;
 		text-align: left;
 		color:#fff;
 		font-family: $nexalight;
@@ -536,7 +536,7 @@ span.my_required_fields {
 	
 	
 	.inner_top_footer {
-		 padding: 100px 90px 324px;
+		 padding: 100px 63px 324px;
 	}
 	
 	span.top_footer_content {
@@ -1007,6 +1007,9 @@ span.my_required_fields {
 		line-height: 30px;
 		margin: 26px 0 0;
 		padding-bottom: 37px;
+		max-width:260px;
+		margin-left:auto;
+		margin-right:auto;
 	}
 	
 	.location_col {

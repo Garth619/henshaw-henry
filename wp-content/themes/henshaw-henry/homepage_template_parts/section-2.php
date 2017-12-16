@@ -138,8 +138,26 @@
 	<div class="reviews_wrapper">
 		
 		
-		<div class="video_wrapper">
+		<div class="video_wrapper wistia_embed wistia_async_m8e47nd9p4 popover=true popoverContent=html">
 			
+			
+						<div class="homepage_video_inner">
+							
+							<svg class="homepage_video_play" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120.2 120.2">
+								
+								<defs><style></style></defs>
+								
+								<title>circular-play-button</title>
+								
+								<circle class="homepage_video-cls-1" cx="60.1" cy="60.1" r="58.6"/>
+								
+								<circle class="homepage_video-cls-2" cx="60.1" cy="60.1" r="58.6"/>
+								
+								<polygon class="homepage_video-cls-3" points="48.8 44.3 63 52.5 77.3 60.8 63.1 69 48.8 77.3 48.8 60.8 48.8 44.3"/>
+								
+							</svg>
+							
+						</div><!-- homepage_video_inner -->
 			
 			
 <!--
@@ -155,6 +173,8 @@
 			
 			
 		</div><!-- video_wrapper -->
+		
+		<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
 		
 		<div class="review_slideshow">
 			

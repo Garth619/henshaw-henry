@@ -24,7 +24,7 @@
 		
 		<h2><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
 		
-		<div class="meta">|&nbsp;&nbsp;Posted on <span class="date"><?php $pfx_date = get_the_date(); echo $pfx_date ?></span>&nbsp;&nbsp;|&nbsp;&nbsp;in <?php echo get_the_category_list();?></div><!-- meta -->
+		<div class="meta">|&nbsp;&nbsp;Posted on <span class="date"><?php $pfx_date = get_the_date(); echo $pfx_date ?></span>&nbsp;&nbsp;|&nbsp;&nbsp;in <?php echo get_the_category_list(',','');?></div><!-- meta -->
 		
 		<div class="blog_content"><?php echo wp_trim_words( get_the_content(), 120, '...' );?></div><!-- blog_content -->
 		

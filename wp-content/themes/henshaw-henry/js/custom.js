@@ -330,14 +330,25 @@ jQuery(document).ready(function(){
     
     checkWidthsidebartoggle();
     
+
+    
+    // Single PA 
+    
+
+/*
+    
+    $('.single_pa').on('click', function(e) {
+      
+    	
+    	$('.single_pa').toggleClass('open');
+    	
+    	
+    	$(this).toggleClass('open');
     
     
+    });
     
-    
-    
-    
-    
-    
+*/
     
     
     
