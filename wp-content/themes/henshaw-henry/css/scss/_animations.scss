@@ -532,7 +532,61 @@ footer.visible {
 }
 
 
+// Internals
 
+
+// Contact
+
+svg.contact_svg {
+	.contact-cls-1 {
+		fill:#f3f3f3;
+		stroke-dasharray: 300;
+		stroke-dashoffset: 300;
+		stroke-width:0.5;
+		stroke:$orange;
+		
+		animation-name: svg_stroke, svg_fill_orange;
+		animation-duration: 1700ms, 600ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		animation-delay: 500ms, 1000ms;
+
+	}
+}
+
+
+
+@keyframes svg_fill_orange {
+	from {
+		fill:#f3f3f3;
+	}
+  to {
+    fill:$orange;
+  }
+}
+
+
+// About and Profile
+
+.about_sidebar img, img.attor_profile_img {
+	opacity: 0;
+	
+	animation-name: fade, img_move;
+	animation-duration: 700ms, 1100ms;
+	animation-fill-mode: both;
+	animation-timing-function:linear, cubic-bezier(.17,.66,.34,.98);
+	animation-delay: 700ms;
+}
+
+
+@keyframes img_move {
+	from {
+		transform: translateY(-50px);
+	}
+  to {
+    transform: translateY(0px);
+  }
+}
 
 
 
