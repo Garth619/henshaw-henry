@@ -19,10 +19,13 @@ footer {
 	}
 }
 
-img.footer_icon {
+img.footer_icon, svg.footer_icon {
 	width:180px;
 	margin:0 auto;
 	display: block;
+	.footer-cls-1{
+		fill:#fff;
+	}
 }
 
 

@@ -30,7 +30,7 @@
 			
 		</ul><!-- bullets -->
 		
-		<span class="start_button" href="">Start Your<br/> Free Consultation</span>
+		<span class="start_button">Start Your<br/> Free Consultation</span>
 		
 	</div><!-- inner_section_one -->
 	

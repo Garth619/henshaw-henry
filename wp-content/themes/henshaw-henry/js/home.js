@@ -41,3 +41,137 @@
             
             
            createWaypoint("section_two", ".sticky_menu", "visible", "300px", null,true);
+           
+           
+           
+           
+           
+           
+           var waypointsectwo = new Waypoint({
+					 
+					 element: document.getElementById('section_two'),
+					 handler: function(direction) {
+   
+   
+							jQuery('#section_two').addClass('visible');
+  
+ 				
+ 						},
+  			
+ 						offset: 300
+						
+					}) 
+					
+					
+					
+					var waypointsectwo = new Waypoint({
+					 
+					 element: document.getElementById('section_three_trigger'),
+					 handler: function(direction) {
+   
+   
+							jQuery('.section_three').addClass('visible');
+  
+ 				
+ 						},
+  			
+ 						offset: 300
+						
+					})
+					
+					
+					var waypointsectwo = new Waypoint({
+					 
+					 element: document.getElementById('section_four_trigger'),
+					 handler: function(direction) {
+   
+   
+							jQuery('.why_choose_wrapper').addClass('visible');
+  
+ 				
+ 						},
+  			
+ 						offset: 1000
+						
+					})
+					
+					
+					var waypointsectwo = new Waypoint({
+					 
+					 element: document.getElementById('section_four_trigger'),
+					 handler: function(direction) {
+   
+   
+							jQuery('#section_four_trigger').addClass('visible');
+  
+ 				
+ 						},
+  			
+ 						offset: 500
+						
+					})
+					
+					
+					var waypointsectwo = new Waypoint({
+					 
+					 element: document.getElementById('section_six_trigger'),
+					 handler: function(direction) {
+   
+   
+							jQuery('#section_six_trigger').addClass('visible');
+  
+ 				
+ 						},
+  			
+ 						offset: 400
+						
+					})
+					
+					
+					
+					var waypointsectwo = new Waypoint({
+					 
+					 element: document.getElementById('footer_trigger'),
+					 handler: function(direction) {
+   
+   
+							jQuery('#footer_trigger').addClass('visible');
+  
+ 				
+ 						},
+  			
+ 						offset: 500
+						
+					})
+
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           //createWaypoint("section_two", "#section_two", "visible", "300px", null,true);
+           
+           
+           // createWaypoint("section_three_trigger", ".section_three", "visible", "300px", null,true);
+           
+           
+           // createWaypoint("section_four_trigger", ".why_choose_wrapper", "visible", "1000px", null,true);
+           
+           
+           // createWaypoint("section_four_trigger", "#section_four_trigger", "visible", "500px", null,true);
+           
+           
+           // createWaypoint("section_six_trigger", "#section_six_trigger", "visible", "400px", null,true);
+           
+           
+           // createWaypoint("footer_trigger", "#footer_trigger", "visible", "500px", null,true);
+           
+           
+           
+           
+           
+           

@@ -1,4 +1,4 @@
-<section class="section_three">
+<section id="section_three_trigger" class="section_three">
 	
 	<div class="inner_section_three">
 		

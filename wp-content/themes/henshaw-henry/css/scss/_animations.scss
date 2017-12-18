@@ -1,0 +1,540 @@
+// Section One
+
+
+
+@media screen and (min-width: 1450px) {
+	
+	#section_one.ready {
+		
+		span.sec_one_header {
+			animation-name: fade, sec_one_header_move;
+			animation-duration: 600ms, 1800ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 500ms;
+			
+			display: block;
+		}
+		
+		ul.subheader_bullets {
+			li {
+				animation-name: fade;
+				animation-duration: 800ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear;
+				animation-delay: 1500ms;
+				
+				opacity: 0;
+				
+				&:after {
+					animation-name: bullet_move;
+					animation-duration: 1800ms;
+					animation-fill-mode: both;
+					animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+					animation-delay: 1500ms;
+					
+				
+				}
+			}	
+		}	
+		
+	}
+	
+	
+	span.start_button {
+		animation-name: fade, start_move;
+		animation-duration: 1100ms, 1700ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 2600ms;
+	}
+	
+
+@keyframes fade {
+  from {
+    opacity: 0;
+ 	}
+
+  to {
+    opacity: 1;
+   }
+}
+
+
+@keyframes sec_one_header_move {
+  from {
+  	letter-spacing: 10px;
+  	transform: translateY(-100px);
+ 	}
+
+  to {
+    letter-spacing: 0px;
+    transform: translateY(0px);
+   }
+}
+
+
+@keyframes bullet_move {
+  from {
+  	margin:0 75px
+ 	}
+
+  to {
+    margin:0 37px
+   }
+}
+
+
+
+@keyframes start_move {
+  from {
+  	transform: translateY(-20px);
+ 	}
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+
+// Section Two
+
+
+.video_wrapper {
+	opacity: 0;
+}
+
+
+.single_review {
+	opacity: 0;
+}
+
+.test_back_next_wrapper {
+	opacity: 0;
+}
+
+#section_two.visible {
+	.video_wrapper {
+		animation-name: fade, video_move;
+		animation-duration: 900ms, 1200ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 200ms;
+	}
+	.single_review {
+		animation-name: fade;
+		animation-duration: 900ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		
+		&:nth-of-type(1) {
+			animation-delay: 700ms;
+		}
+		&:nth-of-type(2) {
+			animation-delay: 1100ms;
+		}
+		&:nth-of-type(3) {
+			animation-delay: 1500ms;
+		}
+	}
+	.test_back_next_wrapper {
+		animation-name: fade;
+		animation-duration: 900ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		animation-delay: 600ms;
+		.back_icon {
+			animation-name: fade, back_icon_move;
+			animation-duration: 500ms, 1100ms;
+			animation-fill-mode: both;
+			animation-timing-function:linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 1500ms;
+		}
+		.next_icon {
+			animation-name: fade, next_icon_move;
+			animation-duration: 500ms, 1100ms;
+			animation-fill-mode: both;
+			animation-timing-function:linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 1500ms;
+		}
+	}
+}
+
+
+
+
+@keyframes video_move {
+  from {
+  	transform: translateY(-40px);
+ 	}
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+
+
+@keyframes back_icon_move {
+  from {
+  	transform: translateX(-30px);
+ 	}
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+@keyframes next_icon_move {
+  from {
+  	transform: translateX(30px);
+ 	}
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+
+// Section Three
+
+
+h2.sub_header:after {
+	opacity: 0;
+}
+
+
+#section_three_trigger.visible {
+	h2.sub_header:after {
+		animation-name: fade, h2_move;
+		animation-duration: 500ms, 1500ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);;
+		// animation-delay: 600ms;
+	}
+}
+
+
+@keyframes h2_move {
+  from {
+  	width:0
+ 	}
+
+  to {
+    width:100%;
+   }
+}
+
+
+.why_choose_wrapper, span.why_choose_title, svg.why_choose_svg, svg#hands {
+	opacity: 0;
+}
+
+
+
+
+.why_choose_wrapper.visible {
+	animation-name: fade, why_choose_move;
+	animation-duration: 500ms, 1200ms;
+	animation-fill-mode: both;
+	animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+	// animation-delay: 600ms;
+	span.why_choose_title {
+		animation-name: fade, why_choose_title_move;
+		animation-duration: 700ms, 1200ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);;
+		animation-delay: 1100ms;
+	}
+	svg.why_choose_svg {
+		animation-name: fade, why_choose_arrow_move;
+		animation-duration: 500ms, 1000ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);;
+		animation-delay: 1700ms;
+	}
+	svg#hands {
+		animation-name: fade, svg_hands_move;
+		animation-duration: 500ms, 1000ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 1700ms;
+	}
+}
+
+
+
+
+
+@keyframes why_choose_move {
+  from {
+  	transform: translateX(700px);
+ 	}
+
+  to {
+    transform: translateX(0px);
+   }
+}
+
+@keyframes why_choose_title_move {
+  from {
+  	transform: translateY(-30px);
+ 	}
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+@keyframes why_choose_arrow_move {
+  from {
+  	transform: translateX(-30px);
+ 	}
+
+  to {
+    transform: translateX(0px);
+   }
+}
+
+
+
+
+
+@keyframes svg_hands_move {
+  from {
+  	transform: translateY(-30px);
+ 	}
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+// Section Four
+
+
+span.single_pa_title {
+	opacity: 0;
+}
+
+
+#section_four_trigger.visible {
+	.single_pa {
+		&:nth-of-type(1) {
+			a {
+				span.single_pa_title {
+					animation-delay: 200ms;
+				}
+			}
+		}
+		&:nth-of-type(2) {
+			a {
+				span.single_pa_title {
+					animation-delay: 600ms;
+				}
+			}
+		}
+		&:nth-of-type(3) {
+			a {
+				span.single_pa_title {
+					animation-delay: 1000ms;
+				}
+			}
+		}
+		a {
+			span.single_pa_title {
+				animation-name: fade, pa_title_move;
+				animation-duration: 500ms, 1200ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			}
+		}
+	}
+	
+}
+
+
+@keyframes pa_title_move {
+  from {
+  	transform: translateY(-40px);
+ 	}
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+
+// Section Six
+
+
+.section_six_img_inner {
+	opacity: 0;
+}
+
+.selling_point_wrapper {
+	transform: translateY(150px);
+	transition: all 1400ms cubic-bezier(.17,.66,.34,.98);
+}
+
+a.sec_six_why_button {
+	transform: translateY(150px) rotate(-90deg);
+	transition: all 1700ms cubic-bezier(.17,.66,.34,.98);
+}
+
+.sp_arrows_wrapper {
+	opacity: 0;
+}
+
+
+.selling_point_slide {
+	svg {
+		.sp-1-cls-1, .sp-2-cls-1, .sp-3-cls-1{
+			fill:$blue;
+			stroke-width:0.5;
+			stroke:#fff;
+			stroke-dasharray: 300;
+			stroke-dashoffset: 300;
+			//opacity: 0;
+		}
+	}
+}
+
+
+
+
+@keyframes svg_stroke {
+	
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+ 
+ 
+ @keyframes svg_fill {
+	from {
+		fill:$blue;
+	}
+  to {
+    fill:#fff;
+  }
+}
+ 
+
+
+#section_six_trigger.visible {
+	.section_six_img_inner {
+		animation-name: fade, sec_six_move;
+		animation-duration: 500ms, 1100ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+	}
+	.selling_point_wrapper {
+		transform: translateY(0px);
+	}
+	a.sec_six_why_button {
+		transform: translateY(0px) rotate(-90deg);
+	}
+	.sp_arrows_wrapper {
+		animation-name: fade;
+		animation-duration: 900ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear;
+		animation-delay: 600ms;
+		.sp_prev {
+			animation-name: fade, back_icon_move;
+			animation-duration: 500ms, 1100ms;
+			animation-fill-mode: both;
+			animation-timing-function:linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 1500ms;
+		}
+		.sp_next {
+			animation-name: fade, next_icon_move;
+			animation-duration: 500ms, 1100ms;
+			animation-fill-mode: both;
+			animation-timing-function:linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 1500ms;
+		}
+	}
+	.selling_point_slide.slick-current {
+	svg {
+		.sp-1-cls-1, .sp-2-cls-1, .sp-3-cls-1{
+			animation-name: svg_stroke, svg_fill;
+			animation-duration: 1700ms, 600ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-delay: 500ms, 1000ms;
+		}
+	}
+}
+
+}
+
+
+
+@keyframes sec_six_move {
+  from {
+  	transform: translateY(-80px);
+ 	}
+
+  to {
+    transform: translateY(0px);
+   }
+}
+
+
+
+// footer 
+
+
+
+img.footer_icon, svg.footer_icon {
+	width:180px;
+	margin:0 auto;
+	display: block;
+	.footer-cls-1{
+		fill:$darkblue;
+		stroke-dasharray: 300;
+		stroke-dashoffset: 300;
+		stroke-width:0.5;
+		stroke:#fff;
+	}
+}
+
+footer.visible {
+	svg.footer_icon {
+		.footer-cls-1{
+			animation-name: svg_stroke, svg_fill_dark_blue;
+			animation-duration: 1700ms, 600ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-delay: 500ms, 1000ms;
+		}
+	}
+}
+
+
+
+ @keyframes svg_fill_dark_blue {
+	from {
+		fill:$darkblue;
+	}
+  to {
+    fill:#fff;
+  }
+}
+
+
+
+
+
+
+} /* Media Query */
+

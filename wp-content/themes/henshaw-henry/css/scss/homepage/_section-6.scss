@@ -51,6 +51,10 @@ a.sec_six_why_button {
 	position: absolute;
 	top: 804px;
 	left: -61px;
+	transition: all .2s ease-in-out;
+	&:hover {
+		background: $orange;
+	}
 }
 
 
@@ -64,10 +68,15 @@ a.sec_six_why_button {
 .selling_point_slide {
 	text-align: center;
 	margin-top:130px;
-	img.sp_icon {
+	img.sp_icon, svg {
 		width:140px;
 		display: block;
 		margin:0 auto;
+	}
+	svg {
+		.sp-1-cls-1, .sp-2-cls-1, .sp-3-cls-1{
+			fill:#fff;
+		}
 	}
 }
 

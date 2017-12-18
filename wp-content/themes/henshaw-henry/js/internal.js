@@ -39,3 +39,20 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
             
             
            createWaypoint("internal_trigger", ".sticky_header_right", "sticky", "0px", null,true);
+           
+           
+           
+           var waypointsectwo = new Waypoint({
+					 
+					 element: document.getElementById('footer_trigger'),
+					 handler: function(direction) {
+   
+   
+							jQuery('#footer_trigger').addClass('visible');
+  
+ 				
+ 						},
+  			
+ 						offset: 500
+						
+					})
