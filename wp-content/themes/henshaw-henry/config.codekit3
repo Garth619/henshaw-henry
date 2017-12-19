@@ -534,6 +534,51 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/fonts\/nexa2\/demo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa2\/demo.html",
+		"oF": 0
+		},
+	"\/fonts\/nexa2\/NexaBold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa2\/NexaBold.woff",
+		"oF": 0
+		},
+	"\/fonts\/nexa2\/NexaBold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa2\/NexaBold.woff2",
+		"oF": 0
+		},
+	"\/fonts\/nexa2\/NexaLight.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa2\/NexaLight.woff",
+		"oF": 0
+		},
+	"\/fonts\/nexa2\/NexaLight.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa2\/NexaLight.woff2",
+		"oF": 0
+		},
+	"\/fonts\/nexa2\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/nexa2\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/fonts\/taviraj\/demo.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1133,6 +1178,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/internal-bear.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/internal-bear.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/logo-color.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1412,6 +1467,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/sp-attorneys-image-desktop-2.jpg": {
+		"ft": 16384,
+		"iS": 366925,
+		"oA": 0,
+		"oAP": "\/images\/sp-attorneys-image-desktop-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/sp-attorneys-image-desktop.jpg": {
 		"ft": 16384,

@@ -10,7 +10,7 @@ section.section_six {
 }
 
 .section_six_img_inner {
-	background: url(#{$themePath}images/sp-attorneys-image-desktop.jpg);
+	// background: url(#{$themePath}images/sp-attorneys-image-desktop.jpg);
 	background-size: 2000px auto;
 	background-position: -620px top;
 	width:100%;
@@ -44,7 +44,7 @@ a.sec_six_why_button {
 	font-size: 16px;
 	padding:36px 180px;
 	display: inline-block;
-	letter-spacing: 7.5px;
+	letter-spacing: 8px;
 	
 	transform: rotate(-90deg);
 	transform-origin: 0 0 0;
@@ -86,7 +86,7 @@ span.sp_slide_title {
 	text-transform: lowercase;
 	font-size: 80px;
 	font-family: $nexalight;
-	letter-spacing: 5px;
+	letter-spacing: 5.5px;
 	margin-top:40px;
 	display: inline-block;
 	padding:0 30px 45px;

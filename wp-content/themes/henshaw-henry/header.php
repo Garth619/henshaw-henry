@@ -26,6 +26,24 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
+
+<style type="text/css">
+
+.section_six_img_inner {
+ background: url(<?php the_field( 'section_six_image' ); ?>);
+	background-size: 2000px auto;
+	background-position: -620px top;
+}
+
+</style>
+
+
+
+
+
+
+
 <?php wp_head(); ?>
 </head>
 

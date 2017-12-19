@@ -56,3 +56,5 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
  						offset: 500
 						
 					})
+					
+					

@@ -58,7 +58,7 @@
 	</div><!-- top_footer -->
 	
 	
-	<div class="bottom_footer">
+	<div id="bottom_footer_trigger" class="bottom_footer">
 		
 		
 		<div class="footer_form_wrapper">

@@ -18,32 +18,8 @@
 				
 				<h1><?php the_title();?></h1>
 				
-				<h2>Henshaw & Henry, PC in San Jose, California, serves clients throughout the Bay Area.</h2>
 				
-				<p>At Henshaw & Henry, PC, we provide high quality legal services to each of our clients. 
-We are experienced in various legal matters including: civil litigation, estate planning, probate, administrative law, and alternative dispute resolution. We manage business transactions, negotiate successful resolutions, and advise clients to keep them out of court.</p>
-
-				<p>Henshaw & Henry, PC is knowledgeable, well-rounded, and versatile. We are experienced in the common problems that individuals and businesses face. While each and every client has a unique set of problems, we are confident that we have the expertise to resolve your legal issues.</p>
-				
-				<div class="about_page_blockquote">
-					
-					<div class="about_blockquote_img_wrapper">
-						
-						<img src="<?php bloginfo('template_directory');?>/images/int-about-cal-bear-icon.svg"/>
-						
-					</div><!-- about_blockquote_img_wrapper -->
-					
-					<div class="about_blockquote_text_wrapper">
-						
-						We enjoy building relationships with our clients and understand the problems they face every day.
-						
-					</div><!-- about_blockquote_text_wrapper -->
-				
-				</div><!-- about_page_blockquote -->
-				
-				<p>Too often people are afraid to contact their lawyer. Our clients appreciate that we listen to their goals and objectives during the entire representation. In doing so, we are able to advise them towards the most desired legal conclusion.</p>
-
-				<p>Henshaw & Henry, PC in San Jose, California, serves its clients throughout San Jose and San Francisco Bay Area in the areas of civil litigation, including real property law, employment law, contract law, personal injury and construction law, estate planning, probate litigation, and trust administration.</p>	
+				<?php get_template_part( 'loop', 'page' )  ?>
 				
 				
 			</div><!-- about_content_inner -->
@@ -54,18 +30,34 @@ We are experienced in various legal matters including: civil litigation, estate 
 			
 			<div class="about_sidebar_inner">
 			
-				<img src="<?php bloginfo('template_directory');?>/images/about-att-img.jpg"/>
-				
-				<span class="about_sidebar_title">Why Us?</span><!-- about_sidebar_title -->
-				
-				<ul>	
-				
-					<li>Henshaw & Henry, PC takes an analytic approach to your personal needs.</li>
+			
+				<?php $why_us_sidebar_image = get_field( 'why_us_sidebar_image' ); ?>
 
-					<li>We review your situation to determine the necessary and important actions 
-	for your specific legal concerns.</li>
-
-					<li>We offer free consultations so that you can feel comfortable making the right decisions during what is likely a difficult time.</li>
+				<?php if ( $why_us_sidebar_image ) { ?>
+	
+					<img src="<?php echo $why_us_sidebar_image['url']; ?>" alt="<?php echo $why_us_sidebar_image['alt']; ?>" />
+				
+				<?php } ?>
+			
+				
+				<span class="about_sidebar_title"><?php the_field( 'why_us_sidebar_title' ); ?></span><!-- about_sidebar_title -->
+				
+				
+					<?php if(get_field('why_us_sidebar')): ?>
+					
+						<ul>
+					 
+						<?php while(has_sub_field('why_us_sidebar')): ?>
+					 
+							
+							<li><?php the_sub_field( 'bullet' ); ?></li>
+							
+					    
+						<?php endwhile; ?>
+						
+						</ul>
+					 
+					<?php endif; ?>
 		
 				</ul>
 			

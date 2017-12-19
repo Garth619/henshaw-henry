@@ -6,7 +6,7 @@
 		
 		<div style="cursor: pointer" class="wistia_embed wistia_async_m8e47nd9p4 popover=true popoverContent=html">
 			
-			<svg id="mobile_play" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120.2 120.2"></
+			<svg id="mobile_play" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120.2 120.2">
 			
 			<defs><style>.cls-1{fill:#fff;opacity:0.2;isolation:isolate;}.cls-2{fill:none;stroke:#103b99;stroke-miterlimit:10;stroke-width:3px;}.cls-3{fill:#103b99;}</style></defs>
 			
@@ -18,19 +18,23 @@
 		
 		</div>
 		
-		<span class="sec_one_header">Experienced Attorneys Exceptional Results</span><!-- sec_one_header -->
+		<span class="sec_one_header"><?php the_field( 'banner_large_header' ); ?></span><!-- sec_one_header -->
 		
-		<ul class="subheader_bullets">
+		<?php if(get_field('banner_sub_header')): ?>
 			
-			<li>Responsive</li>
-			<li>Tenacious</li>
-			<li>Friendly</li>
-			<li>Caring</li>
-			<li>knowledgeable</li>
+			<ul class="subheader_bullets">
+		 
+			<?php while(has_sub_field('banner_sub_header')): ?>
+		 
+				<li><?php the_sub_field( 'bullet' ); ?></li>
+		    
+			<?php endwhile; ?>
 			
-		</ul><!-- bullets -->
-		
-		<span class="start_button">Start Your<br/> Free Consultation</span>
+			</ul>
+		 
+		<?php endif; ?>	
+				
+		<span class="start_button"><?php the_field( 'start_button_verbiage' ); ?></span>
 		
 	</div><!-- inner_section_one -->
 	

@@ -181,7 +181,7 @@ add_filter('upload_mimes', 'cc_mime_types');
 
 
 
-// Shortcode Blockquote with Image
+// Shortcode Blockquote with Free Consultation Image
 
 function blockquote_image( $atts, $content = null ) { 
 	
@@ -204,5 +204,31 @@ function blockquote_image( $atts, $content = null ) {
 
 
 add_shortcode( 'blockquoteimage', 'blockquote_image' );
+
+
+
+// Shortcode Blockquote with Internal Bear Consultation Image
+
+function blockquote_internal_bear_image( $atts, $content = null ) { 
+	
+	ob_start();?>
+	
+	<div class="about_page_blockquote">
+					
+		<div class="about_blockquote_img_wrapper">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/int-about-cal-bear-icon.svg"/>
+						
+		</div><!-- about_blockquote_img_wrapper -->
+					
+		<div class="about_blockquote_text_wrapper"><?php echo $content ?></div><!-- about_blockquote_text_wrapper -->
+				
+	</div><!-- about_page_blockquote -->
+	
+	<?php return ob_get_clean(); }
+
+
+
+add_shortcode( 'blockquotebearimage', 'blockquote_internal_bear_image' );
 
 

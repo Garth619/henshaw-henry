@@ -4,91 +4,58 @@
 		
 		<div class="testi_inner_wrapper">
 			
-			<span class="large_header">What our<br/> clients have said</span><!-- large_header -->
+			<span class="large_header"><?php the_field( 'what_clients_say' ); ?></span><!-- large_header -->
+			
+			
 			
 			<div class="testi_slideshow">
+			
+			
+			<?php if(get_field('testimonials')): ?>
+			
 				
-				<div class="testi_slide">
-				
-				<div class="testi_content">
+			 
+				<?php while(has_sub_field('testimonials')): ?>
+			 
 					
-					<p>“Tough situations are never fun but you can count on Henshaw & Henry to ease the process! I can't stress how much Henshaw & Henry has helped me through my difficult time! I would go through it again, without fear, as long as Henshaw & Henry is on my side!</p>
-
-<p>After being turned down by five law firms, Henshaw & Henry accepted my case with confidence and assertiveness. I had the pleasure to work with Timothy D. Henry, who was very professional, clear, patient, resourceful, and knowledgeable. This in turn, gave me peace of mind and assurance.”</p>
+					
+					<div class="testi_slide">
+				
+						<div class="testi_content">
+					
+						<?php the_sub_field( 'testimonial_content' ); ?>
 
 				
-				<div class="testi_name_wrapper">
+						<div class="testi_name_wrapper">
 					
-					<svg class="testi_graphic" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.88 5.83">
+							<svg class="testi_graphic" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.88 5.83">
 						
-						<path class="testi_graphic-cls-1" d="M27.7.5S26,.5,23.4.4,17.3.3,13.9.2C12.2.2,10.4.2,8.8.1H4.4C3.1,0,2,0,1.3,0,.9,0,.6-.1.4.1A.78.78,0,0,0,.1.5a.85.85,0,0,0,0,.7,1.73,1.73,0,0,0,.3.4,2.22,2.22,0,0,0,.9.1c.8,0,1.8,0,3.1-.1s2.8,0,4.4-.1,3.3-.1,5.1-.1c3.5-.1,6.9-.2,9.5-.3S27.7,1,27.7,1s.2-.1.2-.3A.22.22,0,0,0,27.7.5Z" transform="translate(-0.03 0.03)"/>
-						<path class="testi_graphic-cls-1" d="M27.7,4.5s-1.7,0-4.3-.1-6.1-.1-9.5-.2c-1.7,0-3.5,0-5.1-.1H1.3c-.4,0-.7-.1-.9,0a1.73,1.73,0,0,0-.3.4,1.1,1.1,0,0,0,0,.8,1.73,1.73,0,0,0,.3.4,2.22,2.22,0,0,0,.9.1c.8,0,1.8,0,3.1-.1s2.8,0,4.4-.1,3.3-.1,5.1-.1c3.5-.1,6.9-.2,9.5-.3S27.7,5,27.7,5s.2-.1.2-.3A.22.22,0,0,0,27.7,4.5Z" transform="translate(-0.03 0.03)"/>
+							<path class="testi_graphic-cls-1" d="M27.7.5S26,.5,23.4.4,17.3.3,13.9.2C12.2.2,10.4.2,8.8.1H4.4C3.1,0,2,0,1.3,0,.9,0,.6-.1.4.1A.78.78,0,0,0,.1.5a.85.85,0,0,0,0,.7,1.73,1.73,0,0,0,.3.4,2.22,2.22,0,0,0,.9.1c.8,0,1.8,0,3.1-.1s2.8,0,4.4-.1,3.3-.1,5.1-.1c3.5-.1,6.9-.2,9.5-.3S27.7,1,27.7,1s.2-.1.2-.3A.22.22,0,0,0,27.7.5Z" transform="translate(-0.03 0.03)"/>
+							<path class="testi_graphic-cls-1" d="M27.7,4.5s-1.7,0-4.3-.1-6.1-.1-9.5-.2c-1.7,0-3.5,0-5.1-.1H1.3c-.4,0-.7-.1-.9,0a1.73,1.73,0,0,0-.3.4,1.1,1.1,0,0,0,0,.8,1.73,1.73,0,0,0,.3.4,2.22,2.22,0,0,0,.9.1c.8,0,1.8,0,3.1-.1s2.8,0,4.4-.1,3.3-.1,5.1-.1c3.5-.1,6.9-.2,9.5-.3S27.7,5,27.7,5s.2-.1.2-.3A.22.22,0,0,0,27.7,4.5Z" transform="translate(-0.03 0.03)"/>
 					
-					</svg>
+						</svg>
 					
-					<span class="testi_name">D.P. - Past Client</span><!-- testi_name -->
+						<span class="testi_name"><?php the_sub_field( 'name' ); ?></span><!-- testi_name -->
 					
 					
-				</div><!-- testi_name_wrapper -->
+						</div><!-- testi_name_wrapper -->
 			
 
-				</div><!-- testi_content -->
+					</div><!-- testi_content -->
 					
 				</div><!-- testi_slide -->
+					
+					
+			    
+				<?php endwhile; ?>
 				
-				<div class="testi_slide">
 				
-				<div class="testi_content">
-					
-					<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-				
-				<div class="testi_name_wrapper">
-					
-					<svg class="testi_graphic" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.88 5.83">
-						
-						<path class="testi_graphic-cls-1" d="M27.7.5S26,.5,23.4.4,17.3.3,13.9.2C12.2.2,10.4.2,8.8.1H4.4C3.1,0,2,0,1.3,0,.9,0,.6-.1.4.1A.78.78,0,0,0,.1.5a.85.85,0,0,0,0,.7,1.73,1.73,0,0,0,.3.4,2.22,2.22,0,0,0,.9.1c.8,0,1.8,0,3.1-.1s2.8,0,4.4-.1,3.3-.1,5.1-.1c3.5-.1,6.9-.2,9.5-.3S27.7,1,27.7,1s.2-.1.2-.3A.22.22,0,0,0,27.7.5Z" transform="translate(-0.03 0.03)"/>
-						<path class="testi_graphic-cls-1" d="M27.7,4.5s-1.7,0-4.3-.1-6.1-.1-9.5-.2c-1.7,0-3.5,0-5.1-.1H1.3c-.4,0-.7-.1-.9,0a1.73,1.73,0,0,0-.3.4,1.1,1.1,0,0,0,0,.8,1.73,1.73,0,0,0,.3.4,2.22,2.22,0,0,0,.9.1c.8,0,1.8,0,3.1-.1s2.8,0,4.4-.1,3.3-.1,5.1-.1c3.5-.1,6.9-.2,9.5-.3S27.7,5,27.7,5s.2-.1.2-.3A.22.22,0,0,0,27.7,4.5Z" transform="translate(-0.03 0.03)"/>
-					
-					</svg>
-					
-					<span class="testi_name">D.P. - Past Client 2</span><!-- testi_name -->
-					
-					
-				</div><!-- testi_name_wrapper -->
+			 
+			<?php endif; ?>
 			
 
-				</div><!-- testi_content -->
-					
-				</div><!-- testi_slide -->
 				
-				<div class="testi_slide">
 				
-				<div class="testi_content">
-					
-					<p>“Tough situations are never fun but you can count on Henshaw & Henry to ease the process! I can't stress how much Henshaw & Henry has helped me through my difficult time! I would go through it again, without fear, as long as Henshaw & Henry is on my side!</p>
-
-<p>After being turned down by five law firms, Henshaw & Henry accepted my case with confidence and assertiveness. I had the pleasure to work with Timothy D. Henry, who was very professional, clear, patient, resourceful, and knowledgeable. This in turn, gave me peace of mind and assurance.”</p>
-
-				
-				<div class="testi_name_wrapper">
-					
-					<svg class="testi_graphic" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.88 5.83">
-						
-						<path class="testi_graphic-cls-1" d="M27.7.5S26,.5,23.4.4,17.3.3,13.9.2C12.2.2,10.4.2,8.8.1H4.4C3.1,0,2,0,1.3,0,.9,0,.6-.1.4.1A.78.78,0,0,0,.1.5a.85.85,0,0,0,0,.7,1.73,1.73,0,0,0,.3.4,2.22,2.22,0,0,0,.9.1c.8,0,1.8,0,3.1-.1s2.8,0,4.4-.1,3.3-.1,5.1-.1c3.5-.1,6.9-.2,9.5-.3S27.7,1,27.7,1s.2-.1.2-.3A.22.22,0,0,0,27.7.5Z" transform="translate(-0.03 0.03)"/>
-						<path class="testi_graphic-cls-1" d="M27.7,4.5s-1.7,0-4.3-.1-6.1-.1-9.5-.2c-1.7,0-3.5,0-5.1-.1H1.3c-.4,0-.7-.1-.9,0a1.73,1.73,0,0,0-.3.4,1.1,1.1,0,0,0,0,.8,1.73,1.73,0,0,0,.3.4,2.22,2.22,0,0,0,.9.1c.8,0,1.8,0,3.1-.1s2.8,0,4.4-.1,3.3-.1,5.1-.1c3.5-.1,6.9-.2,9.5-.3S27.7,5,27.7,5s.2-.1.2-.3A.22.22,0,0,0,27.7,4.5Z" transform="translate(-0.03 0.03)"/>
-					
-					</svg>
-					
-					<span class="testi_name">D.P. - Past Client 3</span><!-- testi_name -->
-					
-					
-				</div><!-- testi_name_wrapper -->
-			
-
-				</div><!-- testi_content -->
-					
-				</div><!-- testi_slide -->
 				
 				<div class="test_back_next_wrapper">
 			
@@ -138,7 +105,7 @@
 	<div class="reviews_wrapper">
 		
 		
-		<div class="video_wrapper wistia_embed wistia_async_m8e47nd9p4 popover=true popoverContent=html">
+		<div class="video_wrapper wistia_embed wistia_async_<?php the_field( 'wistia_video_number_homepage' ); ?> popover=true popoverContent=html">
 			
 			
 						<div class="homepage_video_inner">

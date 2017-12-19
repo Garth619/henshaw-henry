@@ -14,9 +14,6 @@ https://github.com/imakewebthings/waypoints/blob/master/licenses.txt
 
 
 jQuery(document).ready(function(){
-  
-		
-		$('#section_one').addClass('ready');
 		
 		
 		

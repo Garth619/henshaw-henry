@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 1450px) {
 	
-	#section_one.ready {
+	#section_one {
 		
 		span.sec_one_header {
 			animation-name: fade, sec_one_header_move;
@@ -208,6 +208,25 @@ h2.sub_header:after {
 }
 
 
+svg#bear_icon {
+	stroke-width:0.5;
+	.bear-cls-1 {
+		fill:$darkblue;
+		stroke:#959db3;
+		stroke-dasharray: 850;
+		stroke-dashoffset: 850;
+	}
+	.bear-cls-2{
+		fill:$darkblue;
+		stroke:$orange;
+		
+		stroke-dasharray: 200;
+		stroke-dashoffset: 200;
+	}
+}
+
+
+
 #section_three_trigger.visible {
 	h2.sub_header:after {
 		animation-name: fade, h2_move;
@@ -215,6 +234,24 @@ h2.sub_header:after {
 		animation-fill-mode: both;
 		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);;
 		// animation-delay: 600ms;
+	}
+	svg#bear_icon {
+	
+		.bear-cls-1 {
+			animation-name: bear_stroke, bear_fill_grey;
+			animation-duration: 1200ms, 900ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-delay: 500ms, 1400ms;
+			
+		}
+		.bear-cls-2 {
+			animation-name: bear_stroke, bear_fill_orange;
+			animation-duration: 1200ms, 900ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-delay: 500ms, 1400ms;
+		}
 	}
 }
 
@@ -228,6 +265,44 @@ h2.sub_header:after {
     width:100%;
    }
 }
+
+
+@keyframes bear_stroke {
+  
+
+  to {
+    stroke-dashoffset: 0;
+   }
+}
+
+
+@keyframes bear_fill_grey {
+  
+from {
+	fill:$darkblue;
+}
+  to {
+    fill:#959db3;
+   }
+}
+
+
+@keyframes bear_fill_orange {
+    
+from {
+	fill:$darkblue;
+}
+
+  to {
+    fill:$orange;
+   }
+}
+
+
+
+
+
+
 
 
 .why_choose_wrapper, span.why_choose_title, svg.why_choose_svg, svg#hands {
@@ -400,8 +475,8 @@ a.sec_six_why_button {
 			fill:$blue;
 			stroke-width:0.5;
 			stroke:#fff;
-			stroke-dasharray: 300;
-			stroke-dashoffset: 300;
+			stroke-dasharray: 270;
+			stroke-dashoffset: 270;
 			//opacity: 0;
 		}
 	}
@@ -501,8 +576,8 @@ img.footer_icon, svg.footer_icon {
 	display: block;
 	.footer-cls-1{
 		fill:$darkblue;
-		stroke-dasharray: 300;
-		stroke-dashoffset: 300;
+		stroke-dasharray: 230;
+		stroke-dashoffset: 230;
 		stroke-width:0.5;
 		stroke:#fff;
 	}
@@ -532,6 +607,10 @@ footer.visible {
 }
 
 
+
+
+
+
 // Internals
 
 
@@ -540,8 +619,8 @@ footer.visible {
 svg.contact_svg {
 	.contact-cls-1 {
 		fill:#f3f3f3;
-		stroke-dasharray: 300;
-		stroke-dashoffset: 300;
+		stroke-dasharray: 230;
+		stroke-dashoffset: 230;
 		stroke-width:0.5;
 		stroke:$orange;
 		

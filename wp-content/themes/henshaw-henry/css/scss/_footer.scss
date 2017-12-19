@@ -64,6 +64,7 @@ span.top_footer_content {
 		
 		p {
 			margin-bottom:30px;
+			letter-spacing: 0.2px;
 		}
 		blockquote {
 			font-size: 20px;
@@ -72,7 +73,7 @@ span.top_footer_content {
 			color:$lightblue;
 			font-family: $nexabold;
 			margin-bottom:28px;
-			letter-spacing: 2px;
+			letter-spacing: 2.5px;
 		}
 	}
 }
@@ -119,7 +120,7 @@ a.address {
 	display: block;
 	font-size: 26px;
 	line-height: 37px;
-	letter-spacing: 2px;
+	letter-spacing: 2.5px;
 }
 
 
@@ -337,12 +338,13 @@ input#gform_submit_button_1 {
 
 
 .gfield_description, .validation_message {
-	color:$blue;
+	color:$orange;
 	font-family: $nexalight;
-	font-size:13px;
+	font-size:14px;
 	display: block;
 	margin-top:5px;
 	text-align: left;
+	letter-spacing: 1px;
 }
 
 
