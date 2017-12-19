@@ -32,6 +32,76 @@ body:not(.page-template-page-home) {
 }
 
 
+.content_video_wrapper {
+	width:600px;
+	height:350px;
+	border: 1px solid #d8d8d8;
+	float:left;
+	margin:8px 35px 30px 0;
+	position: relative;
+	&:hover {
+		.internal_play {
+			width:120px;
+			.internal_play-cls-1 {
+				fill:#fff;
+				opacity:0.2;isolation:isolate;
+			}
+			.internal_play-cls-2 {
+				fill:none;
+				stroke:#103b99;
+				stroke-miterlimit:10;
+				stroke-width:3px;
+			}
+			.internal_play-cls-3{
+				fill:#103b99;
+			}
+		}
+	}
+}
+
+.content_video {
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+
+.content_video_play_wrapper {
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	position: absolute;
+	z-index: 50;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	pointer-events: none; 
+}
+
+
+
+.internal_play {
+	width:120px;
+	.internal_play-cls-1 {
+		fill:#fff;
+		opacity:0.2;isolation:isolate;
+		transition: all .2s ease-in-out;
+	}
+	.internal_play-cls-2 {
+		fill:none;
+		stroke:#fff;
+		stroke-miterlimit:10;
+		stroke-width:3px;
+		transition: all .2s ease-in-out;
+	}
+	.internal_play-cls-3{
+		fill:#fff;
+		transition: all .2s ease-in-out;
+	}
+}
 
 
 
@@ -44,6 +114,67 @@ body:not(.page-template-page-home) {
 		padding-right:65px;
 	}
 	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1480px) {
+	
+	
+	
+	
+.content_video_wrapper {
+	float:none;
+	width:750px;
+	height:400px;
+}
+
+.content_video {
+	
+}
+
+
+.content_video_play_wrapper {
+	
+	
+}
+
+
+.internal_play {
+	
+}
+
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1300px) {
+	
+.content_video_wrapper {
+	width:100%;
+	height:400px;
+}
+
+.content_video {
+	
+}
+
+
+.content_video_play_wrapper {
+	
+	
+}
+
+
+.internal_play {
+	
+}
 	
 	
 	
@@ -83,6 +214,10 @@ body:not(.page-template-page-home) {
 		order:1;
 		padding: 78px 58px 55px;
 	}
+	
+.content_video_wrapper {
+	height:450px;
+}
 	
 
 	
@@ -136,6 +271,9 @@ body:not(.page-template-page-home) {
 		padding-right:25px;
 	}
 	
+	.content_video_wrapper {
+		height:400px;
+	}
 	
 	
 	

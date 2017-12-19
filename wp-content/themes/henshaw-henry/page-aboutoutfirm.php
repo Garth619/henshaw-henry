@@ -39,6 +39,7 @@
 				
 				<?php } ?>
 			
+				<div class="about_page_why_us_wrapper">
 				
 				<span class="about_sidebar_title"><?php the_field( 'why_us_sidebar_title' ); ?></span><!-- about_sidebar_title -->
 				
@@ -60,6 +61,8 @@
 					<?php endif; ?>
 		
 				</ul>
+				
+				</div><!-- about_page_why_us_wrapper -->
 			
 			</div><!-- about_sidebar_inner -->
 			

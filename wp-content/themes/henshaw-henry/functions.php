@@ -21,7 +21,7 @@ function my_jquery_enqueue() {
 
  function load_my_styles_scripts() {
      // Load my stylesheet
-     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 2, 'all' ); 
+     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 3, 'all' ); 
 
      // Load my javascripts
      wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );
@@ -230,5 +230,48 @@ function blockquote_internal_bear_image( $atts, $content = null ) {
 
 
 add_shortcode( 'blockquotebearimage', 'blockquote_internal_bear_image' );
+
+
+
+
+// Shortcode Internal Video
+
+function internal_video( $atts, $content = null ) { 
+	
+	$atts = shortcode_atts( array(
+       'wistia' => '',
+   ), $atts );
+	
+	
+	ob_start();?>
+	
+	
+		<div class="content_video_wrapper">
+		
+			<div class="content_video wistia_embed wistia_async_<?php echo $atts['wistia']; ?> popover=true popoverContent=thumbnail"></div><!-- content_video -->
+		
+			<div class="content_video_play_wrapper">
+				
+				<svg class="internal_play" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120.2 120.2">
+					
+					<circle class="internal_play-cls-1" cx="60.1" cy="60.1" r="58.6"/>
+					
+					<circle class="internal_play-cls-2" cx="60.1" cy="60.1" r="58.6"/>
+					
+					<polygon class="internal_play-cls-3" points="48.8 44.3 63 52.5 77.3 60.8 63.1 69 48.8 77.3 48.8 60.8 48.8 44.3"/>
+					
+				</svg>
+				
+			</div><!-- content_video_play_wrapper -->
+		
+		</div><!-- content_video_wrapper -->
+
+		<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+	
+	<?php return ob_get_clean(); }
+
+
+
+add_shortcode( 'internalvideo', 'internal_video' );
 
 

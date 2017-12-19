@@ -64,6 +64,9 @@ body.page-template-page-aboutoutfirm {
 		width:100%;
 		
 	}
+	.about_page_why_us_wrapper {
+		max-width:710px;
+	}
 	span.about_sidebar_title {
 		color:$orange;
 		display: block;
@@ -206,6 +209,10 @@ body.page-template-page-aboutoutfirm {
 		
 		padding-left:45px;
     padding-right:45px;
+    .about_page_why_us_wrapper {
+	    margin-left:auto;
+	    margin-right:auto;
+    }
     img {
 	    margin-left:auto;
 			margin-right:auto;

@@ -37,9 +37,25 @@
 		list-style: none;
 		
 		margin: 26px 0 0;
+		li#field_2_6 {
+			&:before {
+				content:"";
+			}
+		}
 		li {
 			width:100%;
 			margin-bottom:15px;
+			position: relative;
+			&:before {
+				content:"*";
+				display: block;
+				position: absolute;
+				top: 22px;
+				right: 16px;
+				z-index:40;
+				font-size:24px;
+				color:$blue;
+			}
 			label {
 				display: none;
 			}
@@ -52,7 +68,7 @@
 				font-family: $nexalight;
 				color:$darkblue;
 				font-size:19px;
-				padding:22px 16px;
+				padding:22px 36px 22px 16px;
 				-webkit-appearance: none;
 			}
 			select {
@@ -88,6 +104,11 @@
 		float: right;
 		border-radius: 3px;
 		margin-top:5px;
+		cursor: pointer;
+		transition: all .2s ease-in-out;
+		&:hover {
+			background: $darkblue;
+		}
 	}
 }
 

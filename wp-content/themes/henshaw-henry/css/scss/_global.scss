@@ -109,7 +109,7 @@ body:not(.page-template-page-home) {
 		}
 		ul {
 			list-style: none;
-			margin-bottom:20px;
+			margin-bottom:30px;
 			> li {
 				background: url(#{$themePath}images/dot.png) no-repeat scroll 0 8px;
 				list-style: none;
@@ -120,6 +120,7 @@ body:not(.page-template-page-home) {
 		ol {
 			list-style: none;
 			counter-reset: item;
+			margin-bottom:30px;
 			li {
 				counter-increment: item;
 				margin-bottom: 5px;

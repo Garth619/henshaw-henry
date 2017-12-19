@@ -75,7 +75,7 @@ svg#bear_icon {
 	p:first-of-type {
 		
 		&:first-letter {
-		text-shadow: 4px 3px #f5862d;
+		text-shadow: 4px 3px $orange;
 		font-size:55px;
 		font-family: $tavirajmedium;
 		font-size: 110px;
@@ -299,7 +299,7 @@ h2.sub_header {
 	
 	h2.sub_header {
 		font-size:18px;
-		letter-spacing: 12px;
+		letter-spacing: 11px;
 		display: block;
 		max-width: 600px;
 		margin-top:15px;
