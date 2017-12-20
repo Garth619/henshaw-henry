@@ -118,7 +118,7 @@ body.page-template-page-home {
 		background: $blue;
 	}
 	.sticky_consultion {
-		span.sticky_tel {
+		a.sticky_tel {
 			color:$blue;
 		}
 	} 
@@ -162,13 +162,14 @@ body.page-template-page-home {
 		text-transform: uppercase;
 		letter-spacing: 4.8px;
 	}
-	span.sticky_tel {
+	a.sticky_tel {
 		display: block;
 		color:#fff;
 		font-family: $tavirajlight;
 		font-size:38px;
 		letter-spacing: 1.5px;
 		margin-top:22px;
+		text-decoration: none;
 	}
 }
 
@@ -190,7 +191,7 @@ body.page-template-page-home {
 		padding-right:23px;
 		display: block;
 	}
-	span.sticky_start_tel {
+	a.sticky_start_tel {
 		display: none;
 	}
 	a {
@@ -464,7 +465,7 @@ body.page-template-page-home {
 	span.sticky_start_title {
 		display: none;
 	}
-	span.sticky_start_tel {
+	a.sticky_start_tel {
 		display: block;
 		color:#fff;
 		font-size: 26px;

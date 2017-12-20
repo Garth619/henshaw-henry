@@ -112,6 +112,7 @@
 
 <?php wp_footer();?>
 
+<?php the_field( 'footer_tracking_code', 'option' ); ?>
 
 </body>
 </html>

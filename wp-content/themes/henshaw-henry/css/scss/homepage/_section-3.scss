@@ -50,6 +50,31 @@ h2.sub_header {
 .bear_wrapper {
 	float:left;
 	margin:80px 0 0 -75px;
+
+	width:355px;
+	height:315px;
+}
+
+
+
+svg.sunburst_ray {
+	max-width: 100%;
+	.sunburst_ray-cls-1{
+		fill:#959db3;
+	}
+}
+
+
+img.bear_img {
+	width:185px;
+	display: block;
+	margin:-100px auto 0;
+}
+
+img.ca_img {
+	width:185px;
+	display: block;
+	margin:10px auto 0;
 }
 
 

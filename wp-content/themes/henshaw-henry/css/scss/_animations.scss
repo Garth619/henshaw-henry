@@ -226,13 +226,33 @@ svg#bear_icon {
 }
 
 
+svg.sunburst_ray {
+	.sunburst_ray-cls-1{
+		fill:$darkblue;
+		stroke:#959db3;
+		stroke-width:0.5;
+		stroke-dasharray: 200;
+		stroke-dashoffset: 200;
+	}
+}
+
+img.bear_img {
+	opacity: 0;
+}
+
+img.ca_img {
+	opacity: 0;
+}
+
+
+
 
 #section_three_trigger.visible {
 	h2.sub_header:after {
 		animation-name: fade, h2_move;
 		animation-duration: 500ms, 1500ms;
 		animation-fill-mode: both;
-		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
 		// animation-delay: 600ms;
 	}
 	svg#bear_icon {
@@ -253,6 +273,29 @@ svg#bear_icon {
 			animation-delay: 500ms, 1400ms;
 		}
 	}
+	svg.sunburst_ray {
+		.sunburst_ray-cls-1{
+			animation-name: ray_stroke, ray_fill;
+			animation-duration: 1700ms, 900ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-delay: 1000ms, 2000ms;
+		}
+	}
+	img.bear_img {
+		animation-name: fade, bear_move;
+		animation-duration: 900ms, 1200ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 800ms;
+	}
+	img.ca_img {
+		animation-name: fade, ca_move;
+		animation-duration: 700ms, 1200ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 300ms;	
+	}
 }
 
 
@@ -272,6 +315,42 @@ svg#bear_icon {
 
   to {
     stroke-dashoffset: 0;
+   }
+}
+
+@keyframes ray_stroke {
+  
+
+  to {
+    stroke-dashoffset: 0;
+   }
+}
+
+@keyframes ray_fill {
+  
+
+  to {
+    fill:#959db3;
+   }
+}
+
+@keyframes bear_move {
+  
+	from {
+		transform: translateY(-20px);
+	}
+  to {
+    transform: translateY(0px);
+   }
+}
+
+@keyframes ca_move {
+  
+	from {
+		transform: translateY(-30px);
+	}
+  to {
+    transform: translateY(0px);
    }
 }
 

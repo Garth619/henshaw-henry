@@ -36,15 +36,16 @@
 	background-position: -620px top;
 }
 
+<?php the_field( 'review_page_css_styles', 'option' ); ?>
+
 </style>
 
 
 
-
-
-
-
 <?php wp_head(); ?>
+
+<?php the_field( 'header_tracking_code', 'option' ); ?>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -97,7 +98,7 @@
 					
 					<span class="sticky_consult_title">Free Consultations</span><!-- sticky_consult_title -->
 					
-					<span class="sticky_tel"><?php the_field( 'contact_us_tel',63); ?></span><!-- sticky_tel -->
+					<a class="sticky_tel" href="tel:<?php the_field( 'contact_us_tel',63); ?>"><?php the_field( 'contact_us_tel',63); ?></a><!-- sticky_tel -->
 					
 				</div><!-- sticky_consultion -->
 				
@@ -105,7 +106,7 @@
 					
 					<span class="sticky_start_title">Start Your Free<br/> Consultation</span><!-- sticky_start_title -->
 					
-					<span class="sticky_start_tel"><?php the_field( 'contact_us_tel',63); ?></span><!-- sticky_start_tel -->
+					<a class="sticky_start_tel" href="tel:<?php the_field( 'contact_us_tel',63); ?>"><?php the_field( 'contact_us_tel',63); ?></a><!-- sticky_start_tel -->
 					
 				</div><!-- sticky_start -->
 				
@@ -177,7 +178,7 @@
 				
 				<span class="overlay_title">Request your free consultation</span><!-- overlay_title -->
 				
-				<span class="request_subtitle">We enjoy building relationships with our clients and understand the problems they face every day. </span><!-- request_subtitle -->
+				<span class="request_subtitle"><?php the_field( 'form_overlay_subheader', 'option' ); ?></span><!-- request_subtitle -->
 				
 				<?php gravity_form(3, false, false, false, '', true, 12); ?>
 				

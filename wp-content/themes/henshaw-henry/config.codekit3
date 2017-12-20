@@ -872,9 +872,30 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/bear.png": {
+		"ft": 32768,
+		"iS": 52938,
+		"oA": 0,
+		"oAP": "\/images\/bear.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/bear2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/bear2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/bg-pattern-waves.jpg": {
 		"ft": 16384,
-		"iS": 35390,
+		"iS": 31612,
 		"oA": 0,
 		"oAP": "\/images\/bg-pattern-waves.jpg",
 		"oF": 0,
@@ -902,6 +923,27 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/ca-font.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/ca-font.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/ca.png": {
+		"ft": 32768,
+		"iS": 21694,
+		"oA": 0,
+		"oAP": "\/images\/ca.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/circular-play-button-hover.svg": {
 		"ft": 2097152,
@@ -1054,7 +1096,7 @@
 		},
 	"\/images\/footer-palm-trees-bg-desktop.jpg": {
 		"ft": 16384,
-		"iS": 328945,
+		"iS": 255657,
 		"oA": 0,
 		"oAP": "\/images\/footer-palm-trees-bg-desktop.jpg",
 		"oF": 0,
@@ -1094,7 +1136,7 @@
 		},
 	"\/images\/hero-mobile.jpg": {
 		"ft": 16384,
-		"iS": 48499,
+		"iS": 40323,
 		"oA": 0,
 		"oAP": "\/images\/hero-mobile.jpg",
 		"oF": 0,
@@ -1104,7 +1146,7 @@
 		},
 	"\/images\/hero-tablet.jpg": {
 		"ft": 16384,
-		"iS": 157937,
+		"iS": 135197,
 		"oA": 0,
 		"oAP": "\/images\/hero-tablet.jpg",
 		"oF": 0,
@@ -1222,6 +1264,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/original-bear.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/original-bear.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/pa-civil-litigation-desktop.jpg": {
 		"ft": 16384,
 		"iS": 29928,
@@ -1254,7 +1306,7 @@
 		},
 	"\/images\/pa-civil-litigation-hover-tablet.jpg": {
 		"ft": 16384,
-		"iS": 74508,
+		"iS": 50658,
 		"oA": 0,
 		"oAP": "\/images\/pa-civil-litigation-hover-tablet.jpg",
 		"oF": 0,
@@ -1264,7 +1316,7 @@
 		},
 	"\/images\/pa-civil-litigation-mobile.jpg": {
 		"ft": 16384,
-		"iS": 38064,
+		"iS": 30760,
 		"oA": 0,
 		"oAP": "\/images\/pa-civil-litigation-mobile.jpg",
 		"oF": 0,
@@ -1274,7 +1326,7 @@
 		},
 	"\/images\/pa-civil-litigation-tablet.jpg": {
 		"ft": 16384,
-		"iS": 42816,
+		"iS": 34835,
 		"oA": 0,
 		"oAP": "\/images\/pa-civil-litigation-tablet.jpg",
 		"oF": 0,
@@ -1284,7 +1336,7 @@
 		},
 	"\/images\/pa-estate-planning-desktop.jpg": {
 		"ft": 16384,
-		"iS": 25571,
+		"iS": 20251,
 		"oA": 0,
 		"oAP": "\/images\/pa-estate-planning-desktop.jpg",
 		"oF": 0,
@@ -1294,7 +1346,7 @@
 		},
 	"\/images\/pa-estate-planning-hover-desktop.jpg": {
 		"ft": 16384,
-		"iS": 45006,
+		"iS": 31261,
 		"oA": 0,
 		"oAP": "\/images\/pa-estate-planning-hover-desktop.jpg",
 		"oF": 0,
@@ -1304,7 +1356,7 @@
 		},
 	"\/images\/pa-estate-planning-hover-mobile.jpg": {
 		"ft": 16384,
-		"iS": 38446,
+		"iS": 26328,
 		"oA": 0,
 		"oAP": "\/images\/pa-estate-planning-hover-mobile.jpg",
 		"oF": 0,
@@ -1324,7 +1376,7 @@
 		},
 	"\/images\/pa-estate-planning-mobile.jpg": {
 		"ft": 16384,
-		"iS": 23843,
+		"iS": 18259,
 		"oA": 0,
 		"oAP": "\/images\/pa-estate-planning-mobile.jpg",
 		"oF": 0,
@@ -1344,7 +1396,7 @@
 		},
 	"\/images\/pa-personal-injury-desktop.jpg": {
 		"ft": 16384,
-		"iS": 47027,
+		"iS": 32944,
 		"oA": 0,
 		"oAP": "\/images\/pa-personal-injury-desktop.jpg",
 		"oF": 0,
@@ -1354,7 +1406,7 @@
 		},
 	"\/images\/pa-personal-injury-hover-desktop.jpg": {
 		"ft": 16384,
-		"iS": 50657,
+		"iS": 40103,
 		"oA": 0,
 		"oAP": "\/images\/pa-personal-injury-hover-desktop.jpg",
 		"oF": 0,
@@ -1364,7 +1416,7 @@
 		},
 	"\/images\/pa-personal-injury-hover-mobile.jpg": {
 		"ft": 16384,
-		"iS": 65837,
+		"iS": 52033,
 		"oA": 0,
 		"oAP": "\/images\/pa-personal-injury-hover-mobile.jpg",
 		"oF": 0,
@@ -1384,7 +1436,7 @@
 		},
 	"\/images\/pa-personal-injury-mobile.jpg": {
 		"ft": 16384,
-		"iS": 62126,
+		"iS": 43673,
 		"oA": 0,
 		"oAP": "\/images\/pa-personal-injury-mobile.jpg",
 		"oF": 0,
@@ -1542,9 +1594,19 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/sunburst.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/sunburst.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/tri.png": {
 		"ft": 32768,
-		"iS": 1083,
+		"iS": 198,
 		"oA": 0,
 		"oAP": "\/images\/tri.png",
 		"oF": 0,
@@ -1563,9 +1625,19 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/Untitled-1.jpg": {
+		"ft": 16384,
+		"iS": 71033,
+		"oA": 0,
+		"oAP": "\/images\/Untitled-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/vertical-dashes-graphic.png": {
 		"ft": 32768,
-		"iS": 1713,
+		"iS": 740,
 		"oA": 0,
 		"oAP": "\/images\/vertical-dashes-graphic.png",
 		"oF": 0,
@@ -1586,7 +1658,7 @@
 		},
 	"\/images\/video-thumb-desktop.jpg": {
 		"ft": 16384,
-		"iS": 92228,
+		"iS": 71027,
 		"oA": 0,
 		"oAP": "\/images\/video-thumb-desktop.jpg",
 		"oF": 0,
