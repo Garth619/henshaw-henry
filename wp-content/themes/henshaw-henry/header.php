@@ -63,7 +63,7 @@
 				
 				<img src="<?php bloginfo('template_directory');?>/images/horizontal-dashes-graphic.svg"/>
 				
-				<a class="tel" href="tel:(408) 533-1075">(408) 533-1075</a>
+				<a class="tel" href="tel:<?php the_field( 'contact_us_tel',63); ?>"><?php the_field( 'contact_us_tel',63); ?></a>
 				
 			</div><!-- free_consultation -->
 			
@@ -97,7 +97,7 @@
 					
 					<span class="sticky_consult_title">Free Consultations</span><!-- sticky_consult_title -->
 					
-					<span class="sticky_tel">(408) 533-1075</span><!-- sticky_tel -->
+					<span class="sticky_tel"><?php the_field( 'contact_us_tel',63); ?></span><!-- sticky_tel -->
 					
 				</div><!-- sticky_consultion -->
 				
@@ -105,7 +105,7 @@
 					
 					<span class="sticky_start_title">Start Your Free<br/> Consultation</span><!-- sticky_start_title -->
 					
-					<span class="sticky_start_tel">(408) 533-1075</span><!-- sticky_start_tel -->
+					<span class="sticky_start_tel"><?php the_field( 'contact_us_tel',63); ?></span><!-- sticky_start_tel -->
 					
 				</div><!-- sticky_start -->
 				
