@@ -231,7 +231,7 @@ function blockquote_internal_bear_image( $atts, $content = null ) {
 					
 		<div class="about_blockquote_img_wrapper">
 			
-			<img src="<?php bloginfo('template_directory');?>/images/int-about-cal-bear-icon.svg"/>
+			<img src="<?php bloginfo('template_directory');?>/images/new-internal-bear.jpg"/>
 						
 		</div><!-- about_blockquote_img_wrapper -->
 					
