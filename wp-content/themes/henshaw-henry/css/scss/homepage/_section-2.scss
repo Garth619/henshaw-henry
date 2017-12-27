@@ -61,7 +61,8 @@ section#section_two {
 		width:30px;
 		margin-right:7px;
 		position: relative;
-    top: -3px;
+    top: 0px;
+    height: 13px;
 		path {
 			fill:#fff;
 		}
@@ -265,6 +266,7 @@ section#section_two {
 svg.back_icon {
 	height:55px;
 	cursor: pointer;
+	width:33px;
 	&:hover {
 		.back_icon_cls-1 {
 			stroke:$orange;
@@ -282,6 +284,7 @@ svg.back_icon {
 svg.next_icon {
 	height:55px;
 	cursor: pointer;
+	width:33px;
 	&:hover {
 		.next_icon_cls-1 {
 			stroke:$orange;
