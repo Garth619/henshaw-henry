@@ -138,7 +138,7 @@
 				
 				<span class="menu_request">Request your<br/> free consultation</span><!-- menu_request -->
 				
-				<?php gravity_form(2, false, false, false, '', true, 12); ?>
+				<?php gravity_form(2, false, false, false, '', true, 198); ?>
 				
 				<span class="menu_required">*required fields</span><!-- menu_required -->
 				
@@ -180,7 +180,7 @@
 				
 				<span class="request_subtitle"><?php the_field( 'form_overlay_subheader', 'option' ); ?></span><!-- request_subtitle -->
 				
-				<?php gravity_form(3, false, false, false, '', true, 12); ?>
+				<?php gravity_form(3, false, false, false, '', true, 134); ?>
 				
 				<span class="my_required_fields"><span class="my_asterisk">*</span> Required Fields</span><!-- my_required_fields -->
 				

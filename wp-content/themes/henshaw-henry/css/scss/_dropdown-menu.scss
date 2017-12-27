@@ -42,6 +42,11 @@
 				content:"";
 			}
 		}
+		li#field_2_8 {
+			&:before {
+				display: none;
+			}
+		}
 		li {
 			width:100%;
 			margin-bottom:15px;

@@ -145,6 +145,14 @@ iframe.contact_map {
 }
 
 
+.contact_col {
+	iframe {
+		width:100% !important; // Overrides inline maps that might get copied and pastes from client
+		height: 391px !important;
+	}
+}
+
+
 @media screen and (max-width: 1355px) {
 	
 	

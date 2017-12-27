@@ -105,6 +105,11 @@ ul {
 		 li#field_3_7 {
 			 clear: both;
 		 }
+		 li#field_3_8 {
+			 &:before {
+				 display: none;
+			 }
+		 }
 		 li:not(#field_3_7) {
 			 float:left;
 		 }

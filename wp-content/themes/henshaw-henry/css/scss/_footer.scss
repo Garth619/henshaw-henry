@@ -254,6 +254,11 @@ a.tel {
 		 li:not(#field_1_7) {
 			 float:left;
 		 }
+		 li#field_1_8 {
+			 &:before {
+				 display: none;
+			 }
+		 }
 		li {
 			margin-bottom:18px;
 			position: relative;
