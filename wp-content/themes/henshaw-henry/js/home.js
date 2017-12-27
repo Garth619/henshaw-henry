@@ -1,6 +1,6 @@
 
 
- function createWaypoint (triggerElementId, animatedElement, className, offsetVal, functionName, reverse) {
+function createWaypoint (triggerElementId, animatedElement, className, offsetVal, functionName, reverse) {
                 var waypoint = new Waypoint({
                     element: document.getElementById(triggerElementId),
                     handler: function(direction) {
@@ -64,7 +64,7 @@
 					
 					
 					
-					var waypointsectwo = new Waypoint({
+					var waypointsecthree = new Waypoint({
 					 
 					 element: document.getElementById('section_three_trigger'),
 					 handler: function(direction) {
@@ -80,7 +80,7 @@
 					})
 					
 					
-					var waypointsectwo = new Waypoint({
+					var waypointsecwhychoose = new Waypoint({
 					 
 					 element: document.getElementById('section_four_trigger'),
 					 handler: function(direction) {
@@ -96,7 +96,7 @@
 					})
 					
 					
-					var waypointsectwo = new Waypoint({
+					var waypointsecfour = new Waypoint({
 					 
 					 element: document.getElementById('section_four_trigger'),
 					 handler: function(direction) {
@@ -112,7 +112,7 @@
 					})
 					
 					
-					var waypointsectwo = new Waypoint({
+					var waypointsecsix = new Waypoint({
 					 
 					 element: document.getElementById('section_six_trigger'),
 					 handler: function(direction) {
@@ -129,7 +129,7 @@
 					
 					
 					
-					var waypointsectwo = new Waypoint({
+					var waypointsecfooter = new Waypoint({
 					 
 					 element: document.getElementById('footer_trigger'),
 					 handler: function(direction) {

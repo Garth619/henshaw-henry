@@ -42,7 +42,7 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
            
            
            
-           var waypointsectwo = new Waypoint({
+           var waypointsecfooterint = new Waypoint({
 					 
 					 element: document.getElementById('footer_trigger'),
 					 handler: function(direction) {
