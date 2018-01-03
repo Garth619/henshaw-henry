@@ -76,7 +76,7 @@ span.request_subtitle {
 	margin:210px auto;
 	padding-left:90px;
 	padding-right:90px;
-	
+	position: relative;
 
 ul {
 		list-style: none;
@@ -98,6 +98,12 @@ ul {
 		 }
 		 li#field_3_6 {
 			 width:66.2%;
+			 &:before {
+				 content:"";
+			 }
+		 }
+		 li#field_3_9 {
+			 
 			 &:before {
 				 content:"";
 			 }

@@ -351,16 +351,7 @@ jQuery(document).ready(function(){
     
     // Dropdowns on Forms
     
-/*
-    function customdropdown() {
-    
-    $('.dropdown_substitute').append('<div class="custom_dropdown"><span class="dropdown_title">Area of Practice</span></div><div class="dropdown_item_wrapper"><div class="dropdown_item">Personal Injury</div><div class="dropdown_item">Civil Litigation</div><div class="dropdown_item">Estate Planning</div></div>');
-    
-    };
-*/
-    	
-    
-     // customdropdown();
+
     
     
 		$('.custom_dropdown').on('click', function(e) {
@@ -382,13 +373,9 @@ jQuery(document).ready(function(){
 				
 				$('span.dropdown_title').replaceWith('<span class="dropdown_title">' + text + '</span>');
 				
+				$('#input_1_9, #input_3_9').val(text);
 				
-				
-				$('#input_1_9').val(text);
-				
-				
-    
-    });
+		});
     
 
 	

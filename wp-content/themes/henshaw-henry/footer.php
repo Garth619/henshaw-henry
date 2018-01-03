@@ -67,6 +67,8 @@
 			
 				<?php gravity_form(1, false, false, false, '', true, 124); ?>
 				
+				<div class="dropdown_width_fix">
+				
 				<div class="dropdown_substitute">
 					
 					 
@@ -75,6 +77,8 @@
 					
 					
 				</div><!-- dropdown_substitute -->
+				
+				</div><!-- dropdown_width_fix -->
 			
 				<span class="my_required_fields"><span class="my_asterisk">*</span> Required Fields</span><!-- my_required_fields -->
 			

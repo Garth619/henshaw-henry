@@ -184,6 +184,15 @@
 				
 				<span class="my_required_fields"><span class="my_asterisk">*</span> Required Fields</span><!-- my_required_fields -->
 				
+				<div class="dropdown_substitute">
+					
+					 
+					 <div class="custom_dropdown"><span class="dropdown_title">Area of Practice</span></div><div class="dropdown_item_wrapper"><div class="dropdown_item">Personal Injury</div><div class="dropdown_item">Civil Litigation</div><div class="dropdown_item">Estate Planning</div></div>
+					
+					
+					
+				</div><!-- dropdown_substitute -->
+				
 			</div><!-- form_overlay_inner -->
 			
 			
