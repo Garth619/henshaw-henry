@@ -42,7 +42,13 @@
 				content:"";
 			}
 		}
-		li#field_2_8 {
+		li#field_2_7 {
+			padding-top:87px;
+			&:before {
+				top:85px;
+			}
+		}
+		li#field_2_8,li#field_2_9 {
 			&:before {
 				display: none;
 			}

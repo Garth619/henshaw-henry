@@ -373,7 +373,7 @@ jQuery(document).ready(function(){
 				
 				$('span.dropdown_title').replaceWith('<span class="dropdown_title">' + text + '</span>');
 				
-				$('#input_1_9, #input_3_9').val(text);
+				$('#input_1_9, #input_2_9, #input_3_9').val(text);
 				
 		});
     

@@ -142,6 +142,19 @@
 				
 				<span class="menu_required">*required fields</span><!-- menu_required -->
 				
+				<div class="dropdown_width_fix">
+				
+				<div class="dropdown_substitute">
+					
+					 
+					 <div class="custom_dropdown"><span class="dropdown_title">Area of Practice</span></div><div class="dropdown_item_wrapper"><div class="dropdown_item">Personal Injury</div><div class="dropdown_item">Civil Litigation</div><div class="dropdown_item">Estate Planning</div></div>
+					
+					
+					
+				</div><!-- dropdown_substitute -->
+				
+				</div><!-- dropdown_width_fix -->
+				
 				</div><!-- dropdown_inner_form -->
 				
 			</div><!-- dropdown_form -->
