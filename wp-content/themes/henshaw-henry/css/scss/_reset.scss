@@ -47,3 +47,23 @@ input, textarea {
 	-webkit-appearance: none;
 	border-radius: 0;
 }
+
+
+// select drop down
+
+
+/* Hiding the OEM/Stock HTML Drop Down Arrow for now */
+/*
+.dropdown_form ul li select,
+.form_overlay_inner ul li select,
+.footer_form_wrapper ul li select {
+	-webkit-appearance: none;
+    -moz-appearance: none;      
+    appearance: none;
+}
+.dropdown_form ul li select::-ms-expand,
+.form_overlay_inner ul li select::-ms-expand,
+.footer_form_wrapper ul li select::-ms-expand {
+        display: none;
+}
+*/

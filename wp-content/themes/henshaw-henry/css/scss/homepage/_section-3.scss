@@ -14,8 +14,35 @@ section.section_three {
 	width:100%;
 	max-width:1350px;
 	margin:0 auto;
-	// overflow: hidden;
 }
+
+
+.section_three_content a { 
+	color: #969db1;
+	text-decoration: none;
+	position: relative;
+}
+.section_three_content a:hover { 
+	color: #ed5c4a;
+}
+
+
+.section_three_content a:after { 
+	content: '';
+	position: absolute;
+	left: 0;
+	display: inline-block;
+	height: 1em;
+	width: 100%;
+	border-bottom: 0.5px solid #969db1;
+	bottom: 5px;
+}
+
+.section_three_content a:hover:after { 
+	border-bottom: 0.5px solid #ed5c4a;
+}
+
+
 
 h1.large_header {
 	color:$orange;

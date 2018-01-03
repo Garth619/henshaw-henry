@@ -243,11 +243,16 @@ a.tel {
 			 margin-right:1.2%;
 		 }
 		 li#field_1_6 {
-			 width:66.2%;
+			 width:66.28%;
 			 &:before {
 				 content:"";
 			 }
 		 }
+		 li#field_1_9 {
+			 &:before {
+				 content:"";
+			 }
+			}
 		 li#field_1_7 {
 			 clear: both;
 		 }
@@ -353,8 +358,6 @@ input#gform_submit_button_1 {
 }
 
 
-
-
 span.my_required_fields {
 	font-family: $nexalight;
 	font-size: 18px;
@@ -372,6 +375,7 @@ span.my_required_fields {
 
 .footer_form_inner {
 	padding: 100px 95px 145px;
+	position: relative;
 }
 
 
