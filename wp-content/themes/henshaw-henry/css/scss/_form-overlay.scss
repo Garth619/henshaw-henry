@@ -95,6 +95,7 @@ ul {
 		 li#field_3_5 {
 			 width:32.5%;
 			 margin-right:1.2%;
+			 z-index:40;
 		 }
 		 li#field_3_6 {
 			 width:66.2%;
@@ -233,7 +234,7 @@ input#gform_submit_button_3 {
 			margin-top: 49px;
 			li {
 				&:before {
-					top:22px;
+					top:19px;
 				}
 				input, textarea, select {
 					padding: 19px 35px 19px 17px;
@@ -301,7 +302,13 @@ ul {
 			 }
 		 }
 		 li#field_3_7 {
-			 
+			 padding-top:73px;
+			 &:before {
+				 top:90px;
+			 }
+			 .gfield_description, .validation_message {
+				 top:110px;
+			 }
 		 }
 		 li:not(#field_3_7) {
 			 

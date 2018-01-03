@@ -180,11 +180,15 @@
 				
 				<span class="request_subtitle"><?php the_field( 'form_overlay_subheader', 'option' ); ?></span><!-- request_subtitle -->
 				
-				<?php gravity_form(3, false, false, false, '', true, 134); ?>
+				<div class="form_position_wrapper">
 				
-				<span class="my_required_fields"><span class="my_asterisk">*</span> Required Fields</span><!-- my_required_fields -->
+					<?php gravity_form(3, false, false, false, '', true, 134); ?>
 				
-				<div class="dropdown_substitute">
+					<span class="my_required_fields"><span class="my_asterisk">*</span> Required Fields</span><!-- my_required_fields -->
+				
+					<div class="dropdown_width_fix">
+				
+					<div class="dropdown_substitute">
 					
 					 
 					 <div class="custom_dropdown"><span class="dropdown_title">Area of Practice</span></div><div class="dropdown_item_wrapper"><div class="dropdown_item">Personal Injury</div><div class="dropdown_item">Civil Litigation</div><div class="dropdown_item">Estate Planning</div></div>
@@ -192,6 +196,10 @@
 					
 					
 				</div><!-- dropdown_substitute -->
+				
+				</div><!-- dropdown_width_fix -->
+				
+				</div><!-- form_position_wrapper -->
 				
 			</div><!-- form_overlay_inner -->
 			
